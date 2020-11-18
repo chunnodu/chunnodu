@@ -28,6 +28,5 @@ Talk to me if you need expert level help with
 
 _Get in touch_ via: 
 
- **[chuknnodu@gmail.com](mailto:chuknnodu@gmail.com)** |  m: +1(978-238-8148) 
-
-[Twitter](https://www.twitter.com/geoponge) | [Linkedin](https://www.linkedin/in/chunnodu)
+ **[chuknnodu@gmail.com](mailto:chuknnodu@gmail.com)**  
+ m: +1(978-238-8148) | [Twitter](https://www.twitter.com/geoponge) | [Linkedin](https://www.linkedin/in/chunnodu)
