@@ -26,7 +26,5 @@ Talk to me if you need expert level help with
 - Geographic Information Systems
 - Data Modeling
 
-_Get in touch_ via: 
-
- **[chuknnodu@gmail.com](mailto:chuknnodu@gmail.com)**  
+_Get in touch_ via:  **[chuknnodu@gmail.com](mailto:chuknnodu@gmail.com)**  
  m: +1(978-238-8148) | [Twitter](https://www.twitter.com/geoponge) | [Linkedin](https://www.linkedin/in/chunnodu)
