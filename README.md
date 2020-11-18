@@ -1,6 +1,3 @@
-Title: About Me
-Date: 2020-08-28 21:38
-
 I'm a business technologist who designs, develops and manages 
 information systems, bringing clarity of thought and quality execution to new product development. 
 
