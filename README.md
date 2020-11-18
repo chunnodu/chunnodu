@@ -3,11 +3,6 @@ information systems, bringing clarity of thought and quality execution to new pr
 
 Here are [my top skills](https://secure.plum.io/p/o93Pr7IyMGN98jHG9suN5A).
 
-### Stuff I Like Doing
-- [Reading](https://chunnodu.com/my-2020-reading-list.html)
-- Writing & Mindmapping
-- Muay Thai
-
 ## Contact
 Talk to me if you need expert level help with
 
@@ -26,5 +21,5 @@ Talk to me if you need expert level help with
 - Geographic Information Systems
 - Data Modeling
 
-_Get in touch_ via:  **[chuknnodu@gmail.com](mailto:chuknnodu@gmail.com)**  
+_Get in touch_ via:  **[chuknnodu@gmail.com](mailto:chuknnodu@gmail.com)**  www.chunnodu.com
  m: +1(978-238-8148) | [Twitter](https://www.twitter.com/geoponge) | [Linkedin](https://www.linkedin/in/chunnodu)
