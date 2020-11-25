@@ -1,5 +1,4 @@
-I'm a business technologist who designs, develops and manages 
-information systems, bringing clarity of thought and quality execution to new product development. 
+I design, build and manage information systems, bringing clarity of thought and quality execution to new product development. 
 
 Here are [my top skills](https://secure.plum.io/p/o93Pr7IyMGN98jHG9suN5A).
 
