@@ -7,4 +7,4 @@ Talk to me if you need expert level help with
 
 ##### New Product Development: *Strategy, New Products Process, Tools and Metrics*
 ##### Business: *Concept Development, Value Proposition Design, Business Model Generation, Business Analysis*
-##### Information Systems: *Information Architecture, Geographic Information Systems, Data Modeling*
+##### Information Systems: *Information Architecture, Analytics, Data Modeling*
