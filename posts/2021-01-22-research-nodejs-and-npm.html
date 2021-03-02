@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Chu Nnodu">
-  <meta name="description" content="Learn how to use Mindmapping to get things done more creatively and productively. In preparation …">
+  <meta name="description" content="Research: Node.js and NPM | I joined the Estes Park working group late last year to get more hands on with Knowledge Graphs and Semantic web technology...">
 
   <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">  
@@ -24,16 +24,16 @@
  
 
 
-<meta name="keywords" content="">
+<meta name="keywords" content="Research">
 
-<meta property="og:title" content="Instructions for Mindmapping Class">
+<meta property="og:title" content="Research: Node.js and NPM">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="https://">
-<meta property="og:description" content="Learn how to use Mindmapping to get things done more creatively and productively. In preparation …">
-<meta property="og:url" content="https:///pages/instructions-for-mindmapping-class.html">
+<meta property="og:description" content="I joined the Estes Park working group late last year to get more hands on …">
+<meta property="og:url" content="https:///articles/research-nodejs-and-npm.html">
 
 
-  <title>Instructions for Mindmapping Class</title>
+  <title>Research: Node.js and NPM</title>
 
   
 </head>
@@ -103,24 +103,51 @@
   <div class="blog-item-wrap">
     <div class="post-inner-content">
       <header class="entry-header page-header">
-        <span class="cat-item"><time datetime="">Last Modified </time></span>
-        <h1 class="entry-title-single-page"><a href="/pages/instructions-for-mindmapping-class.html">Instructions for Mindmapping Class</a></h1>
+        <span class="cat-item"><time datetime="2021-01-22 00:00:00+01:00">Fri 22 January 2021</time></span>
+        <h1 class="entry-title"><a href="/posts/2021-01-22-research-nodejs-and-npm.html">Research: Node.js and NPM</a></h1>
       </header><!-- .entry-header -->
+      <div class="fb-like" data-href="/posts/2021-01-22-research-nodejs-and-npm.html" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
       <div class="entry-content">
-        <p>Learn how to use Mindmapping to get things done more creatively and productively.</p>
-<p>In preparation:</p>
-<ol>
-<li>Read about Mindmapping here</li>
-<li>Come prepared with an idea or project you haven't had time to work on before</li>
-<li>Have a Mindmapping tool ready, or just a plain sheet of paper.<ul>
-<li>You can download Freemind here for Windows: http://prdownloads.sourceforge.net/freemind/FreeMind-Windows-Installer-1.0.1-max.exe?download</li>
-<li>)r for Mac: http://prdownloads.sourceforge.net/freemind/FreeMind_1.0.1.dmg?download </li>
-<li>If you're a developer or familiar with Markdown try this tool to visualize your markdown as mindmaps :https://github.com/gera2ld/markmap</li>
+        <p>I joined the Estes Park working group late last year to get more hands on with Knowledge Graphs and Semantic web technology and jumped in on a research project. The premise was, knowing the RDF stack solves for enterprise knowledge graphs, are there more mainstream non-RDF alternatives which support W3C Semantic Web standards and are equally viable?</p>
+<p>One of the technologies I looked at this month with this goal in mind was Node.js/NPM. My biggest takeaway, surprisingly unrelated to the specific technology or questions I needed to answer was that when doing research, having a network of experts to talk to first can be more useful for focusing your efforts than jumping right into the haystack. By getting on the phone with a young developer associate in Nigeria, and eventually the <a href="www.dlvr.ng">DLVR Logistics</a> CTO who's an expert developer working out of Germany I was able to piece together all I needed to move forward.</p>
+<p>Here's the summary of my deep dive into Node.js/NPM - a major question's unanswered, but progress still.</p>
+<h4>Why should we care?</h4>
+<p>It's a way of programming with Javascript(JS), bringing in-browser functionality to the operating system. The developer took Google's Javascript engine that runs the chrome browser and placed it inside a C++ container, turning it into a server side language. JS was originally written as a front end language and is fast and dynamic not statically typed, meaning you don't need to declare the structure as javascript infers it, as opposed to say C++ where you define integer or float or string and at compilation it checks if it actually is what you declared. Also, JS was built around the concept of events, and this encourages speed as events can happen in parallel.</p>
+<h4>What problems does the tech stack solve?</h4>
+<ul>
+<li>Allows for non blocking read/write, basically doesn't need to wait for functions to be completed before running others</li>
+<li>Uses JSON objects so eliminates need for data conversion, &amp; bottleneck which can be caused by databases for concurrent applications</li>
 </ul>
-</li>
-</ol>
+<h4>How does the tech work to solve problems we care about?</h4>
+<ul>
+<li>Based on the open web stack, runs over standard port 80 and you can run javascript natively on your OS/local machine</li>
+<li>Supports real time, 2 way connections &amp; allows for free data exchange between client and server as both can initiate communication</li>
+<li>Single threaded so doesn't max out RAM, supports 10's of thousands of concurrent connections</li>
+<li>Node.js is the runtime, express is a node.js framework use dfor server functionality. Modern web applications stacks are typically MEAN: mongodb, express, angular, node.js or MERN: mongodb, express, react, node.js</li>
+</ul>
+<h4>What are the advantages of using the tech?</h4>
+<ul>
+<li>Great for platform as a service, real time applications e.g chat
+wide adoption, so lots of packages have been developed, and support is more widely available. Node JS has a built in package manager (NPM) to manage dependencies and show status,how many modules are installed etc.</li>
+<li>Compact APIs, file size is small</li>
+<li>Lots of users like to program in javascript so there's interest in building stuff from the developer community</li>
+</ul>
+<h4>What are the downsides?</h4>
+<ul>
+<li>Not so good for batch jobs where serial tasks are being completed and task completion time doesn't matter i.e end of day. </li>
+<li>Node.js has an in-built web server, not as efficient as apache for heavy CPU intensive operations</li>
+</ul>
+<h4>What alternatives are worth comparing and contrasting with the tech in question?</h4>
+<ul>
+<li>Comparable with python, php and other server side languages like Golang.</li>
+</ul>
+<h4>How would we rank each in terms of viability (10 most viable)</h4>
+<p>Still unanswered</p>
       </div><!-- .entry-content -->
       <br /><br />
+      <div class="article_meta">
+        Tags:
+          <a href="/tag/research.html">Research</a>      </div>
     </div>
   </div>
 </article><!-- #post-## -->
@@ -158,6 +185,7 @@
 
 <script type="text/javascript" src="/theme/js/functions.min.js"></script>
  
+
 
 </body>
 </html>
