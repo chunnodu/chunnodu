@@ -1,4 +1,4 @@
-I bring clarity of thought & quality execution to new technology product development by designing and managing information systems. 
+I bring clarity of thought & quality execution to new technology product development, designing and managing information systems. 
 
 ## Contact
 Here are [my top skills](https://secure.plum.io/p/o93Pr7IyMGN98jHG9suN5A). Say hi if you need help with
