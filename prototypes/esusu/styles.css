@@ -1,0 +1,282 @@
+:root {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+    --accent-color: #00D632;
+    --card-bg: #1A1A1A;
+    --card-border: #333333;
+    --secondary-text: #888888;
+    --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --btc-orange: #F7931A;
+    --eth-blue: #627EEA;
+    --sol-purple: #9945FF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111;
+    /* Darker background for desktop view */
+    color: var(--text-color);
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Mobile Simulator Container */
+.app-container {
+    width: 375px;
+    height: 812px;
+    background-color: var(--bg-color);
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    border: 8px solid #333;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: -0.5px;
+}
+
+.profile-icon {
+    width: 32px;
+    height: 32px;
+    background-color: #333;
+    border-radius: 50%;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    padding-bottom: 80px;
+    /* Space for nav */
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.balance-display {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.balance-amount {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.balance-label {
+    color: var(--secondary-text);
+}
+
+/* Cards */
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    border-color: var(--accent-color);
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-desc {
+    color: var(--secondary-text);
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* Buttons */
+.btn {
+    background-color: var(--accent-color);
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+/* Navigation */
+nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(26, 26, 26, 0.95);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    border-top: 1px solid #333;
+}
+
+.nav-item {
+    color: var(--secondary-text);
+    text-decoration: none;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.nav-item.active {
+    color: var(--accent-color);
+}
+
+.nav-icon {
+    width: 24px;
+    height: 24px;
+    background-color: currentColor;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
+
+/* Utilities */
+.text-accent {
+    color: var(--accent-color);
+}
+
+.flex-row {
+    display: flex;
+    gap: 10px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+/* Crypto Extensions */
+.asset-tag {
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tag-equity {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ccc;
+}
+
+.tag-crypto {
+    background-color: rgba(247, 147, 26, 0.15);
+    color: var(--btc-orange);
+}
+
+.allocation-bar {
+    height: 6px;
+    width: 100%;
+    background-color: #333;
+    border-radius: 3px;
+    display: flex;
+    overflow: hidden;
+    margin: 10px 0 20px;
+}
+
+.alloc-segment {
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+}
+
+/* Native Slider Styling */
+.slider-container {
+    margin: 20px 0;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: #333;
+    border-radius: 2px;
+    outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #1A1A1A;
+    border: 4px solid var(--accent-color);
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.slider::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #1A1A1A;
+    border: 4px solid var(--accent-color);
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
