@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invest - Cash App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Invest Specific Styles */
+        .trader-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .trader-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #333;
+            margin: 0 auto 10px;
+            border: 3px solid var(--accent-color);
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>');
+            background-size: 60%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .performance-badge {
+            background-color: rgba(0, 214, 50, 0.1);
+            color: var(--accent-color);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .chart-container {
+            height: 200px;
+            background: linear-gradient(180deg, rgba(0, 214, 50, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+            border-bottom: 2px solid var(--accent-color);
+            margin: 20px 0;
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            padding: 0 10px;
+        }
+
+        .chart-bar {
+            width: 8%;
+            background-color: var(--accent-color);
+            opacity: 0.5;
+            border-radius: 4px 4px 0 0;
+            transition: height 0.5s;
+        }
+
+        .chart-bar:hover {
+            opacity: 1;
+        }
+
+        .holding-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #333;
+        }
+
+        .holding-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+
+        .copy-controls {
+            background-color: var(--card-bg);
+            border-radius: 16px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .slider-container {
+            margin: 20px 0;
+        }
+
+        .slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 4px;
+            background: #333;
+            border-radius: 2px;
+            outline: none;
+        }
+
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--accent-color);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <a href="index.html" style="color: inherit; text-decoration: none;">←</a>
+            <div class="logo">Nancy P.</div>
+            <div style="width: 20px;"></div>
+        </header>
+
+        <main>
+            <div class="trader-header">
+                <div class="trader-avatar"></div>
+                <h1>Nancy Pelosi</h1>
+                <div class="flex-row" style="justify-content: center; gap: 8px; margin-bottom: 10px;">
+                    <div class="performance-badge">+45.2% All Time</div>
+                    <div class="performance-badge"
+                        style="background-color: rgba(98, 126, 234, 0.1); color: var(--eth-blue);">
+                        ⛓️ On-Chain Verified
+                    </div>
+                </div>
+                <div style="margin-top: 10px; color: #888; font-size: 0.9rem;">
+                    "Strategic" tech & crypto allocations.
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <!-- Mock Chart Bars -->
+                <div class="chart-bar" style="height: 20%;"></div>
+                <div class="chart-bar" style="height: 35%;"></div>
+                <div class="chart-bar" style="height: 30%;"></div>
+                <div class="chart-bar" style="height: 50%;"></div>
+                <div class="chart-bar" style="height: 45%;"></div>
+                <div class="chart-bar" style="height: 60%;"></div>
+                <div class="chart-bar" style="height: 55%;"></div>
+                <div class="chart-bar" style="height: 80%;"></div>
+                <div class="chart-bar" style="height: 70%;"></div>
+                <div class="chart-bar" style="height: 90%;"></div>
+            </div>
+
+            <div class="copy-controls">
+                <div class="flex-row justify-between">
+                    <span style="font-weight: bold;">Copy Amount</span>
+                    <span style="font-weight: bold; color: var(--accent-color);" id="amountDisplay">$1,000</span>
+                </div>
+                <div class="slider-container">
+                    <input type="range" min="100" max="10000" value="1000" step="100" class="slider"
+                        oninput="document.getElementById('amountDisplay').textContent = '$' + parseInt(this.value).toLocaleString()">
+                </div>
+                <button class="btn">Confirm Copy Trade</button>
+                <div style="text-align: center; margin-top: 10px; font-size: 0.8rem; color: #888;">
+                    Allocates proportionally to current holdings.
+                </div>
+            </div>
+
+            <h2>Asset Allocation</h2>
+            <div class="slider-container">
+                <input type="range" min="0" max="100" value="25" class="slider" id="allocSlider" oninput="
+                        const cryptoVal = parseInt(this.value);
+                        const equityVal = 100 - cryptoVal;
+                        document.getElementById('equitySeg').style.width = equityVal + '%';
+                        document.getElementById('cryptoSeg').style.width = cryptoVal + '%';
+                        document.getElementById('equityText').textContent = 'Equity (' + equityVal + '%)';
+                        document.getElementById('cryptoText').textContent = 'Crypto (' + cryptoVal + '%)';
+                    ">
+            </div>
+
+            <div class="allocation-bar">
+                <div class="alloc-segment" id="equitySeg" style="width: 75%; background-color: var(--accent-color);">
+                </div>
+                <div class="alloc-segment" id="cryptoSeg" style="width: 25%; background-color: var(--btc-orange);">
+                </div>
+            </div>
+            <div class="flex-row justify-between" style="font-size: 0.8rem; color: #888; margin-bottom: 20px;">
+                <div class="flex-row items-center">
+                    <div style="width: 8px; height: 8px; background-color: var(--accent-color); border-radius: 50%;">
+                    </div> <span id="equityText">Equity (75%)</span>
+                </div>
+                <div class="flex-row items-center">
+                    <div style="width: 8px; height: 8px; background-color: var(--btc-orange); border-radius: 50%;">
+                    </div> <span id="cryptoText">Crypto (25%)</span>
+                </div>
+            </div>
+
+            <h2>Top Holdings</h2>
+
+            <div class="holding-item">
+                <div class="flex-row items-center">
+                    <div class="holding-icon" style="background-color: #000; border: 1px solid #333;">NVDA</div>
+                    <div>
+                        <div style="font-weight: bold;">NVIDIA <span class="asset-tag tag-equity">Equity</span></div>
+                        <div style="font-size: 0.8rem; color: #888;">35% Allocation</div>
+                    </div>
+                </div>
+                <div style="text-align: right;">
+                    <div style="font-weight: bold;">$124.50</div>
+                    <div class="text-accent">+12.4%</div>
+                </div>
+            </div>
+
+            <div class="holding-item">
+                <div class="flex-row items-center">
+                    <div class="holding-icon" style="background-color: #0078D4;">MSFT</div>
+                    <div>
+                        <div style="font-weight: bold;">Microsoft <span class="asset-tag tag-equity">Equity</span></div>
+                        <div style="font-size: 0.8rem; color: #888;">25% Allocation</div>
+                    </div>
+                </div>
+                <div style="text-align: right;">
+                    <div style="font-weight: bold;">$415.20</div>
+                    <div class="text-accent">+5.1%</div>
+                </div>
+            </div>
+
+            <div class="holding-item">
+                <div class="flex-row items-center">
+                    <div class="holding-icon" style="background-color: #A4C639; color: #000;">GOOG</div>
+                    <div>
+                        <div style="font-weight: bold;">Alphabet <span class="asset-tag tag-equity">Equity</span></div>
+                        <div style="font-size: 0.8rem; color: #888;">15% Allocation</div>
+                    </div>
+                </div>
+                <div style="text-align: right;">
+                    <div style="font-weight: bold;">$175.30</div>
+                    <div style="color: #ff4444;">-1.2%</div>
+                </div>
+            </div>
+
+            <div class="holding-item">
+                <div class="flex-row items-center">
+                    <div class="holding-icon" style="background-color: var(--btc-orange); color: #fff;">₿</div>
+                    <div>
+                        <div style="font-weight: bold;">Bitcoin <span class="asset-tag tag-crypto">Crypto</span></div>
+                        <div style="font-size: 0.8rem; color: #888;">15% Allocation</div>
+                    </div>
+                </div>
+                <div style="text-align: right;">
+                    <div style="font-weight: bold;">$65,430</div>
+                    <div class="text-accent">+5.2%</div>
+                </div>
+            </div>
+
+            <div class="holding-item">
+                <div class="flex-row items-center">
+                    <div class="holding-icon"
+                        style="background-color: #000; border: 1px solid var(--sol-purple); color: var(--sol-purple);">
+                        SOL</div>
+                    <div>
+                        <div style="font-weight: bold;">Solana <span class="asset-tag tag-crypto">Crypto</span></div>
+                        <div style="font-size: 0.8rem; color: #888;">10% Allocation</div>
+                    </div>
+                </div>
+                <div style="text-align: right;">
+                    <div style="font-weight: bold;">$145.20</div>
+                    <div class="text-accent">+8.4%</div>
+                </div>
+            </div>
+
+            <button class="btn btn-outline" style="margin-top: 30px; border-color: #333; color: #888;">
+                <span style="margin-right: 8px;">⚡</span> Withdraw Crypto to Wallet
+            </button>
+
+        </main>
+
+        <nav>
+            <a href="index.html" class="nav-item">
+                <span>🏠</span>
+                <span>Home</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span>💳</span>
+                <span>Card</span>
+            </a>
+            <a href="invest.html" class="nav-item active">
+                <span>📈</span>
+                <span>Invest</span>
+            </a>
+            <a href="esusu.html" class="nav-item">
+                <span>🤝</span>
+                <span>Esusu</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span>🕒</span>
+                <span>Activity</span>
+            </a>
+        </nav>
+    </div>
+
+    <script>
+        // Copy Amount Slider Logic
+        const copySlider = document.getElementById('copyAmountSlider');
+        const amountDisplay = document.querySelector('.copy-controls .text-accent');
+
+        copySlider.addEventListener('input', (e) => {
+            const value = parseInt(e.target.value);
+            amountDisplay.textContent = '$' + value.toLocaleString();
+        });
+
+        // Asset Allocation Slider Logic
+        const allocSlider = document.getElementById('allocationSlider');
+        const equityBar = document.getElementById('equityBar');
+        const cryptoBar = document.getElementById('cryptoBar');
+        const equityText = document.getElementById('equityText');
+        const cryptoText = document.getElementById('cryptoText');
+
+        allocSlider.addEventListener('input', (e) => {
+            const cryptoVal = parseInt(e.target.value);
+            const equityVal = 100 - cryptoVal;
+
+            // Update Bar Widths
+            equityBar.style.width = equityVal + '%';
+            cryptoBar.style.width = cryptoVal + '%';
+
+            // Update Text
+            equityText.textContent = `Equity (${equityVal}%)`;
+            cryptoText.textContent = `Crypto (${cryptoVal}%)`;
+        });
+    </script>
+</body>
+
+</html>
