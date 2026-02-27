@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - source
 
 jobs:
   deploy:
@@ -25,11 +25,10 @@ jobs:
       - name: Build site
         run: pelican content -s publishconf.py
 
-      - name: Deploy to chunnodu/chunnodu
+      - name: Deploy to master
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.DEPLOY_TOKEN }}
-          external_repository: chunnodu/chunnodu
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: master
           publish_dir: ./output
           commit_message: "Deploy site [skip ci]"
