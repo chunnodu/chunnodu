@@ -117,15 +117,26 @@ img {
    Header & Navigation (Flexbox)
    ========================================================================== */
 .header-container {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
   min-height: var(--header-height);
-  flex-wrap: wrap;
+}
+
+.logo {
+  justify-self: start;
+}
+
+.site-nav {
+  justify-self: center;
+}
+
+.social-nav {
+  justify-self: end;
 }
 
 .logo img {
-  height: 40px; /* Adjust based on original logo */
+  height: 40px;
   width: auto;
   display: block;
 }
@@ -225,14 +236,26 @@ img {
    ========================================================================== */
 @media (max-width: 768px) {
   .header-container {
-    flex-direction: column;
-    padding: 1rem 20px;
-    gap: 1rem;
+    grid-template-columns: 1fr auto 1fr;
+    padding: 0.75rem 16px;
+    min-height: 56px;
   }
-  
+
+  .site-nav a, .social-nav a {
+    font-size: 0.75rem;
+    letter-spacing: 0.03em;
+  }
+
   .site-nav ul {
-    flex-wrap: wrap;
-    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  .social-nav {
+    gap: 0.6rem;
+  }
+
+  .social-nav i {
+    font-size: 1rem;
   }
 }
 
@@ -350,4 +373,16 @@ nav.pagination a:hover {
 .entry-content p a:not(.read-more):hover, .entry-content li a:hover {
   color: var(--primary-color);
   text-decoration: none;
+}
+
+/* ==========================================================================
+   Page (About / Static) Content Centering
+   ========================================================================== */
+.page-article .entry-content h2 {
+  text-align: center;
+}
+
+.page-article .entry-content img {
+  display: block;
+  margin: 0 auto 1.5rem auto;
 }
