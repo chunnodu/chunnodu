@@ -65,7 +65,7 @@ Date: 2020-08-28 21:38
     </div>
 </aside>
 
-<section class="talents-section">
+<section class="talents-section" id="talents">
     <h2>Top Talents</h2>
     <div class="skills-grid">
         <div class="skill-card">
