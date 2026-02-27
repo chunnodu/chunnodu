@@ -390,20 +390,6 @@ a.read-more:hover {
   text-decoration: none;
 }
 
-nav.pagination a {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
-  color: var(--text-color);
-  transition: all 0.2s ease;
-}
-
-nav.pagination a:hover {
-  border-color: var(--primary-color);
-  color: var(--primary-color);
-  text-decoration: none;
-}
 
 /* Link Underline Animations */
 .entry-content p a:not(.read-more), .entry-content li a {
@@ -458,46 +444,28 @@ nav.pagination a:hover {
   padding: 2rem 0;
 }
 
-.pagination-arrow {
-  font-size: 1.1rem;
-  color: var(--text-muted);
+.pagination-prev,
+.pagination-next {
+  font-size: 0.85rem;
+  color: var(--secondary-color);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
-.pagination-arrow:hover {
-  color: var(--text-color);
+.pagination-prev:hover,
+.pagination-next:hover {
+  color: #047070;
   text-decoration: none;
 }
 
-.pagination-arrow--disabled {
-  opacity: 0.25;
+.pagination-link--disabled {
+  color: var(--text-muted);
+  opacity: 0.4;
   cursor: default;
 }
 
-.nav-pages {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.pagination-dot {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  border: 1.5px solid var(--text-muted);
-  background: transparent;
-  transition: border-color 0.2s ease, background 0.2s ease;
-}
-
-a.pagination-dot:hover {
-  border-color: var(--text-color);
-  background: var(--text-color);
-  text-decoration: none;
-}
-
-.pagination-dot--current {
-  background: var(--primary-color);
-  border-color: var(--primary-color);
+.pagination-count {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-family: var(--font-family-heading);
 }
