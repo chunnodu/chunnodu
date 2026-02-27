@@ -81,19 +81,15 @@
 
     .timeline-header {
         text-align: left;
-        margin-bottom: 2.1rem;
+        margin-bottom: 0;
     }
 
     .timeline-header h1 {
-        font-size: 3rem;
+        font-size: 1.4rem;
+        font-weight: 700;
         color: #111;
+        margin-top: 0;
         margin-bottom: 0.5rem;
-    }
-
-    .timeline-header p {
-        font-size: 0.72rem;
-        color: var(--text-muted);
-        max-width: 800px;
     }
 
     /* CSS Grid Split */
@@ -105,7 +101,16 @@
 
     .timeline-intro {
         grid-column: 1 / -1;
-        margin-bottom: 1.3rem;
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .timeline-intro p {
+        font-size: 0.88rem;
+        color: var(--text-muted);
+        margin-bottom: 0;
+        line-height: 1.6;
     }
 
     /* Common Timeline Aesthetics */
@@ -238,7 +243,7 @@
     }
 
     .skill-card:hover {
-        box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
         border-color: #b2dbdb;
     }
 
