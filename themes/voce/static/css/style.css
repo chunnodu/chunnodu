@@ -189,33 +189,30 @@ img {
 }
 
 .entry-header-index {
-  display: grid;
-  grid-template-columns: 1fr auto;
+  display: flex;
   align-items: baseline;
   gap: 1rem;
-  position: relative;
 }
 
 .entry-header-index .entry-title {
+  flex: 1;
   margin: 0;
   font-size: 0.96rem;
   font-weight: 400;
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  pointer-events: none;
-}
-
-.entry-header-index .entry-title a {
-  pointer-events: auto;
+  text-align: left;
 }
 
 .entry-header-index .cat-item {
   white-space: nowrap;
-  grid-column: 2;
-  line-height: 1.5rem;
   font-size: 0.6rem;
+}
+
+.index-read-more {
+  white-space: nowrap;
+  flex-shrink: 0;
+  font-size: 0.64rem;
+  padding: 0.3rem 0.68rem;
+  margin-top: 0;
 }
 
 .entry-header h1 {
@@ -365,20 +362,9 @@ body {
   box-shadow: 0 12px 20px rgba(0,0,0,0.1);
 }
 
-.post-preview {
-  display: flex;
-  align-items: flex-end;
-  gap: 1.5rem;
-}
-
-.post-preview p {
-  flex: 1;
-  margin-bottom: 0;
+.post-preview-text {
   font-size: 0.75rem;
-}
-
-.post-preview .read-more {
-  flex-shrink: 0;
+  margin-bottom: 0;
 }
 
 /* Button Micro-Interactions */
