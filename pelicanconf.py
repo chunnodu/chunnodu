@@ -22,7 +22,7 @@ SUMMARY_MAX_LENGTH = 15
 
 # Blogroll
 LINKS = (('Blog', '/tag/reading.html'),
-         ('Top Skills', '/projects.html#talents'),
+         ('Skills', '/projects.html#talents'),
          ('Projects', '/projects.html')
          )
 
