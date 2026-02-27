@@ -335,10 +335,25 @@ body {
   box-shadow: 0 12px 20px rgba(0,0,0,0.1);
 }
 
+.post-preview {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.5rem;
+}
+
+.post-preview p {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.post-preview .read-more {
+  flex-shrink: 0;
+}
+
 /* Button Micro-Interactions */
 a.read-more {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 0;
   padding: 0.35rem 0.8rem;
   border: 1px solid var(--primary-color);
   border-radius: 4px;
