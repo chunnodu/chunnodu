@@ -190,21 +190,33 @@ img {
 
 .entry-header-index {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  text-align: left;
+  align-items: center;
   gap: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.index-post {
+  margin-bottom: 1rem;
 }
 
 .entry-header-index .entry-title {
+  flex: 1;
   margin: 0;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
 }
 
 .entry-header-index .cat-item {
   white-space: nowrap;
-  flex-shrink: 0;
+  font-size: 0.6rem;
+}
+
+.index-read-more {
+  white-space: nowrap;
+  font-size: 0.56rem;
+  padding: 0.25rem 0.35rem;
+  margin-top: 0;
 }
 
 .entry-header h1 {
@@ -354,19 +366,9 @@ body {
   box-shadow: 0 12px 20px rgba(0,0,0,0.1);
 }
 
-.post-preview {
-  display: flex;
-  align-items: flex-end;
-  gap: 1.5rem;
-}
-
-.post-preview p {
-  flex: 1;
+.post-preview-text {
+  font-size: 0.75rem;
   margin-bottom: 0;
-}
-
-.post-preview .read-more {
-  flex-shrink: 0;
 }
 
 /* Button Micro-Interactions */
