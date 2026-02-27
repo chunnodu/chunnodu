@@ -10,8 +10,10 @@
 		<h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
 	</header>
 	<div class="entry-content">
-		<p>{{ article.summary|striptags|truncate(300, false, '...') }}</p>
-		<a href="{{ SITEURL }}/{{ article.url }}" class="read-more">Read More &rarr;</a>
+		<div class="post-preview">
+			<p>{{ article.summary|striptags|truncate(300, false, '...') }}</p>
+			<a href="{{ SITEURL }}/{{ article.url }}" class="read-more">Read More &rarr;</a>
+		</div>
 	</div>
 </article>
 {% if not loop.last %}
