@@ -189,37 +189,25 @@ img {
 }
 
 .entry-header-index {
-  display: grid;
-  grid-template-columns: 1fr auto auto;
+  display: flex;
   align-items: center;
   gap: 1rem;
-  position: relative;
 }
 
 .entry-header-index .entry-title {
-  grid-column: 1 / -1;
-  position: absolute;
-  left: 0;
-  right: 0;
+  flex: 1;
   margin: 0;
   font-size: 1rem;
   font-weight: 400;
-  text-align: center;
-  pointer-events: none;
-}
-
-.entry-header-index .entry-title a {
-  pointer-events: auto;
+  text-align: left;
 }
 
 .entry-header-index .cat-item {
-  grid-column: 2;
   white-space: nowrap;
   font-size: 0.6rem;
 }
 
 .index-read-more {
-  grid-column: 3;
   white-space: nowrap;
   font-size: 0.56rem;
   padding: 0.25rem 0.35rem;
