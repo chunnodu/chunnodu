@@ -22,34 +22,33 @@
 {% block description %}{{ article.title|striptags|escape }} | {{ article.summary|striptags|escape }}{% endblock %}
 
 {% block content %}
-<article>
-  <div class="blog-item-wrap">
-    <div class="post-inner-content">
-      <header class="entry-header page-header">
-        <span class="cat-item">
-          <time datetime="{{ article.date }}">{{ article.locale_date }}</time>
-          {% if article.modified and article.modified > article.date %}
-          <span style="opacity: 0.6; margin-left: 8px;">(Updated: <time datetime="{{ article.modified }}">{{
-              article.locale_modified }}</time>)</span>
-          {% endif %}
-        </span>
-        <h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
-      </header><!-- .entry-header -->
-      <div class="entry-content">
-        {{ article.content }}
-      </div><!-- .entry-content -->
-      <br /><br />
-      <div class="article_meta">
-        {% if TAG_URL and article.tags %}
-        Tags:
-        {% for tag in article.tags %}
-        <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
-        {% endfor %}
-        {% endif %}
-      </div>
-    </div>
+<article class="post">
+  <header class="entry-header">
+    <span class="cat-item">
+      <time datetime="{{ article.date }}">{{ article.locale_date }}</time>
+      {% if article.modified and article.modified > article.date %}
+      <span style="opacity: 0.6; margin-left: 8px;">(Updated: <time datetime="{{ article.modified }}">{{
+          article.locale_modified }}</time>)</span>
+      {% endif %}
+    </span>
+    <h1 class="entry-title">{{ article.title }}</h1>
+  </header>
+
+  <div class="entry-content">
+    {{ article.content }}
   </div>
-</article><!-- #post-## -->
+
+  <div class="article_meta"
+    style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border-color); color: var(--text-muted); font-size: 0.9rem;">
+    {% if TAG_URL and article.tags %}
+    Tags:
+    {% for tag in article.tags %}
+    <a href="{{ SITEURL }}/{{ tag.url }}" style="color: var(--primary-color);">{{ tag }}</a>{% if not loop.last %}, {%
+    endif %}
+    {% endfor %}
+    {% endif %}
+  </div>
+</article>
 {% endblock %}
 
 {% block scripts %}
