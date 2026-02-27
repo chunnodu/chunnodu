@@ -4,7 +4,7 @@
 
 {% block content %}
 {% for article in articles_page.object_list %}
-<article class="post">
+<article class="post index-post">
 	<header class="entry-header entry-header-index">
 		<h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
 		<span class="cat-item"><time datetime="{{ article.date }}">{{ article.locale_date }}</time></span>

@@ -192,6 +192,11 @@ img {
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.index-post {
+  margin-bottom: 1.3rem;
 }
 
 .entry-header-index .entry-title {
