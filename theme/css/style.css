@@ -8,15 +8,17 @@
   --bg-color: #ffffff;
   --text-color: #333333;
   --text-muted: #666666;
-  --primary-color: #A1665E; /* Ajared Terra Cotta */
-  --secondary-color: #058C8C; /* Ajared Ink */
+  --primary-color: #A1665E;
+  /* Ajared Terra Cotta */
+  --secondary-color: #058C8C;
+  /* Ajared Ink */
   --border-color: #eaeaea;
 
   /* Typography */
   --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-family-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-family-mono: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  
+
   --font-size-base: 18px;
   --line-height-base: 1.6;
 
@@ -61,7 +63,12 @@ a:hover {
   color: #047070;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-family-heading);
   font-weight: 700;
   line-height: 1.2;
@@ -70,11 +77,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #111;
 }
 
-h1 { font-size: 2.5rem; letter-spacing: -0.02em; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.5rem; }
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: -0.02em;
+}
 
-p, ul, ol, blockquote {
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p,
+ul,
+ol,
+blockquote {
   margin-bottom: 1.5rem;
 }
 
@@ -95,14 +114,17 @@ img {
   z-index: 100;
 }
 
-.header-container, .main-container, .footer-container {
+.header-container,
+.main-container,
+.footer-container {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 20px;
 }
 
 .site-content {
-  min-height: calc(100vh - var(--header-height) - 100px); /* rough math */
+  min-height: calc(100vh - var(--header-height) - 100px);
+  /* rough math */
   padding: 1.5rem 0;
 }
 
@@ -149,14 +171,16 @@ img {
   margin: 0;
 }
 
-.site-nav a, .social-nav a {
+.site-nav a,
+.social-nav a {
   color: var(--text-color);
   font-weight: 700;
   font-size: 0.95rem;
   letter-spacing: 0.01em;
 }
 
-.site-nav a:hover, .social-nav a:hover {
+.site-nav a:hover,
+.social-nav a:hover {
   color: var(--primary-color);
   text-decoration: none;
 }
@@ -175,7 +199,8 @@ img {
    ========================================================================== */
 .article-container {
   display: grid;
-  gap: 3rem; /* Space between articles on index */
+  gap: 3rem;
+  /* Space between articles on index */
 }
 
 .post-inner-content {
@@ -253,7 +278,8 @@ img {
 
 /* Article Body */
 .entry-content {
-  font-size: 1.05rem; /* Slightly larger for reading */
+  font-size: 1.05rem;
+  /* Slightly larger for reading */
 }
 
 .entry-content ol {
@@ -296,7 +322,8 @@ img {
     height: 32px;
   }
 
-  .site-nav a, .social-nav a {
+  .site-nav a,
+  .social-nav a {
     font-size: 0.7rem;
     letter-spacing: 0;
   }
@@ -322,15 +349,16 @@ img {
 @font-face {
   font-family: 'iA Writer Quattro S';
   src: url('../fonts/iAWriterQuattroS-Regular.woff2') format('woff2'),
-       url('../fonts/iAWriterQuattroS-Regular.woff') format('woff');
+    url('../fonts/iAWriterQuattroS-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'iA Writer Quattro S';
   src: url('../fonts/iAWriterQuattroS-Bold.woff2') format('woff2'),
-       url('../fonts/iAWriterQuattroS-Bold.woff') format('woff');
+    url('../fonts/iAWriterQuattroS-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -338,10 +366,16 @@ img {
 
 :root {
   --font-family-heading: 'iA Writer Quattro S', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --line-height-base: 1.7; /* Slightly taller for readability */
+  --line-height-base: 1.7;
+  /* Slightly taller for readability */
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-family-heading);
 }
 
@@ -355,19 +389,54 @@ body {
   border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 2.5rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
-  margin-bottom: 0; /* Resetting just in case */
+  margin-bottom: 0;
+  /* Resetting just in case */
 }
 
 .article-container .post:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
 }
 
 .post-preview-text {
   font-size: 0.75rem;
   margin-bottom: 0;
+}
+
+/* Tag Option 3 context blurb */
+.tag-page-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.tag-page-header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #111;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.page-blurb {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.page-blurb a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(5, 140, 140, 0.3);
+  transition: border-bottom-color 0.2s ease;
+}
+
+.page-blurb a:hover {
+  border-bottom-color: var(--secondary-color);
 }
 
 /* Button Micro-Interactions */
@@ -391,14 +460,16 @@ a.read-more:hover {
 
 
 /* Link Underline Animations */
-.entry-content p a:not(.read-more), .entry-content li a {
+.entry-content p a:not(.read-more),
+.entry-content li a {
   position: relative;
   text-decoration: none;
   font-weight: 500;
   color: var(--secondary-color);
 }
 
-.entry-content p a:not(.read-more)::after, .entry-content li a::after {
+.entry-content p a:not(.read-more)::after,
+.entry-content li a::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -411,12 +482,14 @@ a.read-more:hover {
   transition: transform 0.25s ease-out;
 }
 
-.entry-content p a:not(.read-more):hover::after, .entry-content li a:hover::after {
+.entry-content p a:not(.read-more):hover::after,
+.entry-content li a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
-.entry-content p a:not(.read-more):hover, .entry-content li a:hover {
+.entry-content p a:not(.read-more):hover,
+.entry-content li a:hover {
   color: #047070;
   text-decoration: none;
 }
