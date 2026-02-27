@@ -5,11 +5,22 @@
 
 {% block head %}
 {% if TAG_FEED_ATOM %}
-<link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(tag.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} {{ tag }} Tag Atom Feed" />
+<link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(tag.slug) }}" type="application/atom+xml" rel="alternate"
+    title="{{ SITENAME }} {{ tag }} Tag Atom Feed" />
 {% endif %}
 {% if TAG_FEED_RSS %}
-<link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} {{ tag }} Tag RSS Feed" />
+<link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate"
+    title="{{ SITENAME }} {{ tag }} Tag RSS Feed" />
 {% endif %}
 {% endblock %}
 
-
+{% block content %}
+{% if tag.slug == 'reading' %}
+<div class="tag-page-header">
+    <h1>Reading</h1>
+    <p class="page-blurb">Books I've found worthwhile. <a href="{{ SITEURL }}/blog/index.html">See all writing
+            &rarr;</a></p>
+</div>
+{% endif %}
+{{ super() }}
+{% endblock %}
