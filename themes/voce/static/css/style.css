@@ -235,3 +235,119 @@ img {
     justify-content: center;
   }
 }
+
+/* ==========================================================================
+   Aesthetic Polish Additions
+   ========================================================================== */
+
+/* Typography Overrides */
+@font-face {
+  font-family: 'iA Writer Quattro S';
+  src: url('../fonts/iAWriterQuattroS-Regular.woff2') format('woff2'),
+       url('../fonts/iAWriterQuattroS-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'iA Writer Quattro S';
+  src: url('../fonts/iAWriterQuattroS-Bold.woff2') format('woff2'),
+       url('../fonts/iAWriterQuattroS-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-family-heading: 'iA Writer Quattro S', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --line-height-base: 1.7; /* Slightly taller for readability */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+}
+
+body {
+  line-height: var(--line-height-base);
+}
+
+/* Card Layout for Post Index */
+.article-container .post {
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  margin-bottom: 0; /* Resetting just in case */
+}
+
+.article-container .post:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+
+/* Button Micro-Interactions */
+a.read-more {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+a.read-more:hover {
+  background: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+}
+
+nav.pagination a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  color: var(--text-color);
+  transition: all 0.2s ease;
+}
+
+nav.pagination a:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* Link Underline Animations */
+.entry-content p a:not(.read-more), .entry-content li a {
+  position: relative;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.entry-content p a:not(.read-more)::after, .entry-content li a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--primary-color);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.entry-content p a:not(.read-more):hover::after, .entry-content li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.entry-content p a:not(.read-more):hover, .entry-content li a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
