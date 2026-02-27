@@ -199,7 +199,7 @@ img {
 .entry-header-index .entry-title {
   margin: 0;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   position: absolute;
   left: 0;
@@ -215,6 +215,7 @@ img {
   white-space: nowrap;
   grid-column: 2;
   line-height: 1.5rem;
+  font-size: 0.6rem;
 }
 
 .entry-header h1 {
