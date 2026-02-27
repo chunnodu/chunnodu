@@ -82,7 +82,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-PLUGINS = ['sitemap']
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['sitemap', 'git_modified']
 
 SITEMAP = {
     'format': 'xml',

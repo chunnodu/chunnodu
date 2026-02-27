@@ -13,6 +13,10 @@
 {% block og_description %}{{ article.summary|striptags|escape }}{% endblock %}
 {% block og_url %}{{ SITEURL }}/{{ article.url }}{% endblock %}
 {% if article.ogimage %}{% block og_image %}{{ SITEURL }}/{{ article.ogimage }}{% endblock %}{% endif %}
+
+{% block twitter_title %}{{ article.title }}{% endblock %}
+{% block twitter_description %}{{ article.summary|striptags|escape }}{% endblock %}
+{% if article.ogimage %}{% block twitter_image %}{{ SITEURL }}/{{ article.ogimage }}{% endblock %}{% endif %}
 {% block metatitle %}{{ article.title|striptags|escape }}{% endblock %}
 {% block title %}{{ article.title|striptags|escape }}{% endblock %}
 {% block description %}{{ article.title|striptags|escape }} | {{ article.summary|striptags|escape }}{% endblock %}
@@ -22,7 +26,13 @@
   <div class="blog-item-wrap">
     <div class="post-inner-content">
       <header class="entry-header page-header">
-        <span class="cat-item"><time datetime="{{ article.date }}">{{ article.locale_date }}</time></span>
+        <span class="cat-item">
+          <time datetime="{{ article.date }}">{{ article.locale_date }}</time>
+          {% if article.modified and article.modified > article.date %}
+          <span style="opacity: 0.6; margin-left: 8px;">(Updated: <time datetime="{{ article.modified }}">{{
+              article.locale_modified }}</time>)</span>
+          {% endif %}
+        </span>
         <h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
       </header><!-- .entry-header -->
       <div class="entry-content">
