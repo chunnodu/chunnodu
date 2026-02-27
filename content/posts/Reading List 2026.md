@@ -1,6 +1,7 @@
 Title: Reading List 2026
 Date: 2026-01-01
 Category: Reading
+Status: hidden
 
 ### Queued
 
