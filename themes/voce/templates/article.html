@@ -6,17 +6,16 @@
     {%- if article.tags -%}{{', '}}{%- endif -%}
   {%- endif -%}
   {{article.tags|join(', ') }}">
+{% endblock %}
 
 {% block og_title %}{{ article.title }}{% endblock %}
 {% block og_type %}article{% endblock %}
-{% block og_description %}{{ article.summary|striptags|e }}{% endblock %}
+{% block og_description %}{{ article.summary|striptags|escape }}{% endblock %}
 {% block og_url %}{{ SITEURL }}/{{ article.url }}{% endblock %}
 {% if article.ogimage %}{% block og_image %}{{ SITEURL }}/{{ article.ogimage }}{% endblock %}{% endif %}
-
-{% endblock %}
 {% block metatitle %}{{ article.title|striptags|escape }}{% endblock %}
 {% block title %}{{ article.title|striptags|escape }}{% endblock %}
-{% block description %}{{ article.title|striptags|escape }} | {{ article.content|striptags|truncate(154-article.title|length)|escape }}{% endblock %}
+{% block description %}{{ article.title|striptags|escape }} | {{ article.summary|striptags|escape }}{% endblock %}
 
 {% block content %}
 <article>
@@ -26,16 +25,16 @@
         <span class="cat-item"><time datetime="{{ article.date }}">{{ article.locale_date }}</time></span>
         <h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
       </header><!-- .entry-header -->
-<div class="entry-content">
+      <div class="entry-content">
         {{ article.content }}
       </div><!-- .entry-content -->
       <br /><br />
       <div class="article_meta">
         {% if TAG_URL and article.tags %}
         Tags:
-          {% for tag in article.tags %}
-          <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
-          {% endfor %}
+        {% for tag in article.tags %}
+        <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
+        {% endfor %}
         {% endif %}
       </div>
     </div>
