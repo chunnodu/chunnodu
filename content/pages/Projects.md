@@ -1,4 +1,4 @@
-Title: projects
+Title: Projects
 Template: projects_layout
 Date: 2020-08-28 21:38
 
