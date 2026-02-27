@@ -5,14 +5,9 @@ Ventures and products I've built or contributed to that *still* have a digital t
 
 ## [ajaRED Research Inc — Canada](https://www.ajared.ca) · 2025
 
-Building data products and information systems, and sharing learnings in the field of product development and management.
+Currently exploring knowledge graph based approaches to retrieval augmented generation for these enterprise AI use cases, building on my earlier research on [personal knowledge graphs](https://github.com/Ajared/pkg/blob/main/personal%20knowledge%20graphs.pdf).
 
-I'm currently exploring knowledge graph based approaches to Retrieval Augmented Generation for these enterprise use cases, building on my earlier research on [personal knowledge graphs](https://github.com/Ajared/pkg/blob/main/personal%20knowledge%20graphs.pdf).
-
-- Customer Support Knowledge base
-- Enterprise Knowledge Assistants aka "chat-your-documents"
-- Workflow Automation
-- Contextual Help via semantic search
+Customer Support Knowledge base, Enterprise Knowledge Assistants aka "chat-your-documents", Workflow Automation, Contextual Help via semantic search.
 
 ## [Retailytics](https://retailytics.ajared.ng) · 2025
 
