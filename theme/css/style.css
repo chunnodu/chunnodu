@@ -153,8 +153,7 @@ img {
   color: var(--text-color);
   font-weight: 700;
   font-size: 0.95rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
 }
 
 .site-nav a:hover, .social-nav a:hover {
