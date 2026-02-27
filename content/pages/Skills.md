@@ -3,6 +3,7 @@ Date: 2026-02-27
 Template: skills_layout
 URL: skills.html
 Save_as: skills.html
+Status: hidden
 
 <h1 class="skills-title">Top Talents</h1>
 
