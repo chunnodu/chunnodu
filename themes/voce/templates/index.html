@@ -3,9 +3,11 @@
 {% block title %}{{ SITENAME }}{% endblock %}
 
 {% block content %}
+{% if not tag and not category and not author %}
 <div class="tag-page-header">
 	<h1>Writing</h1>
 </div>
+{% endif %}
 {% for article in articles_page.object_list %}
 <article class="post index-post">
 	<header class="entry-header entry-header-index">
