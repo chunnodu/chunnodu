@@ -27,8 +27,9 @@
     <h1 class="entry-title">{{ article.title }}</h1>
     <span class="cat-item">
       <time datetime="{{ article.date }}">{{ article.locale_date }}</time>
-      {% if article.modified and article.modified > article.date %}
-      <span style="opacity: 0.6; margin-left: 8px;">(Updated: <time datetime="{{ article.modified }}">{{
+      {% if article.modified and article.locale_modified != article.locale_date %}
+      <span style="opacity: 0.6; margin-left: 8px; font-size: 0.8em;">(Updated: <time
+          datetime="{{ article.modified }}">{{
           article.locale_modified }}</time>)</span>
       {% endif %}
     </span>
