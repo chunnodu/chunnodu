@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+    .timeline-page {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    .timeline-header {
+        text-align: left;
+        margin-bottom: 3rem;
+    }
+
+    .timeline-header h1 {
+        font-size: 3rem;
+        color: var(--primary-color);
+        margin-bottom: 0.5rem;
+    }
+
+    .timeline-header p {
+        font-size: 1.2rem;
+        color: var(--secondary-color);
+        max-width: 800px;
+    }
+
+    /* CSS Grid Split */
+    .timeline-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 60px;
+    }
+
+    /* Common Timeline Aesthetics */
+    .timeline {
+        border-left: 2px solid var(--border-color);
+        padding-left: 2rem;
+        margin-left: 10px;
+    }
+
+    .timeline h2 {
+        font-family: var(--font-family-heading);
+        color: var(--primary-color);
+        margin-bottom: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    .timeline-item {
+        position: relative;
+        margin-bottom: 3rem;
+    }
+
+    /* The Circular Marker Node */
+    .timeline-item::before {
+        content: '';
+        position: absolute;
+        left: -2.45rem;
+        /* Center on the border */
+        top: 0.4rem;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background-color: var(--bg-color);
+        border: 2px solid var(--primary-color);
+        z-index: 1;
+        transition: background-color 0.3s ease;
+    }
+
+    .timeline-item:hover::before {
+        background-color: var(--primary-color);
+    }
+
+    .timeline-item h3 {
+        font-size: 1.4rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .timeline-item h3 a {
+        color: var(--primary-color);
+        text-decoration: none;
+        transition: color 0.2s ease;
+    }
+
+    .timeline-item h3 a:hover {
+        color: #a1665e;
+    }
+
+    .timeline-date {
+        font-size: 0.9rem;
+        color: var(--secondary-color);
+        font-weight: 600;
+        margin-left: 10px;
+        padding-left: 10px;
+        border-left: 1px solid var(--border-color);
+    }
+
+    .timeline-item p {
+        font-size: 1.1rem;
+        line-height: var(--line-height-base);
+        color: var(--text-color);
+        margin-bottom: 1rem;
+    }
+
+    /* Side Timeline Specifics (25% column) */
+    .timeline-side .timeline {
+        border-left-color: #e0eeee;
+    }
+
+    .timeline-side .timeline h2 {
+        font-size: 1.4rem;
+        color: var(--secondary-color);
+    }
+
+    .timeline-side .timeline-item::before {
+        width: 10px;
+        height: 10px;
+        left: -2.35rem;
+        top: 0.3rem;
+        border-color: var(--secondary-color);
+    }
+
+    .timeline-side .timeline-item h3 {
+        font-size: 1.1rem;
+    }
+
+    .timeline-side .timeline-item p {
+        font-size: 0.95rem;
+        color: var(--secondary-color);
+    }
+
+    /* Responsive Stacking */
+    @media (max-width: 900px) {
+        .timeline-container {
+            grid-template-columns: 1fr;
+            gap: 40px;
+        }
+
+        .timeline-side {
+            border-top: 2px dashed var(--border-color);
+            padding-top: 40px;
+        }
+    }
+</style>
+
+<div class="timeline-page">
+    <div class="timeline-container">
+        {{ page.content }}
+    </div>
+</div>
+{% endblock %}
