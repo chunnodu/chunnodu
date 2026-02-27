@@ -191,6 +191,16 @@ img {
 .entry-header h1 {
   margin-top: 0.25rem;
   font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.entry-content h2 {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.entry-content h3 {
+  font-size: 1rem;
   font-weight: 500;
 }
 
