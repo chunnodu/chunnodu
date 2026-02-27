@@ -21,9 +21,9 @@ SUMMARY_MAX_LENGTH = 15
 
 
 # Blogroll
-LINKS = (('Blog', 'https://chunnodu.com/tag/reading.html'),
-         ('Top Skills', 'https://chunnodu.com/skills.html'),
-         ('Projects', 'https://chunnodu.com/projects.html')
+LINKS = (('Blog', '/tag/reading.html'),
+         ('Top Skills', '/skills.html'),
+         ('Projects', '/projects.html')
          )
 
 # Social widget
@@ -52,7 +52,7 @@ DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives']
 #ARCHIVES_URL = 'archives.html'
 CATEGORY_URL = 'categories.html'
 
-USER_LOGO_URL = 'https://chunnodu.com/images/chunnodu.png'
+USER_LOGO_URL = '/images/chunnodu.png'
 
 DISPLAY_PAGES_ON_MENU = False
 
