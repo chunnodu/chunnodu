@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Chu's Digital Log - notes</title><link href="https://chunnodu.com/" rel="alternate"/><link href="https://chunnodu.com/feeds/notes.atom.xml" rel="self"/><id>https://chunnodu.com/</id><updated>2026-01-27T00:00:00+01:00</updated><entry><title>The best in the world.</title><link href="https://chunnodu.com/blog/the-best-in-the-world.html" rel="alternate"/><published>2026-01-27T00:00:00+01:00</published><updated>2026-01-27T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2026-01-27:/blog/the-best-in-the-world.html</id><summary type="html">&lt;p&gt;Telegram is objectively the best messenger app in the world. I say objectively because when …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Telegram is objectively the best messenger app in the world. I say objectively because when you look across measurable factors like privacy, ease of use, UX, features and performance, it clearly wins. &lt;/p&gt;
+&lt;p&gt;Since I work in product, this is very aspirational: to be in a category where I can build the objectively best product in the world. What would that category look like right now? 
+Maybe a hodge podge of all the things I have a keen interest in, a lot of experience in or happen to be really good at? &lt;/p&gt;
+&lt;p&gt;Let's chat if you’re building a product related to graphs x analytics x mapping x last mile logistics x retail x workflow automation x ai. Or maybe at least 2 or 3 of these. I'll help make it the best in the world.&lt;/p&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="und" dir="ltr"&gt;Use &lt;a href="https://twitter.com/telegram?ref_src=twsrc%5Etfw"&gt;@telegram&lt;/a&gt; &lt;a href="https://t.co/A0Wf6m86eO"&gt;https://t.co/A0Wf6m86eO&lt;/a&gt;&lt;/p&gt;&amp;mdash; chu@ajaRED (@AjaredIA) &lt;a href="https://twitter.com/AjaredIA/status/2015985720641323291?ref_src=twsrc%5Etfw"&gt;January 27, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</content><category term="notes"/><category term="chunitycard"/><category term="notes"/></entry><entry><title>Esusu: Some fin-tech ideas</title><link href="https://chunnodu.com/blog/esusu-some-fin-tech-ideas.html" rel="alternate"/><published>2025-11-18T00:00:00+01:00</published><updated>2025-11-18T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2025-11-18:/blog/esusu-some-fin-tech-ideas.html</id><summary type="html">&lt;p&gt;I found out about the &lt;a href="https://block.xyz/builder-fellowship"&gt;Block builder fellowship&lt;/a&gt; on twitter, and it was a good …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I found out about the &lt;a href="https://block.xyz/builder-fellowship"&gt;Block builder fellowship&lt;/a&gt; on twitter, and it was a good chance to do some ideation without the burden of a client project or specific deliverable. So, this post answers the question: how would I push fintech boundaries with AI? &lt;/p&gt;
+&lt;p&gt;I’ll attempt to combine the ancient with the modern and intend to prototype after writing this.&lt;/p&gt;
+&lt;p&gt;For the ancient, I'll stick to 2 of the basic pillars of personal finance: savings and investments. 
+For the modern, we see that with Generative AI, user interfaces - &lt;em&gt;which traditionally were constrained to a defined structure, and designed for the most general use cases&lt;/em&gt; - can be personalized and morph on demand per need.&lt;/p&gt;
+&lt;p&gt;A great example of this ancient and modern combination? Ride-sharing. Interestingly, rides have been shared in sub-Saharan Africa long before Uber, as an adaptation to the economy, and meeting the need for privately owned public transportation services beyond mass transit. The killer combination was pairing this behavior with mobile technology that made it scale.&lt;/p&gt;
+&lt;p&gt;With that intro, here are some fintech features that make sense for Cash App. &lt;/p&gt;
+&lt;h2&gt;Rotational Savings: Ajo/Esusu&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Esusu or Ajo is a trust-based informal group savings program where members regularly contribute fixed sums to a common fund. In this system, the group selects one member to receive all the pooled money until the next contribution period, which may vary from daily to weekly or even monthly.&lt;/em&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Rotating_savings_and_credit_association"&gt;Rotational savings and credit&lt;/a&gt; would be the formal category for this offering.
+This contribution, common fund management and payout system will be orchestrated on demand by cash app to improve savings and make it more reliable than just trust.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A variation of this pool for a long term goal could also be set up.&lt;/em&gt; &lt;em&gt;A specific use case I had thought of was friends “getting a trip out of the group chat.” In the time since I started ideating, CashApp has launched a “Pool” feature, meaning this was a no brainer.&lt;/em&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Esusu Prototype showing rotation schedule and contribution status" src="https://chunnodu.com/images/esusu-prototype.png"&gt;
+&lt;em&gt;Screenshot showing the rotation schedule and contribution status. Users can clearly see when it's their turn to receive the lump sum.&lt;/em&gt; &lt;/p&gt;
+&lt;h2&gt;Investment: Aping Trades&lt;/h2&gt;
+&lt;p&gt;One of the barriers for people taking financial action is lack of knowledge of what assets to select. More people would trade if they could copy trades of people they trust, but in ratios they could handle. &lt;/p&gt;
+&lt;p&gt;For example, aping Nancy Pelosi’s portfolio in a fractional manner. &lt;/p&gt;
+&lt;p&gt;Providing an an easy way to do this for equities and crypto in Cashapp’s sleek minimalist UI, would be really nifty.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Investment Prototype showing copy trading interface" src="https://chunnodu.com/images/invest-prototype.png"&gt;
+&lt;em&gt;Screenshot showing the copy-trading interface. Users can easily allocate funds to copy the portfolio of top investors.&lt;/em&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h2&gt;Prototype&lt;/h2&gt;
+&lt;iframe src="../prototypes/esusu/index.html" width="375" height="812" style="border:none; display:block; margin: 0 auto; border-radius: 40px; box-shadow: 0 20px 50px rgba(0,0,0,0.5);"&gt;&lt;/iframe&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>MENtality</title><link href="https://chunnodu.com/blog/mentality.html" rel="alternate"/><published>2025-11-14T00:00:00+01:00</published><updated>2025-11-14T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2025-11-14:/blog/mentality.html</id><summary type="html">&lt;p&gt;What makes a man, a man?&lt;/p&gt;
+&lt;p&gt;Is it his muscles, money, or motion?&lt;/p&gt;
+&lt;p&gt;When this …&lt;/p&gt;</summary><content type="html">&lt;p&gt;What makes a man, a man?&lt;/p&gt;
+&lt;p&gt;Is it his muscles, money, or motion?&lt;/p&gt;
+&lt;p&gt;When this came up in conversation with friends a few weeks ago, I pointed out that in today’s world - at least in our demographic - lots of women were doing just as well, mostly even better than their male peers.&lt;/p&gt;
+&lt;p&gt;Outside the limitations of an overly patriarchal society like Nigeria, there are fewer barriers on anyone’s earning potential just because they are women.&lt;/p&gt;
+&lt;p&gt;So essentially, men have to get comfortable with the possibility that our woman could make more than us at some point, even if it doesn’t start out that way.&lt;/p&gt;
+&lt;p&gt;This shatters the cookie cutter expectation of a man to be ‘a provider’. Don’t get me wrong, a man’s responsibility is first to his family, but let’s not limit it to just material provision.&lt;/p&gt;
+&lt;p&gt;The danger of tying your worth or value solely to material provision is the randomness or fickleness of life. Life is so dynamic that one day you could be the cock of the walk, and the next a feather duster - you could lose whatever fortune you have accumulated, or lofty position.&lt;/p&gt;
+&lt;p&gt;Listening to a similar conversation on &lt;a href="https://youtu.be/f6WW9g5hqLI?si=uQEv4K6q8yIb9FiZ&amp;amp;t=5935"&gt;Ebuka’s mentality podcast&lt;/a&gt; recently, I agreed with Seun Kuti’s perspective that in Nigeria, masculinity had been devalued to just accumulation of material possessions, and Banky W’s that men had to find self worth outside their material possessions, or any other external validation. &lt;/p&gt;
+&lt;p&gt;So as a thought experiment, here are some other things that could be used to measure a man instead of his wallet. &lt;/p&gt;
+&lt;p&gt;Integrity - does he say what he means and mean what he says? Can you trust his word/actions?&lt;/p&gt;
+&lt;p&gt;Is he able to speak up and say his mind regardless of who is involved. &lt;/p&gt;
+&lt;p&gt;Is he kind, fair, and firm as needed?&lt;/p&gt;
+&lt;p&gt;Does he combine resources creatively, or approach problems expecting to be capable of solving them?&lt;/p&gt;
+&lt;p&gt;How about saving, long term planning and thoughtful utilization - is he a good manager? &lt;/p&gt;
+&lt;p&gt;These are arguably all things that can be cultivated regardless of the size of a man’s wallet.&lt;/p&gt;
+&lt;p&gt;What do you think? What makes a man, a man?&lt;/p&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>Mapping Mammy</title><link href="https://chunnodu.com/blog/mapping-mammy.html" rel="alternate"/><published>2025-11-12T00:00:00+01:00</published><updated>2025-11-12T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2025-11-12:/blog/mapping-mammy.html</id><summary type="html">&lt;p&gt;After a few trial runs testing Retailytics with stakeholders and some early users they enlisted …&lt;/p&gt;</summary><content type="html">&lt;p&gt;After a few trial runs testing Retailytics with stakeholders and some early users they enlisted, it was clear that we needed to stress-test the application in a controlled environment, a sandbox where we could collect some proof of concept data and also capture any usability issues with the application before rolling it out to a wider audience.&lt;/p&gt;
+&lt;p&gt;It struck me that the NYSC camp could be the perfect testing ground because of two key resources - corps members aggregated in one location, and a market - mammy!&lt;/p&gt;
+&lt;p&gt;Every Nysc camp has a mammy market. Predominantly filled with bars/restaurants/canteens/kitchens, there are also other stores. In my own time on camp I remember passing by a barber, and having a tailor amend my uniform.&lt;/p&gt;
+&lt;p&gt;A week should be sufficient for each enumerator to signup for the application, get assigned, and map out as many stores as they could. 
+We’ll give cash prizes for the top 3 mappers, and also shortlist the top 10-20 as enumerators when the project goes live. &lt;/p&gt;
+&lt;p&gt;Mapping Mammy is possible in 3 easy steps.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Join the &lt;a href="https://t.me/+Dd2Kd1shy7lkZjMx"&gt;telegram channel&lt;/a&gt; which has these resources.&lt;ul&gt;
+&lt;li&gt;link to the &lt;a href="https://www.retailytics.ajared.ng"&gt;landing page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;demo video for using the app&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sign up to use the application at &lt;a href="https://www.retailytics.ajared.ng"&gt;retailytics.ajared.ng&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;When you are verified, start mapping stores in Mammy Market with Retailytics.&lt;/li&gt;
+&lt;/ol&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>Hello Crypto Twitter</title><link href="https://chunnodu.com/blog/hello-crypto-twitter.html" rel="alternate"/><published>2025-10-22T00:00:00+02:00</published><updated>2025-10-22T00:00:00+02:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2025-10-22:/blog/hello-crypto-twitter.html</id><summary type="html">&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;I’m rejoining crypto twitter this week for one year to see how it goes …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;I’m rejoining crypto twitter this week for one year to see how it goes.&lt;br&gt;The last time I bought crypto for speculation and not international money transfers was probably in 2017, before the crash that year. &lt;br&gt;Once I was back even, sold off everything and never bothered again.&lt;/p&gt;&amp;mdash; chu@ajaRED (@AjaredIA) &lt;a href="https://twitter.com/AjaredIA/status/1980990182234149343?ref_src=twsrc%5Etfw"&gt;October 22, 2025&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;Crypto was one of the largest wealth transfers of my generation, but a regret is that I was on the sidelines, even though I knew about it from 2013. &lt;/p&gt;
+&lt;p&gt;For about a year now I’ve been nursing the idea of taking a position again and with the recent crash of 10/10, there’s no better time than the present, so, Hello Crypto Twitter.&lt;/p&gt;
+&lt;p&gt;My goal is mainly to learn, and be active in case there’s an opportunity for outsize returns. I’ve found that investing money somewhere forces me to pay a more active interest in  that space.&lt;/p&gt;
+&lt;p&gt;At the very least i'd like to avoid blowing up my portfolio and going to zero, or having to exit before the end of the year.&lt;/p&gt;
+&lt;p&gt;Here’s my investment strategy. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proposed Portfolio&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Total Investment = $2,000&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stable Coins - $1000 - 50%&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;BTC - $250 - 12.5%&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Solana - $250 - 12.5%&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ZCash - $300 - 15%&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Monero - $100 - 5%&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gambling on meme coins - $100 - 5%&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;My investment thesis&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Holding  BTC and stable coin represents my belief that crypto is here to stay, and also some risk management. Besides theft, this is a way to safeguard my portfolio from going to zero.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Holding Solana because it seems like the Ethereum of this era: ready for application builders.
+    a) I’ve seen superteamNG folks hard at work at sterling bank co-working space in Abuja several times.
+    b) a lot of activity and building on this chain, very similar to ethereum last decade. 
+    c) Nikita being an advisor is a strong signal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Privacy coins (Zcash and Monero) are almost as inevitable as crypto, since not everyone is comfortable with their on-chain activity being exposed for interrogation.&lt;/li&gt;
+&lt;li&gt;Degenerate gambling. I hate losing money, so 5% is a great marker of the margin of pure financial risk I typically have appetite for.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rules of my game&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Start out with this initial allocation, adjust fairly conservatively after 3 months, and also share my portfolio balance every month, as a Tiny Experiment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If there are strong movements in the market, I can rebalance my allocations to take advantage, taking care not to blow up.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Complete any crypto side quests for learning or connections.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Learning areas&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Mint and sell an NFT&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Purchase and exchange even smaller  crypto/meme coins&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Navigating pumpfun&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hardware wallets&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Analyzing blockchain transactions&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Smart contracts: a mechanism to distribute money[rewards] for contributors who provide correct data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>Follow you again.</title><link href="https://chunnodu.com/blog/follow-you-again.html" rel="alternate"/><published>2025-10-20T00:00:00+02:00</published><updated>2025-10-20T00:00:00+02:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2025-10-20:/blog/follow-you-again.html</id><summary type="html">&lt;p&gt;&lt;img alt="&amp;quot;follow you&amp;quot;" src="../images/ff_you.jpg"&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"Follow you again. Me I no go follow you again."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One way I’ve learned …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="&amp;quot;follow you&amp;quot;" src="../images/ff_you.jpg"&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"Follow you again. Me I no go follow you again."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One way I’ve learned to deal with social media is to aggressively curate my feeds and optimize for my interests.&lt;/p&gt;
+&lt;p&gt;I also try my best to filter out negative material and preserve my headspace.&lt;/p&gt;
+&lt;p&gt;This means that if I repeatedly get a bad vibe from your content, no hard feelings but me I no go follow you again.&lt;/p&gt;
+&lt;p&gt;Now, a bad vibe doesn’t always mean you did anything wrong. Sometimes it could even just be my own ego, insecurity or envy jumping out, but whatever it is, I won’t entertain it in my personal space.&lt;/p&gt;
+&lt;p&gt;So if your social media content disrupts or pollutes my headspace, kills my vibe? Me I no go follow you again.&lt;/p&gt;
+&lt;p&gt;P.S If you like Afrobeats, I listened to this young kid called Mavo so many times over the last few weeks that I made a playlist. More on why on earth I like his music, later.&lt;/p&gt;
+&lt;iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/best-of-mavo/pl.u-V9D77MdH3MkL13"&gt;&lt;/iframe&gt;</content><category term="notes"/><category term="chunitycard"/></entry><entry><title>Hearts run cold</title><link href="https://chunnodu.com/blog/hearts-run-cold.html" rel="alternate"/><published>2025-07-14T00:00:00+02:00</published><updated>2025-07-14T00:00:00+02:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2025-07-14:/blog/hearts-run-cold.html</id><summary type="html">&lt;p&gt;“In America, you don’t just visit people. You have to call them in advance …&lt;/p&gt;</summary><content type="html">&lt;p&gt;“In America, you don’t just visit people. You have to call them in advance to let them know your plans.” my older cousin said. &lt;/p&gt;
+&lt;p&gt;This was part of a gradual process of reorientation to the norms of the more individualistic west, after moving from 22 years of having a strong community of family, friends and associates, where being in the neighborhood was a good enough reason to stop by unscheduled.&lt;/p&gt;
+&lt;p&gt;Even with friends that moved around the same time I did, I saw relationships morph over time as these norms codified. Eventually, you get so used to not wanting to depend on or inconvenience others that your tolerance for being inconvenienced drastically reduces. &lt;/p&gt;
+&lt;p&gt;This manifests in many ways, from slight irritation, to flat out refusing to be imposed on. Giving money is fine, it’s usually a token that doesn't really inconvenience you. Time however, or your space is another thing.&lt;/p&gt;
+&lt;p&gt;Several times this summer, I have caught myself resenting being inconvenienced, and had to take a step back to wonder if my heart is growing cold like in Matt 24:18.
+&lt;img alt="screenshot" src="../images/matt24_12.png"&gt; &lt;/p&gt;
+&lt;p&gt;Am I losing my values of community? Is my comfort really more important than playing a role in another person’s wellbeing? &lt;/p&gt;
+&lt;p&gt;My sister mentioned recently that the price of community can sometimes be inconvenience, and it was a reminder to be grateful to have people who can count on me.&lt;/p&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>OOO June 2025</title><link href="https://chunnodu.com/blog/ooo-june-2025.html" rel="alternate"/><published>2025-06-27T00:00:00+02:00</published><updated>2025-06-27T00:00:00+02:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2025-06-27:/blog/ooo-june-2025.html</id><summary type="html">&lt;p&gt;I saw this great thread about utilizing your OOO message to give short updates. Very …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I saw this great thread about utilizing your OOO message to give short updates. Very clever.&lt;/p&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Early in my career, I used my OOO message to stand out to senior executives, here are the 3 things I included (it works):&lt;/p&gt;&amp;mdash; Jason P. Yoong (@JasonYoong) &lt;a href="https://twitter.com/JasonYoong/status/1938310736469791181?ref_src=twsrc%5Etfw"&gt;June 26, 2025&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;1/ Two to three interesting projects I was working on (e.g. co-chairing a non profit industry event, launched XYZ marketing campaign). Signaled my growth. &lt;br&gt;&lt;br&gt;2/ Recent work wins (e.g. press article, industry award). Signaled my results and credibility. &lt;br&gt;&lt;br&gt;3/ One to two insightful…&lt;/p&gt;&amp;mdash; Jason P. Yoong (@JasonYoong) &lt;a href="https://twitter.com/JasonYoong/status/1938310738394984681?ref_src=twsrc%5Etfw"&gt;June 26, 2025&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;In that fashion, here’s my OOO message for the month.&lt;/p&gt;
+&lt;p&gt;Two to three interesting projects I’ve been working on&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;retail intelligence. Read &lt;a href="https://chunnodu.com/blog/retail-intelligence.html"&gt;a brief.&lt;/a&gt; Code &lt;a href="https://github.com/Ajared/retailintelligence/tree/dev/backend"&gt;here:&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;mcp demo for google analytics reporting.&lt;/li&gt;
+&lt;li&gt;adding structured data to content websites using &lt;a href="https://www.schemaapp.com/"&gt;schemaapp&lt;/a&gt; to improve leads from organic search.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Recent work wins &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;joined editorial board for pdma’s KHub&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://thisisplace.org/about/"&gt;Place data trust&lt;/a&gt; membership approved&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One to two insightful things I learned.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Breadboard and fat marker prototyping from Shape Up.&lt;/li&gt;
+&lt;li&gt;Making tiny experiments instead of big bang projects.&lt;/li&gt;
+&lt;li&gt;Play as a way to make sense of AI&lt;/li&gt;
+&lt;/ul&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>Retail Intelligence</title><link href="https://chunnodu.com/blog/retail-intelligence.html" rel="alternate"/><published>2025-06-19T00:00:00+02:00</published><updated>2025-06-19T00:00:00+02:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2025-06-19:/blog/retail-intelligence.html</id><summary type="html">&lt;p&gt;The objective of the retail intelligence team is to gather and make sense of information …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The objective of the retail intelligence team is to gather and make sense of information around retail activities - that is, how people buy and sell.
+The primary lens for our observations are:
+Residential - where they live.
+Commercial - where they do business activities, especially buying and selling.&lt;/p&gt;
+&lt;p&gt;The technology team will be responsible for building solutions to support this objective.
+The business team will be responsible for prospecting for opportunities to build and sell solutions around retail intelligence, customizing our analytics for businesses and organizations.&lt;/p&gt;
+&lt;h2&gt;Business Model&lt;/h2&gt;
+&lt;p&gt;Our business model will start off using contractors as enumerators. For our pilot in Abuja, we shall source primarily from the NYSC because of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;predictable seasonal availability of contractors in multiple batches.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;institutional memory of similar collaborations for elections, etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;80% of them need/want supplementary income&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;geographical spread in terms of distribution across states. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;hyperlocal spread - in every state they are assigned a PPA*, 
+and also a weekly CDS requirement to meet in various districts or LGAs which gives us a physical touchpoint, in a fairly central location with them weekly.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Long term, a key part of our business model will be getting the power of the crowd to help with accurate enumeration. &lt;/p&gt;
+&lt;p&gt;Once we have the data, we will provide detailed intelligence including spatial analysis, relationship path analysis, e.t.c.&lt;/p&gt;
+&lt;h2&gt;Start Up Operations&lt;/h2&gt;
+&lt;p&gt;The technology team has come up with &lt;a href="https://retailintelligence.vercel.app"&gt;a simple application&lt;/a&gt; for collecting data we are interested in. Currently it is called the Retail Intelligence App, but could also be called a {XXXX}mapper**. &lt;/p&gt;
+&lt;p&gt;The business team can use this to approach any prospects who would like to collect data, to understand their use case and discuss customization for them.&lt;/p&gt;
+&lt;p&gt;The goal for start-up/proof of concept is to use this application to gather primary data between Sept-Nov 2025, and provide summary analytics in a report, by December 2025.&lt;/p&gt;
+&lt;p&gt;We will either collect this primary data ourselves for resale as a product, or as a service provided for interested organizations.&lt;/p&gt;
+&lt;h2&gt;Notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PPA - Place of Primary Assignment(Organization)&lt;/li&gt;
+&lt;li&gt;{XXXX} - refers to any relevant point of interest e.g Estates would be the {Estate} Mapper.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>DLVR 2.0</title><link href="https://chunnodu.com/blog/dlvr-20.html" rel="alternate"/><published>2025-06-15T00:00:00+02:00</published><updated>2025-06-15T00:00:00+02:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2025-06-15:/blog/dlvr-20.html</id><summary type="html">&lt;h2&gt;Next Steps: DLVR 2.0&lt;/h2&gt;
+&lt;p&gt;Build a listing site which becomes the premier destination for …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Next Steps: DLVR 2.0&lt;/h2&gt;
+&lt;p&gt;Build a listing site which becomes the premier destination for finding delivery agents, riders and delivery product and service providers.
+Our customers will be businesses, organizations, individuals.
+Our delivery method will be map based on our website and also via messaging apps e.g whatsapp.&lt;/p&gt;
+&lt;h3&gt;9 things we must do well&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Keep an updated listing of all delivery players(delivery agents, riders, delivery product and service providers)&lt;/li&gt;
+&lt;li&gt;Verify identity of users who will be actors on our platform.&lt;/li&gt;
+&lt;li&gt;Provide a way for users to add to our listing and view information without leaving messaging apps like whatsapp, telegram.&lt;/li&gt;
+&lt;li&gt;Show points of interest from our listing visually on a map with analytics.&lt;/li&gt;
+&lt;li&gt;Provide a way to rate and review delivery actors.&lt;/li&gt;
+&lt;li&gt;Take payment for deliveries, forward to provider.&lt;/li&gt;
+&lt;li&gt;Recommend delivery products and services.&lt;/li&gt;
+&lt;li&gt;Maintain a Blacklist of riders or delivery service providers.&lt;/li&gt;
+&lt;li&gt;Offer a store for purchasing delivery products and services. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Approach to Product Development&lt;/h3&gt;
+&lt;p&gt;Shape Up: Pick things we can scope to deliver in 6 weeks.
+Reward developers with bounties for features shipped, not paid full-time employment.
+Promote the best solutions using our listing, whether or not we built them.
+Collaborate with the ecosystem on the roadmap to make deliveries better. &lt;/p&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>Some Contrary Thoughts</title><link href="https://chunnodu.com/blog/some-contrary-thoughts.html" rel="alternate"/><published>2025-06-01T00:00:00+02:00</published><updated>2025-06-01T00:00:00+02:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2025-06-01:/blog/some-contrary-thoughts.html</id><summary type="html">&lt;p&gt;I think recognizing when your opinion differs from the crowd is a great exercise in …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I think recognizing when your opinion differs from the crowd is a great exercise in self-awareness, regardless of whether that opinion is right or wrong. With that disclaimer, here are a few contrary thoughts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Iq tests are bullshit - with the same circumstances, people from every group on earth are able to perform at a high level.&lt;/li&gt;
+&lt;li&gt;Also, specialization compounded over time is the major differentiator, not an innate capability.&lt;/li&gt;
+&lt;li&gt;The world of work is trending back to the old days when each person or family was essentially trading with the larger world or business environment, versus the industrialist age of working for a large enterprise and trading all your time for a salary.&lt;/li&gt;
+&lt;li&gt;AGI is nowhere in sight, if it means some sort of interconnected, smarter-than-human-uncontrollable superconsciousness that arises from machines.&lt;/li&gt;
+&lt;li&gt;Sam Altman types shilling generative AI and LLMs as evidence of this route to superintelligence that just needs more data and more compute and better algorithms without showing a roadmap to fixing hallucination are borderline grifters.&lt;/li&gt;
+&lt;li&gt;There will be another wave of pan-African consciousness &amp;amp; cooperation, like in the 60's but this time also trade like in the old world pre-colonization.&lt;/li&gt;
+&lt;li&gt;When you say blockchain in your product description I mentally tune out.&lt;/li&gt;
+&lt;li&gt;Donald J. Trump is absolutely hilarious, if you don't see it your political views may have distorted reality.&lt;/li&gt;
+&lt;li&gt;With reasonable exceptions(not dogs), humans should have their animals outside, not live with pets inside the home.&lt;/li&gt;
+&lt;li&gt;Sexual preferences e.g. Straight, LGB are personal matters for individuals interested in having sexual relations and should not be public matters or business concerns.&lt;/li&gt;
+&lt;li&gt;As an African, I consider (discussions about) the war in Ukraine, Iran, Israel to be a considerable waste of my time.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>When you drop the ball.</title><link href="https://chunnodu.com/blog/when-you-drop-the-ball.html" rel="alternate"/><published>2025-01-25T00:00:00+01:00</published><updated>2025-01-25T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2025-01-25:/blog/when-you-drop-the-ball.html</id><summary type="html">&lt;p&gt;If you’re someone who likes to do a lot of things, you might get …&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you’re someone who likes to do a lot of things, you might get in a situation where you’re juggling too many balls and one eventually drops.&lt;/p&gt;
+&lt;p&gt;I lost a client recently and it was a bummer because I had gotten through the hump of getting immersed in the project, and things were starting to take shape.&lt;/p&gt;
+&lt;p&gt;Here’s how I moved forward&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Take responsibility. Even when circumstances might not allow you to do so publicly, make sure that in your quiet moments you have thought through the situation and identified areas you fell short and can improve on.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Don’t nuke the bridge. Retreat as gracefully as you can, deliver any work in progress.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Get over yourself. It’s not the end of the world.At the very least You’re more experienced than you were before this.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Give additional value beyond any contracts or agreements.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Send a report at the close of a project. It’s a good way to recap, document lessons learned and milestones, and move on.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>Doing It Yourself</title><link href="https://chunnodu.com/blog/doing-it-yourself.html" rel="alternate"/><published>2024-11-13T00:00:00+01:00</published><updated>2024-11-13T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-11-13:/blog/doing-it-yourself.html</id><summary type="html">&lt;p&gt;It may seem like knowledge workers favor outsourcing all menial tasks to give them time …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It may seem like knowledge workers favor outsourcing all menial tasks to give them time to make more money, but my unpopular opinion is that you shouldn't &lt;em&gt;always automate or outsource&lt;/em&gt;.  things like going into a grocery store to shop, ironing your own clothes, cooking and cleaning. &lt;/p&gt;
+&lt;p&gt;These tasks keep you in touch with being human, allow mental space for that curious type of reflection that happens when your body is doing something drudging that you don’t really need to think about closely, and even sometimes come with learning opportunities.&lt;/p&gt;
+&lt;p&gt;In the past few months I’ve had to move in, unmount a large TV, move it and mount it on a wall again, fill a lot of holes in apartment walls, and paint them over again. What do all these things have in common? Nothing, except that I did them without hiring professional help.&lt;/p&gt;
+&lt;p&gt;As I stood in Home Depot one day and took the sights and smells in, I realized I love the challenge of doing things myself and having to figure it out. It’s always a learning experience, no matter how small. This time, for the price of hilarious laughter from the store attendant, I learned that you need to scrape a coin-sized amount of paint from the wall to have enough for the machine to tell what exact shade of paint it is.&lt;/p&gt;
+&lt;p&gt;Don’t get me wrong, I’m all for convenience and would probably outsource more often than not. However for the TV, the thought of paying someone a few hundred dollars to do something I could easily figure out just didn’t sit well with me, especially when I already had all the tools I needed. &lt;/p&gt;
+&lt;p&gt;When discussing LLMs and how I started using Midjourney with my friend Kyra, I wondered why anyone’s first reaction to new emerging technology would be anything besides just diving in. Why pay for a course to learn how to use ChatGPT, instead of signing up and poking around to see how far you could go first? &lt;/p&gt;
+&lt;p&gt;“A lot of people can’t figure things out. They aren’t used to doing that, so they need to be handheld”, she said. 
+There’s something to be said about how when you do things yourself, it reinforces a confidence that you can figure it out,  and then whenever you need to, you can go ahead and do just that - figure it out.&lt;/p&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>On leaving: Projects.</title><link href="https://chunnodu.com/blog/on-leaving-projects.html" rel="alternate"/><published>2024-11-09T00:00:00+01:00</published><updated>2024-11-09T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-11-09:/blog/on-leaving-projects.html</id><summary type="html">&lt;p&gt;Anything worth doing is worth doing well, but sometimes there’s a fork in the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Anything worth doing is worth doing well, but sometimes there’s a fork in the road that means you have to leave a project in your past.  &lt;/p&gt;
+&lt;p&gt;I strongly believe that the way you leave things also matters just as much as how you behaved while doing the thing.&lt;/p&gt;
+&lt;p&gt;Ideally how I want to leave projects is: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;better than when we started off,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;leaving something that can keep growing, with a life of its own, &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;easier to manage going forward, because of the work I did. &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>Mid-year Check-in: Reading List</title><link href="https://chunnodu.com/blog/mid-year-check-in-reading-list.html" rel="alternate"/><published>2024-06-30T00:00:00+02:00</published><updated>2024-06-30T00:00:00+02:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-06-30:/blog/mid-year-check-in-reading-list.html</id><summary type="html">&lt;p&gt;I haven't read as much as i could this year, so thought it would be …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I haven't read as much as i could this year, so thought it would be good to do a dump of everything I have going on on the book front, just to keep track somewhere outside my head.&lt;/p&gt;
+&lt;h2&gt;Read recently&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lateral thinking, Ed de Bono: Long, arduous read that slowed my reading pace for months, but great because it helped me understand more about how the mind operates. I feel confident that I have the basic skills in lateral thinking now, and can always refer to it when needed.&lt;/li&gt;
+&lt;li&gt;Secrets of Consulting: Another read that took longer than needed, lots of fieldstones but unfortunately I wasn’t capturing them when reading.&lt;/li&gt;
+&lt;li&gt;A technique for producing ideas &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Currently I’m reading&lt;/h2&gt;
+&lt;h3&gt;Hardcopy:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Product Managemement Sacred Seven: It’s a 650+ page textbook and I’m about halfway through. I’ve been reading and mindmapping notes so it hasn’t been the fastest.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How to be Rich by Paul Getty. This one snuck into my reading list and I plan to finish it this week. I love books from the 60’s, and no it’s NOT a get rich quick book, haha.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Digital&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Weingberg on Writing: The fieldstone method - I like this one a lot, needed something more free flowing after all the dense books this year, plus I’ve already learned things I can apply right away.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Generating product ideas&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;I’m looking forward to reading.&lt;/h2&gt;
+&lt;p&gt;I didn’t start off the year with these books on my reading list but they’re great additions, so there.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Slow Productivity: Cal Newport&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ghostroots - Pemi Aguda: Yo, &lt;a href="https://www.amazon.com/Ghostroots-Stories-Pemi-Aguda/dp/1324065850"&gt;Pemi wrote a book&lt;/a&gt;. What better way to seal our debate about the need for fiction than to write one?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Halo Effect.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>Waiting for a Mentor</title><link href="https://chunnodu.com/blog/waiting-for-a-mentor.html" rel="alternate"/><published>2024-01-25T00:00:00+01:00</published><updated>2024-01-25T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-25:/blog/waiting-for-a-mentor.html</id><summary type="html">&lt;p&gt;I see a lot of people online asking others who’ve demonstrated some mark of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I see a lot of people online asking others who’ve demonstrated some mark of mastery in an area to be their mentor. Now a mentor can provide numerous advantages, especially when they’ve been directly involved in the thing you’re pursuing, so this isn’t an attempt to argue otherwise.
+Let’s face it though, mentors are a privilege that not everyone will have. &lt;/p&gt;
+&lt;p&gt;Mentorship is a two way street and works best when both parties can benefit from each other. Most accomplished people have very limited time, so what’s in it for them? As a neophyte in that field, the chances that you’ll immediately be beneficial to them are very slim, so your public request for mentorship probably won’t get you anywhere. You might be lucky and they could be feeling philanthropic, so still go ahead and shoot your shot.  &lt;/p&gt;
+&lt;p&gt;However, if you’re looking for another way to go about this mentorship business, I’d say keep learning, and build your capacity while waiting for the magic mentor to show up. Here are some things I recommend&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Find and read a book in that area which is recognized as a seminal work, meaning it gets referenced a lot, experts would be familiar with the details, and even non-experts know of its value, even if they’ve never actually read it before.
+In my experience these books are usually older and not on any trending list, but if you asked anyone with years of practical experience in the field, they’d be able to point you in the right direction. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Find a way to start doing the thing. Start by dabbling, then pick up the pace. Teach others what you’ve learned, volunteer if you can afford to, just find a way to do the thing at whatever scale you can, because you need to be able to practice to incorporate all these things you’re learning.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Do other things to increase your surface area of knowledge in that field.  For example, find others who talk about it, take a class, find podcasts, go to events, immerse yourself somehow in a way that the information starts to come to you.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Identify the experts in that field. Every field has them, and you have to be able to spot them amongst all the influencers. Influencers know enough to drop soundbites that seem knowledgeable enough but ultimately they have very little deep or specific knowledge that’ll be useful to you. Twitter is the one social network where experts congregate, so that would be a good place to start. Find the first person(a creator or referenced on a book or podcast), see who they engage, and slowly collate a grouping of similar people. This way you can easily understand what the leading thinkers in this area are focused on, or excited about.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Write your thoughts or learnings on the subject. At this point if you’ve been applying yourself, there’ll be things you know for sure that you know, or don’t know. You’re now an informed beginner, with an opinion of some sort. Be sure to publish these thoughts somewhere you can reference easily. They provide tangible proof that you’re doing the work. You could even stumble into an ‘original’ or new line of thinking this way.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ask questions. If you ask an interesting enough question about something another person, famous or not, is really into they’ll probably engage you as long as they see it. You can construct a ‘thoughtful’ question based on what you think they’d want to see, but my advice is to be genuine and ask to figure out something you’re really curious about, stuck on understanding, or just doesn’t make sense to you.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you do most of these things, you’ll be better placed to find that mentor you’ve been seeking for, or might even realize you don’t &lt;em&gt;need&lt;/em&gt; one as urgently anymore. The level of your output will increase, and at the very least you’ll be able to ask pointed questions instead of a generic, “please be my mentor”. Who knows, you might even get an offer to mentor you, from someone who’s been following and impressed by your progress.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>A time to die</title><link href="https://chunnodu.com/blog/a-time-to-die.html" rel="alternate"/><published>2024-01-22T00:00:00+01:00</published><updated>2024-01-22T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-22:/blog/a-time-to-die.html</id><summary type="html">&lt;p&gt;I grew up going for a long time without people close to me passing, so …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I grew up going for a long time without people close to me passing, so death of loved ones was always this far fetched thing for me, but in the last 2 years I’ve lost two uncles, and an uncle’s wife, people who were all part of my growing up in some shape or form. Most people my age have lost someone close to them by now.&lt;/p&gt;
+&lt;p&gt;As I’ve watched my friends, cousins, parents deal with grief,  thoughts about when it’ll be my turn are inevitable. For my uncles who passed, a sad thing I realized is that we the cousins weren’t as close as our parents were, so that one big extended family we grew up knowing is probably something that will fade out after our own generation.  &lt;/p&gt;
+&lt;p&gt;I read something sobering on the internet about how once you move away from the same place your parents/loved ones live, you have only a finite number of times left to see them.
+If you’re in your 30s with parents are in their 60’s, then if you see them only once a year you realistically have only about 30-40 more times to spend with them, unless you changed your life a bit to get more time in. Crazy, huh.&lt;/p&gt;
+&lt;p&gt;When my grandpa passed, it filled me with so much regret. I’d always thought about how I’d go visit him and find out firsthand things I’d wondered about, like why and how he moved to Jos, what it was like living there as a foreigner for 70 years, what it was like fighting in a world war, and what the real scoop was with the man who turned from a monkey to a human being when shot. Yes, there’s allegedly people in parts of plateau state who can turn to animals for sport, but that’s a story for another day.&lt;/p&gt;
+&lt;p&gt;It’s dawned on me that as I get older, it will increasingly be our generation’s parents, uncles, who have reached their time to die. When that time comes for my loved ones, I never want to feel that regret of “I should have done this or that” again. So going forward I’ll ask my questions, say the things I want to, call more often, visit more often, and prioritize the people I love while we’re all still here.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>“The Talk”</title><link href="https://chunnodu.com/blog/the-talk.html" rel="alternate"/><published>2024-01-21T00:00:00+01:00</published><updated>2024-01-21T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-21:/blog/the-talk.html</id><summary type="html">&lt;p&gt;As a teenager, depending on how involved your parents were, you probably got some version …&lt;/p&gt;</summary><content type="html">&lt;p&gt;As a teenager, depending on how involved your parents were, you probably got some version of “the talk” from your parents. You know, the sex talk. Hopefully it wasn’t prompted by you getting caught in a compromising position, but at a minimum it was some variant of caution about the opposite sex, dating, sex in general, and what kind of behavior is expected or acceptable of you. What they don’t tell you is that if you live twice that long, there’s an adult version of the talk - the marriage talk.&lt;/p&gt;
+&lt;p&gt;How you should think about marriage, when you should, what kind of person you should marry, if you need help with getting married, why you’re not responding to all the people they show you, if you actually want to get married. All these are fair game for this talk. What’s worse still is that other people in your life who aren’t your parents might feel it necessary to give you this talk as well, so get ready.&lt;/p&gt;
+&lt;p&gt;Another thing they don’t tell you is that the talk will evolve to be a conversation topic among your peers too. From “hey this person is getting married”, to why they’re not interested in marriage, or not married, or divorced, to why you’re not married. Fascinating stuff. I wonder if there are any other talks which become normal past a certain age, and why no one is warning me in advance about them now.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Na Money, Na Money.</title><link href="https://chunnodu.com/blog/na-money-na-money.html" rel="alternate"/><published>2024-01-20T00:00:00+01:00</published><updated>2024-01-20T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-20:/blog/na-money-na-money.html</id><summary type="html">&lt;p&gt;One of the things that’s struck me about being in Nigeria is how transactional …&lt;/p&gt;</summary><content type="html">&lt;p&gt;One of the things that’s struck me about being in Nigeria is how transactional male-female relationships can be.
+In Abuja where I’ve spent the most time, bars, clubs, the regular streets and even dating apps are filled with women who either want to give you a ‘massage’ or are okay with going back home with you, for a fee of course. If you ever have a one night stand, don’t be surprised when there’s a bill in the morning.&lt;/p&gt;
+&lt;p&gt;In actual relationships, there’s the expectation of provider(read as bill payer) role to be played as part of courting. Paying for women’s expenses, even their transportation to first dates is common, sometimes outrightly demanded. Some men put partners they have no legally binding relationship yet with, on a monthly allowance.
+It’s not one sided at all though, there’s a healthy supply-demand interaction going on here. From the word on the street, women get directly propositioned all the time for money by ‘bold Abuja men’.&lt;/p&gt;
+&lt;p&gt;However you slice it, dating and relationships cost money but the hope is always that the benefits outweigh this cost. When it becomes so transactional though, my question is do you really want to keep “paying-as-you-go”? 
+It’s another reason why strip clubs never appealed to me - even harmless conversation loses its fun when you know that the main thing sustaining the interaction is the received funds, or prospect of it from your wallet, and it’s less about you as a person.&lt;/p&gt;
+&lt;p&gt;If all a man’s appeal is his wallet, then what use is there for any specific man? All men with the same wallet size would be interchangeable. 
+While a lot of it has to do with the economic state of things where there’s just a lot of hungry people, some of it is probably cultural, and that’s something I want to look into more. In all this I wonder, how do men who aren’t financially stable even cope?&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Doing it afraid.</title><link href="https://chunnodu.com/blog/doing-it-afraid.html" rel="alternate"/><published>2024-01-15T00:00:00+01:00</published><updated>2024-01-15T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-15:/blog/doing-it-afraid.html</id><summary type="html">&lt;p&gt;In the middle of all the hullabaloo about Abuja being unsafe, I camped at 2500 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In the middle of all the hullabaloo about Abuja being unsafe, I camped at 2500 ft above sea level on Maitama hills this past weekend along with some old and new friends. Some were locals, people who lived or worked at the bottom of the hill, &lt;/p&gt;
+&lt;p&gt;We took a few ‘precautions’, like taking an exploratory hike earlier in the day, arming ourselves with machetes, and also letting locals in the area know we were camping. These were mainly for psychological safety than any real prevention of mishap. In case things really went south I sent my brother 6000 miles away details of who I was going with, where the car was parked, and what time to raise an alarm if he hadn’t heard back from me. &lt;/p&gt;
+&lt;p&gt;All went well and we had a great time camping overnight. Set up and slept in tents, drank palmwine, ate real fruits, roasted yam, fish and meat on the fire, and I even cooked a pepper sauce up there. When I shared pictures and videos and everyone kept asking me, “you no de fear kidnappers?”, “you slept in the bush overnight”. While I was worried, and had thought several times about if it was safe to go ahead with the plan, it was still a thing I wanted to do, so I did. &lt;/p&gt;
+&lt;p&gt;That was the 2nd or third time in as many weeks I had gone out of my way to do something even while being scared. Not endorsing recklessness, but in so many parts of life, fear can keep you from doing things you really want to or should do. A bible verse says - The lazy one [manufactures excuses and] says, “There is a lion outside! I will be killed in the streets [if I go out to work]!” . When you’re overly fearful it’s something similar because there are more than enough reasons never to leave your house, or comfort zone. Fear can be crippling when we don’t realize that it’s okay to be afraid, and then still find a way to do the thing. I highly recommend it.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Upsidownistan</title><link href="https://chunnodu.com/blog/upsidownistan.html" rel="alternate"/><published>2024-01-12T00:00:00+01:00</published><updated>2024-01-12T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-12:/blog/upsidownistan.html</id><summary type="html">&lt;p&gt;How do you solve a problem like Nigeriaaa? I think the first step would be …&lt;/p&gt;</summary><content type="html">&lt;p&gt;How do you solve a problem like Nigeriaaa? I think the first step would be to define it. So, how do you start to define Nigeria? When you understand it as a land where nothing happens the way it should you will have some clarity, and then patience. Here are some examples, excuse my generalizations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In the west, poor people typically eat lower quality food than rich. Organic food is more expensive than processed food. In Nigeria, you start off eating organic food fruits and vegetables because they’re affordable, or you probably grew your food as a rural dweller. As you move up the economic ladder, you acquire a taste for foreign food which is mainly processed, inorganic or filled with preservatives for long shelf life.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Poorer people ‘trek’, to save costs and are they’re generally able bodied and fit. Richer people get driven around everyday and typically get very little physical activity, except for the handful intentional about exercise and fitness.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The elite around the world are supposed to be models of good behavior, typically restrained or almost invisible in public, patrons of the arts, and charged with raising the overall consciousness of people in the society. In Nigeria most of the elite are crass, treat people like trash, and even with all their foreign exposure, model the most disgraceful behavior in public, because they can and do get away with it. Quiet philanthropy? Try ostentatious displays of wealth and privilege.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In America you find the natural hair movement as people become more conscious and upwardly mobile. On average in my experience women comfortable wearing their natural hair are typically more educated, accomplished and have a stronger sense of self. In Nigeria, the working class women wear mainly natural styles, as they are more affordable but swap these out for more weaves and wigs as they  grow financially and move up the ladder. I even heard a college educated girl say, “do you expect me to have my natural hair at my wedding?”.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;People who offer services on sharing economy platforms like Uber and Lyft, want you to do offline trips without realizing that the only reason you want to trust a stranger on the internet is because of the safety of having a platform monitoring your interaction and transactions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There are limits to how much cash you can get over the counter at the bank, and when you do get your measly N10,000 or N20,000 it comes in dirty tattered notes, but when you go to a party on the weekend, money changers have hundreds of thousands of “mint” Naira, ready to sell to you, plus a commission of course.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These days I call it “upsidownistan”, the land where most things are upside down of what they ought to be.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Limitless Writing Potential</title><link href="https://chunnodu.com/blog/limitless-writing-potential.html" rel="alternate"/><published>2024-01-11T00:00:00+01:00</published><updated>2024-01-11T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-11:/blog/limitless-writing-potential.html</id><summary type="html">&lt;p&gt;Recently, I read a tweet from a popular blogger about how he’d kept a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Recently, I read a tweet from a popular blogger about how he’d kept a 500+ day writing streak by planning each post out the night before, and writing down the topic and short blurbs of related ideas in his journal . Great technique, so I added it to my nightly routine this year. 
+Last night, I tried to pick my topic for today, and went to bed with no luck. As I sit down to write after my walk today  though, several new ideas and angles to tie up some existing drafts have popped up&lt;/p&gt;
+&lt;p&gt;If you’re a thinker, you probably have so many unformed or unfinished thoughts in your head at any point in time that there’s a lot of directions to go with writing.
+The harder choice now becomes deciding what story or idea is worth sharing, picking what feels right, editing, and deciding the scope of the narrative.&lt;/p&gt;
+&lt;p&gt;It’s my 3rd go at shipping 30 for 30, and one thing that stands out this time around is that finding a topic is way easier. Is this what’s called “finding your voice?”&lt;/p&gt;
+&lt;p&gt;I recall wondering how the guys who wrote the daily devotionals could come up with a new topic each day. From experience now, I see that with a good writing habit you could conceivably write and publish a post every day of your life.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>"Nomadism: Up and Downsides"</title><link href="https://chunnodu.com/blog/nomadism-up-and-downsides.html" rel="alternate"/><published>2024-01-09T00:00:00+01:00</published><updated>2024-01-09T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-09:/blog/nomadism-up-and-downsides.html</id><summary type="html">&lt;p&gt;I moved four times last year, once the year before, and once the year before …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I moved four times last year, once the year before, and once the year before that. Since my last move, I’ve lived in 2 countries for at least 2 weeks. The upside of this is I really know how to pack now, and have to come understand which of my possessions are essential, and what things are nice to have.&lt;/p&gt;
+&lt;p&gt;While I’m grateful for the affordance to do this, I also have to admit some of its downsides, biggest of which is the break in routine while settling in.&lt;/p&gt;
+&lt;p&gt;It takes me a while to settle down, get accustomed to the neighborhood, start situating my usual routines in this new environment, or find similar routines that I can now explore there. In fact, one of the surest signs that I’ve settled in is when I start cooking. Home cooked food usually happens in 3-4 weeks, before that I haven’t processed the place as home yet.&lt;/p&gt;
+&lt;p&gt;In that time, my schedule is off, my daily journal typically has a lot of empty pages, and the only thing that probably doesn’t suffer is work, because work keeps all the lights and other things on.&lt;/p&gt;
+&lt;p&gt;Like beavers and magpies human beings collect knick knacks over time to make their living space more comfortable. While you can travel with some of these things, you can’t, or shouldn’t pack the whole house with you for a short stay (anything less than a year) so another downside is the loss of some of your own specific comforts gathered over time, which also makes settling in harder to accomplish.&lt;/p&gt;
+&lt;p&gt;This year, I want to get better at settling in to new places, and see if my full routines can be up and running in a week or two. I should also keep a checklist of all the essentials that help me settle in, and make sure to pack them.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Current Thoughts on Habits</title><link href="https://chunnodu.com/blog/current-thoughts-on-habits.html" rel="alternate"/><published>2024-01-08T00:00:00+01:00</published><updated>2024-01-08T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-08:/blog/current-thoughts-on-habits.html</id><summary type="html">&lt;p&gt;My thinking on routines and habits has started to shift, probably because of what I …&lt;/p&gt;</summary><content type="html">&lt;p&gt;My thinking on routines and habits has started to shift, probably because of what I’m being exposed to on twitter about how habits are overrated, and what matters is the desire to do something. So, this is a timestamp of my still evolving thoughts.&lt;/p&gt;
+&lt;p&gt;While I agree that no type of regimen can replace the genuine interest and desire to dive in, I think routines are important for that phase of doing things even when you don’t want to, as a way to build the habit, get to the point where it’s second nature, and hopefully, generate that genuine desire eventually.&lt;/p&gt;
+&lt;p&gt;So while I’m not going to swing all the way and become anti James Clear and habits, I will try to find or clarify the deeper meaning behind each habit I incorporate.&lt;/p&gt;
+&lt;p&gt;For instance, my primary motivation for riding a bike is the feeling of freedom and feeling light while cycling, exploring the world faster than a walking pace, having enough places to go to that are easy bike rides away and  knowing I’m getting a great workout all the same.
+If I was riding just to check off a workout (hello peloton owners) I guarantee it’d happen less often.&lt;/p&gt;
+&lt;p&gt;I will also try to limit the number of habits I try to work on at the same time. If it takes 30 consecutive days to build a habit, I realistically have enough room to build 6-9 great habits every year. That sounds like more than enough.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Superpower</title><link href="https://chunnodu.com/blog/superpower.html" rel="alternate"/><published>2024-01-06T00:00:00+01:00</published><updated>2024-01-06T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-06:/blog/superpower.html</id><summary type="html">&lt;p&gt;One of the things I consider as a superpower is growing up as a middle …&lt;/p&gt;</summary><content type="html">&lt;p&gt;One of the things I consider as a superpower is growing up as a middle class kid in Lagos, Nigeria. This allowed me form a strong identity, values and sense of self before I needed to venture into the larger world and hear what it thought about people who looked like me. A big concern is that economic migration could make my kids miss out on this.&lt;/p&gt;
+&lt;p&gt;I didn’t have to deal with those concerns about racial superiority or inferiority, questions of identity, relationships celebrity, popularity that tend to plague children of African descent who grew up in the west. There’s either a rush to conform to the status quo, an overcompensation for not belonging or worse still, no real push either way as they slip into the cracks of everyday society. &lt;/p&gt;
+&lt;p&gt;The worst scenario though, would be having kids who are completely lost, where their heritage has no strong bearing on their person.  You know, the type of kids to put on a cringeworthy Nigerian accent as a joke, who are generally  clueless about the real state of anything at home. To the point where Nigeria, west Africa and Africa - places people with no direct connection except their skin tone are increasingly feeling compelled to go visit - just never register on their scale of interest or desire. &lt;/p&gt;
+&lt;p&gt;As I get to the age when I’m starting to think about kids, a big question is what kind of world I want to bring them into, and where their formative years should be spent. It seems cruel to deprive them of the same superpower I had to just exist, and grow up among people who looked like me, with fewer questions of self-worth from the society around me.&lt;/p&gt;
+&lt;p&gt;Don’t get me wrong, everything is a tradeoff. Access to knowledge and resources in the west could also be a super-power too. There’s heights I could probably have attained faster growing up in the states. At what cost though? Being distanced from my culture would be one trade too many. 
+I’d like to think that by growing up in Africa I took or am taking the scenic route to self-actualization, one with fuller experiences which still gets me there eventually.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Optimal working schedule.</title><link href="https://chunnodu.com/blog/optimal-working-schedule.html" rel="alternate"/><published>2024-01-05T00:00:00+01:00</published><updated>2024-01-05T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-05:/blog/optimal-working-schedule.html</id><summary type="html">&lt;p&gt;When I consulted for a Long Island market research firm in 2017-18, a development manager …&lt;/p&gt;</summary><content type="html">&lt;p&gt;When I consulted for a Long Island market research firm in 2017-18, a development manager I worked with had an offset schedule where he got to go home at 3pm because he started off early.
+That was a pivotal moment in my journey to design the optimal work life as I realized that for knowledge work, all that’s needed is some overlap time everyday with co-workers, not really all of your time.&lt;/p&gt;
+&lt;p&gt;Once I got the chance, I tried a similar schedule. While living in Dallas on central time, I still worked an early eastern time shift, meaning I was able to close at 3pm local time. Having late afternoons to evenings free weren’t as great as I thought though, I ended up spending a lot of those hours asleep after work. Businesses like the bank had just an hour, so I had to scramble to make it there. My conclusion? having to work first thing in the morning wasn’t healthy. I need some me time to start the day. &lt;/p&gt;
+&lt;p&gt;Also, it meant exercising in the evenings, but my motivation dwindles as the day goes by so naturally a lot of workouts were missed. I think the feeling and motivation boost from exercise works better for me in the mornings to start the day.&lt;/p&gt;
+&lt;p&gt;Since I’m away from North America this quarter, I’m testing out starting work between noon and 3pm, and closing off about 9 hours later. So far, it feels great as I get my most productive hours in the day to focus on me. I can read, workout, learn, and run any personal errands before noon. It seems like I’ve been able to move work to fill up hours when I wouldn’t really be motivated to do much else. Also, I have more time to map out my work day subconsciously instead of rolling right into it. Jury’s still out, but so far so good.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Sunzone Surfer</title><link href="https://chunnodu.com/blog/sunzone-surfer.html" rel="alternate"/><published>2024-01-04T00:00:00+01:00</published><updated>2024-01-04T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-04:/blog/sunzone-surfer.html</id><summary type="html">&lt;p&gt;No close relation to marvel’s fictional character, a sunzone surfer is a person who …&lt;/p&gt;</summary><content type="html">&lt;p&gt;No close relation to marvel’s fictional character, a sunzone surfer is a person who has decided to live across timezones, chase the sun, and get more good weather out of the year.&lt;/p&gt;
+&lt;p&gt;What inspires this? The feeling of life slowing down during the winter, and not wanting to give up 3-4 months of being outdoors in mostly daylight. &lt;/p&gt;
+&lt;p&gt;Say no to Seasonal affective disorder, a type of depression. A sun zone surfer can glide away from these kinds of timezone driven adverse conditions, and live in the clime most suitable for ventures at that point in time.&lt;/p&gt;
+&lt;p&gt;Here is a sample schedule of a sun zone surfer. Perhaps there’s more in this than just a fictional character.&lt;/p&gt;
+&lt;h3&gt;April to June&lt;/h3&gt;
+&lt;p&gt;North East America e.g Toronto: spring -&amp;gt; prioritize.&lt;/p&gt;
+&lt;h3&gt;June to August&lt;/h3&gt;
+&lt;p&gt;North East America e.g Toronto: summer -&amp;gt; prioritize.&lt;/p&gt;
+&lt;p&gt;Abuja, Nigeria:  Rainy season Nigeria -&amp;gt; visit with reason&lt;/p&gt;
+&lt;p&gt;South Africa: winter -&amp;gt; avoid.
+Dallas: Hot summer -&amp;gt; avoid.&lt;/p&gt;
+&lt;h3&gt;September - November&lt;/h3&gt;
+&lt;p&gt;Fall in North East America -&amp;gt; Great weather -&amp;gt; prioritize&lt;/p&gt;
+&lt;p&gt;Wrap up with thanksgiving, head to Africa.&lt;/p&gt;
+&lt;h3&gt;December - March&lt;/h3&gt;
+&lt;p&gt;South Africa: Great weather -&amp;gt; prioritize&lt;/p&gt;
+&lt;p&gt;Abuja: Good weather in December, January -&amp;gt; prioritize.&lt;/p&gt;
+&lt;p&gt;North East America e.g Toronto: winter -&amp;gt; avoid.
+February March - Hot weather in Nigeria -&amp;gt; avoid.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Chasing the Sun</title><link href="https://chunnodu.com/blog/chasing-the-sun.html" rel="alternate"/><published>2024-01-02T00:00:00+01:00</published><updated>2024-01-02T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-02:/blog/chasing-the-sun.html</id><summary type="html">&lt;p&gt;Does anyone born in temperate weather have any business being in extremely cold regions? Well …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Does anyone born in temperate weather have any business being in extremely cold regions? Well, if I never saw a winter or white Christmas again, I wouldn’t shed a tear or miss it. It’s always been at the back of my mind that really successful people could chase the sun and enjoy the best weather all year round but I hadn’t given it much thought in recent times.&lt;/p&gt;
+&lt;p&gt;From having a boat and sailing to warmer climes, to having holiday homes there I’ve heard about different versions of chasing the sun, but none of them really appealed to me this whole time because of the locations. Yes it’s warmer in Mexico, parts of Central America or even Australia but do I really want to live there?&lt;/p&gt;
+&lt;p&gt;Visiting South Africa while working remotely has shown me that it’s a realistic goal, to have the best of both worlds and enjoy great weather almost all year round. Maybe someday I’ll be able to post about how I made it happen.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>The Classic Nigerian Problem</title><link href="https://chunnodu.com/blog/the-classic-nigerian-problem.html" rel="alternate"/><published>2024-01-02T00:00:00+01:00</published><updated>2024-01-02T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-02:/blog/the-classic-nigerian-problem.html</id><summary type="html">&lt;p&gt;I booked an airbnb to be closer to the city center and after my reservation …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I booked an airbnb to be closer to the city center and after my reservation was accepted, got a call while I was out from someone who was supposedly the owner, asking me to cancel the trip since I had booked it for a weekend, and weekend payments took longer to clear, up till next Friday.
+He sent me a similar message on the app, and when I asked for his number, sent a WhatsApp only number where I got voice notes describing this, and the gist was, “I can’t wait till next Friday to get paid for a service rendered this week. Cancel, I’ll refund you the full amount”. Meanwhile the refund policy clearly said no refunds.&lt;/p&gt;
+&lt;p&gt;The entire thing seemed very scammy to me, and felt like either there was a man in the middle trying to rob the real owner of their revenue, or it was an elaborate scam to get you to book and cancel so they keep some or all of the payment.
+I responded to say I wasn’t interested in any offline trip and would want to proceed as normal without canceling. 
+No response. Now this is awkward. 
+Do I really want to interact with this host after refusing to play ball? Or even still stay here?&lt;/p&gt;
+&lt;p&gt;The next day, feeling unsettled about my weekend plans I cancel the reservation, and actually see that it went through with no refund mentioned anywhere. I panic and request help with the refund from support.&lt;/p&gt;
+&lt;p&gt;The host eventually sends a message, saying he got charged an extra $50 because I didn’t request the refund as directed, and this was an example of “the classic Nigerian problem.” His message seems genuine enough, and now I feel bad for not helping him out.&lt;/p&gt;
+&lt;p&gt;In hindsight, after listening to the voice note carefully, it seemed more plausible. I should have given him benefit of doubt and reached out for a refund directly without contacting support. I definitely panicked, but in my defense all this was the complication I was trying to avoid in the first place.&lt;/p&gt;
+&lt;p&gt;As a business man myself, sometimes if an alternative becomes tedious it’s okay to eat the cost of your mistake. The cost of communicating all that to me, and the risk of me getting him fined could have been avoided by just waiting for a payout this time. To be honest, with the way the place I booked looked,  if business was good, getting paid one week later for one weekend out of four shouldn’t be the end of the world. We could have just carried on as normal once I showed reluctance to take things offline. It was lack of a response after I said I wasn’t interested in the offline trip that made me cancel.&lt;/p&gt;
+&lt;p&gt;The classic Nigerian problem is thinking mainly at the individual level, and not thinking enough in systems, and how they are useful structures for a working society. Systems are seen as a nice to have, or for the person who isn’t sharp or connected, so systems don’t work. Things become unpredictable because every where you look, it’s people bypassing the system either for the elite, for money or as personal favors for their own network. &lt;/p&gt;
+&lt;p&gt;Systems however aren’t just there for decoration. Systems act as trusted third parties and reduce the incentive for any individuals to misbehave. Systems govern behavior and help organize societies so its members can act in acceptable fashion. Systems act as trusted third parties to reduce the load on individuals to police every interaction, or only rely on individuals they trust.&lt;/p&gt;
+&lt;p&gt;The danger with offline transactions from any sharing economy platform is that you’re on your own, there’s no longer any incentive for the supplying party to give good or any service. There’s also a safety concern since no trusted third party has a reliable record of that transaction.
+You’re basically taking off a layer of protection and trusting a stranger on the internet. It might make sense to cut-out the middleman in due time, but I’d rather not do that at first go in Nigeria, especially for somewhere I’d be physically staying.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>“Least Resistance”</title><link href="https://chunnodu.com/blog/least-resistance.html" rel="alternate"/><published>2024-01-01T00:00:00+01:00</published><updated>2024-01-01T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2024-01-01:/blog/least-resistance.html</id><summary type="html">&lt;p&gt;“What’s the easiest path down?”, I asked Osi after a great hike up the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;“What’s the easiest path down?”, I asked Osi after a great hike up the Mpape hills until we were 2500ft above sea level. &lt;/p&gt;
+&lt;p&gt;“Water no get enemy. We’ll just follow the trail of the water down. Water follows the path of least resistance, so that’s the easiest way to go.”&lt;/p&gt;
+&lt;p&gt;Heading down, we see two men in the distance approaching us from below. One has a machete, the other is younger. Nothing menacing yet, after all a blade is a legitimate tool for clearing your way up through all the dry brush at this time of the year. 
+In these parts though, crime is common. You could be robbed if people with no scruples happened on you, not because they had a premeditated intent to rob.&lt;/p&gt;
+&lt;p&gt;We can see them clock us and as they disappear behind a ridge I get even more aware. We certainly can’t wait like sitting ducks for them to get here, so keep going. 
+I rehearse scenarios - they have one deadly weapon, I have my now empty water bottle, which could be a blunt force tool, and a fanny pack, which I suppose could be a makeshift sling - and get ready for whatever confrontation happens, even though I haven’t said anything yet to him about the probable danger.&lt;/p&gt;
+&lt;p&gt;We give them a wide berth as we finally get to the same level on the slope. Once we pass and are below, Osi runs down the mountain and I follow until we’ve put a healthy distance between us. Mischief managed, but it’s my reminder to only go hiking with a healthy number of people while I’m here.&lt;/p&gt;
+&lt;p&gt;In this time in Africa, I’ve been forced to remember that a lot of the world isn’t safe for unbothered living and start indexing on core survival skills as the possibility of needing them is no longer so far fetched.
+The currency of physical fitness and endurance, is actually more valuable here, and one I want.&lt;/p&gt;
+&lt;p&gt;Just like water and predators in nature, criminals pick the path of least resistance. If my car ever broke down on a lonely stretch I’d grab my valuables and start sprinting homewards. Even moving like you were fit and healthy could be enough to cause badmen to rethink: is this prey worth the effort to engage? I know I’d want to be out of range by the time they decided.&lt;/p&gt;</content><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>How I’d like to write in 2024.</title><link href="https://chunnodu.com/blog/how-id-like-to-write-in-2024.html" rel="alternate"/><published>2023-12-10T00:00:00+01:00</published><updated>2023-12-10T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-12-10:/blog/how-id-like-to-write-in-2024.html</id><summary type="html">&lt;p&gt;I haven’t figured out my optimal writing routine but this challenge has made me …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I haven’t figured out my optimal writing routine but this challenge has made me realize I need to, so here’s things I’d like to work on to improve my writing in the new year.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;write on a constant schedule, at a fixed time.&lt;/li&gt;
+&lt;li&gt;learn when works best for my writing, since mornings aren’t always reasonable.&lt;/li&gt;
+&lt;li&gt;using some method, e.g the bullet journal method to break down my thoughts and learn an easy structure for journaling.&lt;/li&gt;
+&lt;li&gt;go beyond casual daily posts with industry focused analysis, probably on a weekly(ambitious), or monthly (bare minimum).&lt;/li&gt;
+&lt;li&gt;chaining multiple stories together to explore something in a broader way.&lt;/li&gt;
+&lt;li&gt;getting a version 1 of every story worth sharing  currently stuck in my head out.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>How I write</title><link href="https://chunnodu.com/blog/how-i-write.html" rel="alternate"/><published>2023-12-09T00:00:00+01:00</published><updated>2023-12-09T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-12-09:/blog/how-i-write.html</id><summary type="html">&lt;p&gt;The idea usually comes first, sometimes in the middle of an experience that makes me …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The idea usually comes first, sometimes in the middle of an experience that makes me go “hmm, I should write about this”
+Depending on where this happens I’ll probably write down the topic or keyword and then flesh it out gradually until the day I decide to ship the post. &lt;/p&gt;
+&lt;p&gt;In a journal/notebook, I capture the core idea and if it isn’t explicit yet, at least a sentence I can use to understand my thoughts later on. If walking, I leave a voice note or scribble in my pocketbook. When commuting/traveling, probably in the notes folder on my phone but if on my computer then that’s great because  I can start a new branch in a mind map and map topics and keywords out. &lt;/p&gt;
+&lt;p&gt;When I actually sit-down to write? I open my typewriter for the last 7 years, IA writer in full-screen mode to avoid distractions. 
+I put all the individual ideas down and flesh each one out into paragraphs, maybe starting with the intro, but moving on quickly if it doesn’t flow.&lt;/p&gt;
+&lt;p&gt;Then I edit, check for sentences that are too wordy or ramble, structure the paragraphs, connect them, and add in extras like photos or links, preview in IA writer, and then go publish it somewhere.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Butt Dial</title><link href="https://chunnodu.com/blog/butt-dial.html" rel="alternate"/><published>2023-12-08T00:00:00+01:00</published><updated>2023-12-08T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-12-08:/blog/butt-dial.html</id><summary type="html">&lt;p&gt;Most buttdials these days are actually your hand calling, so it’s easy to forget …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Most buttdials these days are actually your hand calling, so it’s easy to forget, or depending on how old you are, not even realize that the word comes from a real time when phones had call buttons that could be pressed when you sat on them&lt;/p&gt;
+&lt;p&gt;A friend called me and I picked up, only to see a close up view of the bottom half of what was &lt;em&gt;clearly&lt;/em&gt; a female figure, walking. After seconds I started to see water splash on the camera lens, and on the figure, so I had to hang up for fear of being a peeping tom. The back story is she was traveling and in the rain, and that was a literal butt dial, powered by FaceTime.&lt;/p&gt;
+&lt;p&gt;It’s interesting to see how words  can evolve and have even more meanings with the passage of time, or how an event could make you understand or remember the core meaning of a word.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>A Dog Ate It</title><link href="https://chunnodu.com/blog/test-slug.html" rel="alternate"/><published>2023-12-07T00:00:00+01:00</published><updated>2023-12-07T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-12-07:/blog/test-slug.html</id><summary type="html">&lt;p&gt;I hate giving excuses, but sometimes a dog really ate my homework. Life can really …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I hate giving excuses, but sometimes a dog really ate my homework. Life can really throw a row of curve-balls that are really hard to explain to someone who wasn’t present but, make you miss a deliverable.&lt;/p&gt;
+&lt;p&gt;So, the reason today’s post about how I shouldn’t have hacked my blog together will not published as scheduled, even though it was written is because I broke my blog and don’t have time just yet figure out how to resolve the conflicts and push something somewhere.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Copy and Paste in Real Life</title><link href="https://chunnodu.com/blog/copy-and-paste-in-real-life.html" rel="alternate"/><published>2023-12-06T00:00:00+01:00</published><updated>2023-12-06T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-12-06:/blog/copy-and-paste-in-real-life.html</id><summary type="html">&lt;p&gt;I went to undergrad with a guy who wrote a book called A-Z life lessons …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I went to undergrad with a guy who wrote a book called A-Z life lessons. Random, but I still remember that there was a chapter about how “Copy and Paste”, (famous with lazy students) could work in real life too.&lt;/p&gt;
+&lt;p&gt;I generally agree with the sentiment - sometimes if you want similar results, there really isn’t any need to reinvent the wheel. Just find what works and redo or reuse it. That’s how I built this blog you’re reading this on. And this isn’t even limited to the digital world, even the physical.&lt;/p&gt;
+&lt;p&gt;But here’s my addendum - sometimes copy and paste does not work. The trick is knowing when.&lt;/p&gt;
+&lt;p&gt;When I learned to code using “learn python the hard way” by Zed A Shaw - one of the warnings was never to copy any code but always to type it out in order to really know what you were doing.&lt;/p&gt;
+&lt;p&gt;I typically stick to this and type out most things as I’m comfortable with the command line and have been using it since the MS-DOS days of the late 90’s when all I wanted to do was load up a video game from it’s not-so-obvious location.&lt;/p&gt;
+&lt;p&gt;Today i didn't. After copying some code from the API docs, I spent over an hour at work trying to update a database via an endpoint for a client UAT, until I'd tried everything I could think of and finally asked a young engineer for help.&lt;/p&gt;
+&lt;p&gt;In minutes, my problem was solved. Lessons were definitely learned.&lt;/p&gt;
+&lt;p&gt;Lesson 1: Copy and paste works in real life, but not every time. Like when copying code from a rich text box or a word processor&lt;/p&gt;
+&lt;p&gt;Lesson 2: Experience is the best teacher so when in doubt, ask someone experienced at solving similar problems.&lt;/p&gt;
+&lt;p&gt;Lesson 3: Knowing how to state your problem concisely gets you help faster. Busy people generally respond faster when you know enough about your issue and can say your piece in one go.&lt;/p&gt;
+&lt;p&gt;Lesson 4: I like to think I could be a developer in another life but I with enough days like this I’d probably pull all my hair out before putting in my 10,000 hours.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="copypaste" src="../images/copy-paste.png.jpg"&gt;&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Niche Interests</title><link href="https://chunnodu.com/blog/niche-interests.html" rel="alternate"/><published>2023-12-05T00:00:00+01:00</published><updated>2023-12-05T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-12-05:/blog/niche-interests.html</id><summary type="html">&lt;p&gt;I find it fascinating how people can be very normal on the surface, till you …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I find it fascinating how people can be very normal on the surface, till you ask a question that unlocks their ‘thing’ - some niche interest they have. 
+All of a sudden, you see that transformation into a savant who can tell you every detail you could possibly want to know as a casual, about this very specific thing.&lt;/p&gt;
+&lt;p&gt;Sometimes, it could even evolve to be their whole brand as the go to person for that specific thing. Actually, twitter probably has the largest aggregation of people randomly sharing these interests. See &lt;a href="https://twitter.com/arojinle1"&gt;@arojinle1&lt;/a&gt;for a random example. The sweet spot is when you can pursue it in a sustainable way, either by turning it into a career or having one that funds or helps you really go for it. &lt;/p&gt;
+&lt;p&gt;That’s one of the benefits of our social nature as humans, we can all have very niche interests, pursue them well enough to be like a doctor and prescribe just the right dose for other’s casual curiosity. I like having friends with these niche interests cause then I don’t even need to worry about how to surface the good stuff, but can trust them to do the work and provide the best recommendations. 
+Niche or not, we should all find our ‘things’,  and pursue them vigorously, it makes life more interesting for sure.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Embrace the drudgery</title><link href="https://chunnodu.com/blog/embrace-the-drudgery.html" rel="alternate"/><published>2023-12-01T00:00:00+01:00</published><updated>2023-12-01T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-12-01:/blog/embrace-the-drudgery.html</id><summary type="html">&lt;p&gt;Ever noticed that for so many things that you enjoy or are good for you …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ever noticed that for so many things that you enjoy or are good for you, there's a bit of boring, monotonous labor built in? I call it the drudgery of doing or becoming, because great things rarely get done without parts like that. &lt;/p&gt;
+&lt;p&gt;The creator's idea was probably to filter out those who really want something, from those who just talk about it. You think you want it, but can you labor to get it done?&lt;/p&gt;
+&lt;p&gt;When problem solving at work, the exciting part for me is usually figuring out what the problem is and how to solve it. By the time I'm deep in the weeds implementing, that excitement usually dies out and I'm left with the boring work I still have to do anyways to finish up.&lt;/p&gt;
+&lt;p&gt;I think the hills and valleys metaphor holds true here. After the hills of extreme creativity and ideation, there's the valley of drudgery - all the little things you need to do to get that final result your mind's eye can already see.&lt;/p&gt;
+&lt;p&gt;Even with learning a new skill, after the highs of a new experience which has your neurons firing, there's still some grunt work needed to master the skill, or even have a firm grip of the basics.&lt;/p&gt;
+&lt;p&gt;This is a leveler in some ways - not many people can be the thinker upper who constantly finds great ideas, but we can all become better at our crafts or interests by slowly chipping at it, showing up even for the unsexy bits. That takes willpower.&lt;/p&gt;
+&lt;p&gt;It's easy to romanticize accomplishment without thinking about how much boring work comes with it. Although realizing it can be a rude shock, I'm learning to embrace the drudgery and push through it to the results I want.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Thoughts on Minimalism</title><link href="https://chunnodu.com/blog/thoughts-on-minimalism.html" rel="alternate"/><published>2023-11-30T00:00:00+01:00</published><updated>2023-11-30T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-11-30:/blog/thoughts-on-minimalism.html</id><summary type="html">&lt;p&gt;I've heard people use minimalist in a derogatory way, like he's a miser or doesn't …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've heard people use minimalist in a derogatory way, like he's a miser or doesn't like nice things.&lt;/p&gt;
+&lt;p&gt;I think minimalists just pick a smaller surface area of things to care about. Contrast that with maximalists who need to have 100! perfumes, or hoarders who can't let go of stuff and have whole basements filled with things they'll probably never use again.&lt;/p&gt;
+&lt;p&gt;Once you are at a certain quality of life, it doesn't necessarily get better by having more things. You can only sleep in one bed, drive one car and do only one of so many other things at a time, so why accumulate stuff? &lt;/p&gt;
+&lt;p&gt;I saw something online about how most people only end up wearing around 14 pairs of shoes every year - interesting theory, true or not. It definitely made me count my shoe collection and let some go.&lt;/p&gt;
+&lt;p&gt;For me, having less is more - more space to think without the clutter, more resources to optimize on the things you're really interested in, and more time you don't have to waste daily cycling through options like what to wear.&lt;/p&gt;
+&lt;p&gt;Years ago I lived with a younger lad who would only have a few clothes and shoes for that season. Season ends, wardrobe is thrown out and changes. When he moved out his stuff fit in his backpack, one suitcase and a duffel bag. I remember looking at him with envy as i figured out how i'd move everything i had.&lt;/p&gt;
+&lt;p&gt;Being fairly nomadic, living in 3 states in the last 2 years and moving apartments 5 times in that period has made me embrace questioning my needs and brought clarity about what they really are. When you have to lug stuff across the country, you want to make sure it's important.&lt;/p&gt;
+&lt;p&gt;While not everything about me is or will be minimalist, thinking about things in this way helps: there's stuff i need to be functional, other things i need to be comfortable, and some things I could have and go months without using - those can get left behind. &lt;/p&gt;
+&lt;p&gt;My final thought, is that minimalism done well could really be called essentialism - the disciplined pursuit of less. &lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Obnoxious Nigerian</title><link href="https://chunnodu.com/blog/obnoxious-nigerian.html" rel="alternate"/><published>2023-11-29T00:00:00+01:00</published><updated>2023-11-29T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-11-29:/blog/obnoxious-nigerian.html</id><summary type="html">&lt;p&gt;Here are some easy ways to be an Obnoxious Nigerian Abroad.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;When you meet someone …&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;Here are some easy ways to be an Obnoxious Nigerian Abroad.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;When you meet someone from another African country, never ask anything to make you learn about their own experience. Instead, be sure to make fun of their name, culture, music or how they look.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When you meet a Nigerian, ask if they are Hausa Igbo or Yoruba. There are only 3 tribes in Nigeria, so this is really just a pleasantry at this point to put them in the right box in your head.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Laught at everyone else's food and swear no one's food comes close. Who cares if you've never tried it before? Once you're in a new place, find the nearest naija joint so you don't eat any local food.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Playing music? Control the aux - always play afrobeats. When out, nag until the dj submits and plays afrobeats.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Take a whole genre and 'naijarize' it without tributes or homage to the original musicians. Actually, call it a new genre, yours of course. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Remain aggresive and competitive, especially with other Africans. Life is a zero sum game so you must do anything to secure the prize. Be sure to take no social cues, everything can and should be done naija style, preferrably on 'african time'.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When with Nigerians, refer to other Africans as sub-par. When with Africans, laugh at some peculiarity about their country since yours is perfect.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Give people Nigerian names. Does it matter if they've expressed interest or not? No. Just do it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Give your own children foreign names. Your native names come second. If it's not foreign, it's boring.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You left Nigeria, so immediately lose your accent. Fake an accent till you make it or end up with some unitelligible garble, but don't ever be caught dead sounding like your natural Nigerian self again. &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Why I track my personal data</title><link href="https://chunnodu.com/blog/why-i-track-my-personal-data.html" rel="alternate"/><published>2023-11-28T00:00:00+01:00</published><updated>2023-11-28T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-11-28:/blog/why-i-track-my-personal-data.html</id><summary type="html">&lt;p&gt;In today's increasingly connected world, many of our activities - from the type of content we …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In today's increasingly connected world, many of our activities - from the type of content we consume, sleep habits, to how often we walk, talk, listen to music, and use different applications - leave a digital footprint that can tell us more about ourselves.&lt;/p&gt;
+&lt;p&gt;Our devices are already collecting a lot of this data, so with a little attention, keeping track of your personal data points can be a great tool for self-discovery.&lt;/p&gt;
+&lt;p&gt;Tracking my personal data paints a digital picture that I can use to adjust and calibrate my actual behavior. It also makes it visible when I drift off track on a habit i'm practicing or goal i'm chasing, or when patterns change.&lt;/p&gt;
+&lt;p&gt;When reviewing, it's interesting to see how my idea of myself stacks up with real statistics on how I executed. Over time, I've built heuristics to get a feel for what's a typical day, week or month vs a bad or good one. From the mundane: If i didn't share a song that month, it was probably not a fun month...to the more serious: repeated missing entries in my daily journal means i have too much going on and have lost a routine.&lt;/p&gt;
+&lt;p&gt;I've learned to &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;mix physical and digital methods e.g my daily journal complements long term mindmaps for keeping track.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;find ways to automate the tracking through reminders, alarms, calendars, special apps for each hobby or activity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;review this personal data daily, weekly or monthly to make adjustments as needed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Want to be a runner/reader/writer/something equally amazing, why not track how often you actually do the things that help you make progress? We track our spending as adults, so tracking time and habits should be fair game too.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Flaneur</title><link href="https://chunnodu.com/blog/flaneur.html" rel="alternate"/><published>2023-11-27T00:00:00+01:00</published><updated>2023-11-27T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-11-27:/blog/flaneur.html</id><summary type="html">&lt;p&gt;One of my favorite pastimes is to take long walks. Especially those ones where the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;One of my favorite pastimes is to take long walks. Especially those ones where the primary aim isn’t getting somewhere quickly, but instead to discover things along the way. So, when I learned the meaning of the word Flaneur i was pleased to find an apt label that captured that exact experience.&lt;/p&gt;
+&lt;p&gt;Good ol' &lt;a href="https://en.wikipedia.org/wiki/Fl%C3%A2neur"&gt;wikipedia says that&lt;/a&gt; Flâneur derives from the Old Norse verb flana, “to wander with no purpose” and is a French noun referring to a person who is a stroller, lounger or loafer. I definitely identify as one.&lt;/p&gt;
+&lt;p&gt;For me it’s been a great way to explore a new city or area, think through an idea or two, work out something puzzling or troubling, have a conversation with a friend, or even just walk off a heavy meal. I’ve even listened to books or lectures while walking somewhat aimlessly.&lt;/p&gt;
+&lt;p&gt;Cities that allow you do this expansively are high up on my list, especially when there’s art or history to feed your eyes whilst at it.
+Yesterday, I walked through Bushwick with a friend and photographed graffiti, mainly from &lt;a href="https://madhattersnyc.com/blog/best-bushwick-collective-street-art"&gt;the bushwick collective&lt;/a&gt; and it turned out to be a great pick for a photo walk on an otherwise gloomy day.&lt;/p&gt;
+&lt;p&gt;Even though I vaguely recall from biology that walking and talking are so natural for humans, I was still surprised by how pleasant and refreshing something so simple could be. It really should be a no-brainer for me to be a flaneur more often, even without company.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="graffiti" src="../images/IMG_0518.jpg"&gt; &lt;img alt="graffiti" src="../images/IMG_0517.jpg"&gt;,&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>It's Okay to Say No</title><link href="https://chunnodu.com/blog/its-okay-to-say-no.html" rel="alternate"/><published>2023-11-26T00:00:00+01:00</published><updated>2023-11-26T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-11-26:/blog/its-okay-to-say-no.html</id><summary type="html">&lt;p&gt;The combination of ego and a strong desire to keep my word has had me …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The combination of ego and a strong desire to keep my word has had me struggle sometimes with people's requests, but one thing i'm learning as an adult is to feel better about saying No.&lt;/p&gt;
+&lt;p&gt;Typically, when I request a favor it involves reading between the lines - any response that's not an eager yes means a no. I allow the responder gracefully ease out of it without pushing, but not everyone works that way.&lt;/p&gt;
+&lt;p&gt;Some folks don't get the hint, so from experience going quiet or saying I'll get back to them  piles on more pressure and doesn't close things.&lt;br&gt;
+Now, when uneasy about a request I'm learning to plainly say no even if I can't explain exactly why.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"I'd like to loan you the money you requested, but will need it before you can pay it back."&lt;/p&gt;
+&lt;p&gt;"Sorry, I got overwhelmed and won't be able to." &lt;/p&gt;
+&lt;p&gt;"I thought I could get it done easily but it's more complex than I imagined"&lt;/p&gt;
+&lt;p&gt;"Things have changed since i said yes."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I also remind myself to raise a white flag early and renegotiate if I can't continue as expected, and that this is way better than a broken agreement.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>"In Tongues"</title><link href="https://chunnodu.com/blog/in-tongues.html" rel="alternate"/><published>2023-11-25T00:00:00+01:00</published><updated>2023-11-25T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-11-25:/blog/in-tongues.html</id><summary type="html">&lt;p&gt;My undergraduate university was a Christian one and this came with a lot of religious …&lt;/p&gt;</summary><content type="html">&lt;p&gt;My undergraduate university was a Christian one and this came with a lot of religious activities and rules, but that's not exactly today's tale.&lt;/p&gt;
+&lt;p&gt;In the second semester of my first year there was a week of spiritual emphasis: no classes, lots of church stuff day and night. Unsurprisingly, a lot of people got converted or reaffirmed their faith in this period, myself included.&lt;/p&gt;
+&lt;p&gt;At the end of that week, I go to an evening service for all new believers to "receive the gift of the Holy Spirit with the evidence of... speaking in tongues". Of the around 1500 students in my year, maybe 300 - 500 of us showed up.&lt;/p&gt;
+&lt;p&gt;Service starts and the numbers soon reduce as people catch the wave, speak in tongues and move to the next stage where they get prayed for and then can leave for the day. As this keeps happening the uneasy thought pops up: what if nothing happens to me? I quickly dismiss it and try to focus on praying and opening my mouth for the tongues to come out.&lt;/p&gt;
+&lt;p&gt;I'm there with two friends who weren't particularly religious before this, so was very surprised to hear one start speaking in tongues when we were about a hundred people left. He gets moved upfront, and then leaves the chapel in due course. &lt;/p&gt;
+&lt;p&gt;So now it's AJB and I left along with only a handful of others left and enough ministers to pair up with each of us. We focus on holding hands and praying, and more people 'get the tongues'. AJB eventually does too so now from almost 500 people we're down to 3.&lt;/p&gt;
+&lt;p&gt;My fear became real as the service ends with me still standing, no tongues received or spoken. My partner encourages me to keep at it when I get back to the room. Disappointed, I stop trying and when he tries to check in later, say I'm making progress and soon start avoiding him altogether.&lt;/p&gt;
+&lt;p&gt;A friend i told this story feels that like in other social settings most people either convinced themselves it was really happening, or faked it anyways to be part of the group.&lt;/p&gt;
+&lt;p&gt;So are tongues real today, did anyone present actually get the gift?  Can I rule out a situation where everyone played along and just pretended the naked emperor had clothes on? Probably not until it happens to me.&lt;/p&gt;
+&lt;p&gt;17 year later, AJB does not speak in tongues and remembers it as him mumbling stuff so he wouldn't be the last one left behind.
+Why not do it much earlier then, why stay so long? "You know we were young" he said, "I wanted it to happen. They told us to wait, and the spirit would come - so I waited".&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Getting back on the wagon</title><link href="https://chunnodu.com/blog/getting-back-on-the-wagon.html" rel="alternate"/><published>2023-11-23T00:00:00+01:00</published><updated>2023-11-23T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-11-23:/blog/getting-back-on-the-wagon.html</id><summary type="html">&lt;p&gt;Talking careers recently with a friend who became a software developer a couple years after …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Talking careers recently with a friend who became a software developer a couple years after university, his take was that no matter what you're  trying to pick up now career wise, nothing could be as hard as your first entry into a professional field. &lt;/p&gt;
+&lt;p&gt;A similar thought occurs when I go back to a habit or practice which had fallen off for some time: "thank goodness I learned this already. I couldn't imagine having the willpower to try to do it &lt;em&gt;from scratch now&lt;/em&gt;" &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"fall off the wagon" - verb 
+(idiomatic): To cease or fail at a regimen of self-improvement or reform; to lapse back into an old habit or addiction. -  &lt;a href="https://en.wiktionary.org/wiki/fall_off_the_wagon"&gt;wikipedia&lt;/a&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Have you ever slacked off or gotten rusty at something you found useful before? Whether you are burnt out, have other priorities, or just are in an environment that makes it harder, if it &lt;em&gt;really was&lt;/em&gt; a useful practice, at some point you may want to pick it up again. &lt;/p&gt;
+&lt;p&gt;Most of self-improvement talk is skewed toward learning stuff for the first time, so here are some thoughts on what getting back on could really look like in practice:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;getting up: no real restart until you admit you've fallen off.&lt;/li&gt;
+&lt;li&gt;temporarily sucking at it: welcome missteps - sometimes it takes a few to remember, relearn or reinforce what you knew already.&lt;/li&gt;
+&lt;li&gt;remembering the basics: with practice, what you learned before comes back. &lt;/li&gt;
+&lt;li&gt;hitting old milestones: working back up to first being as good as before, then hopefully even better.&lt;/li&gt;
+&lt;li&gt;improving technique - every go around is a chance to improve or correct things you missed before. &lt;/li&gt;
+&lt;li&gt;new approaches: trying to doing things a little differently from the first go as a novice.&lt;/li&gt;
+&lt;li&gt;dodging bullets: easier to spot the bumps in a road you've been on before.&lt;/li&gt;
+&lt;li&gt;reaping benefits: keep long enough at it to enjoy the benefits that made you want to practice it. &lt;/li&gt;
+&lt;li&gt;holding on this time: awareness of what made you fall off before, helps you move differently to avoid it happening again.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Yes, you fell off but the cool thing about getting back on the wagon is, if you've done it before, you can do it - even better - again.&lt;/p&gt;</content><category term="notes"/><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Excellent, but not enough</title><link href="https://chunnodu.com/blog/excellent-but-not-enough.html" rel="alternate"/><published>2023-01-27T00:00:00+01:00</published><updated>2023-01-27T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2023-01-27:/blog/excellent-but-not-enough.html</id><summary type="html">&lt;p&gt;"She was great" I said, when asked about my last relationship "but that was as …&lt;/p&gt;</summary><content type="html">&lt;p&gt;"She was great" I said, when asked about my last relationship "but that was as far as we could go."&lt;/p&gt;
+&lt;p&gt;Dating as a teenager or in my early twenties, all that mattered was finding someone I liked who liked me too. The future was some far away place I wasn't too worried about yet.&lt;/p&gt;
+&lt;p&gt;At 16, I remember listening to my girlfriend making plans, "when you graduate university i'll be in final year, when you're serving i'll be in law school" and wondering at the time why she was even thinking that far ahead. I definitely wasn't.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.debono.com/good-but-not-enough"&gt;Ed de bono's article&lt;/a&gt; brilliantly describes the concept of something being great, but still not 'good enough'. Before coming across it in a lecture, I  had struggled with expressing this thought fully.&lt;/p&gt;
+&lt;p&gt;As an adult getting to know someone romantically, other things besides how I feel start to matter almost as much. 
+Feelings might be great now but, can this work over the long term?&lt;/p&gt;
+&lt;p&gt;How do they fit in with my
+- personality, habits and interests?
+- idea of an ideal lifestyle, not just the one i'm living at this point in time?
+- family and friends?  what about their family, and friends?
+- values and the things i really believe in?&lt;/p&gt;
+&lt;p&gt;Any of these could be excellent but, especially if you think of marriage as a lifetime commitment, is that really enough?&lt;/p&gt;</content><category term="notes"/><category term="#Ship30for30"/></entry><entry><title>Research Themes</title><link href="https://chunnodu.com/blog/research-themes.html" rel="alternate"/><published>2022-02-17T00:00:00+01:00</published><updated>2022-02-17T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2022-02-17:/blog/research-themes.html</id><summary type="html">&lt;p&gt;These are the current areas my research is focused on.&lt;/p&gt;
+&lt;h2&gt;Building a local agent network …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;These are the current areas my research is focused on.&lt;/p&gt;
+&lt;h2&gt;Building a local agent network.&lt;/h2&gt;
+&lt;p&gt;Use Case: A network of information systems agents, equipped with mobile devices and the internet, specializing in improving last-mile logistics.&lt;/p&gt;
+&lt;h2&gt;Designing standards for SMEs delivery operators to manage their last-mile logistics operations and share them peer-to-peer across the network.&lt;/h2&gt;
+&lt;p&gt;Use Case: Escrow, KYC, Ratings and Reviews, Regulation and Licensing for Last Mile Logistics Operators in Africa.&lt;/p&gt;
+&lt;h2&gt;Research Question: Are there optimal patterns for successful African businesses?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Are they fractal(recursive?)&lt;/li&gt;
+&lt;li&gt;Can Information Systems(mobile, internet) enhance these patterns or reproduce them?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Knowledge Management: How to harness knowledge networks (e.g diaspora, expert, retirees) to increase intellectual capabilities and consequently, core competencies of a firm.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;make them linked: build and share ontologies&lt;/li&gt;
+&lt;li&gt;make them visible: associate with spatial elements and put them on the map&lt;/li&gt;
+&lt;li&gt;give them context: tell a story&lt;/li&gt;
+&lt;li&gt;reward all the players: explore a participation based rewards model based on proof of work.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>Research: Node.js and NPM</title><link href="https://chunnodu.com/blog/research-nodejs-and-npm.html" rel="alternate"/><published>2021-01-22T00:00:00+01:00</published><updated>2021-01-22T00:00:00+01:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2021-01-22:/blog/research-nodejs-and-npm.html</id><summary type="html">&lt;p&gt;I joined the Estes Park working group late last year to get more hands on …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I joined the Estes Park working group late last year to get more hands on with Knowledge Graphs and Semantic web technology and jumped in on a research project. The premise was, knowing the RDF stack solves for enterprise knowledge graphs, are there more mainstream non-RDF alternatives which support W3C Semantic Web standards and are equally viable?&lt;/p&gt;
+&lt;p&gt;One of the technologies I looked at this month with this goal in mind was Node.js/NPM. My biggest takeaway, surprisingly unrelated to the specific technology or questions I needed to answer was that when doing research, having a network of experts to talk to first can be more useful for focusing your efforts than jumping right into the haystack. By getting on the phone with a young developer associate in Nigeria, and eventually the &lt;a href="www.dlvr.ng"&gt;DLVR Logistics&lt;/a&gt; CTO who's an expert developer working out of Germany I was able to piece together all I needed to move forward.&lt;/p&gt;
+&lt;p&gt;Here's the summary of my deep dive into Node.js/NPM - a major question's unanswered, but progress still.&lt;/p&gt;
+&lt;h4&gt;Why should we care?&lt;/h4&gt;
+&lt;p&gt;It's a way of programming with Javascript(JS), bringing in-browser functionality to the operating system. The developer took Google's Javascript engine that runs the chrome browser and placed it inside a C++ container, turning it into a server side language. JS was originally written as a front end language and is fast and dynamic not statically typed, meaning you don't need to declare the structure as javascript infers it, as opposed to say C++ where you define integer or float or string and at compilation it checks if it actually is what you declared. Also, JS was built around the concept of events, and this encourages speed as events can happen in parallel.&lt;/p&gt;
+&lt;h4&gt;What problems does the tech stack solve?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Allows for non blocking read/write, basically doesn't need to wait for functions to be completed before running others&lt;/li&gt;
+&lt;li&gt;Uses JSON objects so eliminates need for data conversion, &amp;amp; bottleneck which can be caused by databases for concurrent applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;How does the tech work to solve problems we care about?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Based on the open web stack, runs over standard port 80 and you can run javascript natively on your OS/local machine&lt;/li&gt;
+&lt;li&gt;Supports real time, 2 way connections &amp;amp; allows for free data exchange between client and server as both can initiate communication&lt;/li&gt;
+&lt;li&gt;Single threaded so doesn't max out RAM, supports 10's of thousands of concurrent connections&lt;/li&gt;
+&lt;li&gt;Node.js is the runtime, express is a node.js framework use dfor server functionality. Modern web applications stacks are typically MEAN: mongodb, express, angular, node.js or MERN: mongodb, express, react, node.js&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;What are the advantages of using the tech?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Great for platform as a service, real time applications e.g chat
+wide adoption, so lots of packages have been developed, and support is more widely available. Node JS has a built in package manager (NPM) to manage dependencies and show status,how many modules are installed etc.&lt;/li&gt;
+&lt;li&gt;Compact APIs, file size is small&lt;/li&gt;
+&lt;li&gt;Lots of users like to program in javascript so there's interest in building stuff from the developer community&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;What are the downsides?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Not so good for batch jobs where serial tasks are being completed and task completion time doesn't matter i.e end of day. &lt;/li&gt;
+&lt;li&gt;Node.js has an in-built web server, not as efficient as apache for heavy CPU intensive operations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;What alternatives are worth comparing and contrasting with the tech in question?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparable with python, php and other server side languages like Golang.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;How would we rank each in terms of viability (10 most viable)&lt;/h4&gt;
+&lt;p&gt;Still unanswered&lt;/p&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>Social bikes</title><link href="https://chunnodu.com/blog/social-bikes.html" rel="alternate"/><published>2018-06-01T00:00:00+02:00</published><updated>2018-06-01T00:00:00+02:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2018-06-01:/blog/social-bikes.html</id><summary type="html">&lt;p&gt;I was in New Orleans for a wedding and noticed the blue bikes just like …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I was in New Orleans for a wedding and noticed the blue bikes just like in New York, D.C. and the University of Virginia.&lt;/p&gt;
+&lt;p&gt;It was a family vacation, and since i ended up biking a lot in the last couple of days out there, it naturally became a part of the conversation. My aunt and uncle asked several questions to understand how the system worked.&lt;/p&gt;
+&lt;p&gt;How do you pay?
+Do you have to return the bike?
+What if you steal the bike?&lt;/p&gt;
+&lt;p&gt;Our conclusion that it was innovative became stronger as we tried to poke holes in their business model and couldn't find any flaws.&lt;/p&gt;
+&lt;p&gt;I became more curious about all things bike share and have resolved to do some more research about them.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Who owns social bikes?&lt;/li&gt;
+&lt;li&gt;What Cities and States are covered by their network?&lt;/li&gt;
+&lt;li&gt;Customer base?&lt;/li&gt;
+&lt;li&gt;Numbers&lt;/li&gt;
+&lt;li&gt;What kinds of bikes?&lt;/li&gt;
+&lt;li&gt;What are asian bike sharing companies and what kind of bikes do they use?&lt;/li&gt;
+&lt;li&gt;Lyft acquires biggest biking network.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stay tuned.&lt;/p&gt;</content><category term="Notes"/><category term="notes"/></entry><entry><title>Peer to Peer Networks as Organization Models</title><link href="https://chunnodu.com/blog/peer-to-peer-networks-as-organization-models.html" rel="alternate"/><published>2018-05-20T00:00:00+02:00</published><updated>2018-05-20T00:00:00+02:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2018-05-20:/blog/peer-to-peer-networks-as-organization-models.html</id><summary type="html">&lt;p&gt;Are there any similarities between peer-to-peer networks in computing and the nature of operations in …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Are there any similarities between peer-to-peer networks in computing and the nature of operations in Africa? I'm inclined to think so. &lt;/p&gt;
+&lt;p&gt;Using Nigeria as an example, it is noticed that although the citizens are highly entrepreneurial, the entrepreneurship traits do not scale in a meaningful way as large organizations are still usually ineffective.&lt;/p&gt;
+&lt;p&gt;How about a new organizational paradigm of loosely coupled peers - a network of peers who self-organize to complete specific pieces of work.&lt;/p&gt;
+&lt;p&gt;The task would be to 
+- Define this paradigm 
+- List concrete examples of its occurrence in the Nigerian context
+- Compare effectiveness to traditional organizations
+- Assemble best practices and 
+- Spread this model of organization &lt;/p&gt;
+&lt;p&gt;Local data would be critical as local data is contextual, and context is key. &lt;/p&gt;</content><category term="notes"/><category term="notes"/></entry><entry><title>On Firsts: Cutting my Hair</title><link href="https://chunnodu.com/blog/on-firsts-cutting-my-hair.html" rel="alternate"/><published>2016-08-11T00:00:00+02:00</published><updated>2016-08-11T00:00:00+02:00</updated><author><name>Chu Nnodu</name></author><id>tag:chunnodu.com,2016-08-11:/blog/on-firsts-cutting-my-hair.html</id><summary type="html">&lt;p&gt;Yesterday morning, looking in the mirror made me wish I could cut my own hair …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Yesterday morning, looking in the mirror made me wish I could cut my own hair.&lt;/p&gt;
+&lt;p&gt;See, this wasn’t always a thing. In Nigeria, I had haircuts weekly or every 2 weeks - depending on free time, and need. The price was negligible, so I’d never had to budget for a haircut. 
+It’s been about 3 years of $20-$30 haircuts. They add up, and sometimes I avoid going into the barbershop twice in one calendar month.&lt;/p&gt;
+&lt;p&gt;Realizing that many people simply cut their own hair, I decided to learn whenever the chance came. My cousin could and the convenience this ability brought, plus time &amp;amp; cost savings weren’t lost on me. So far I’d been able to manage shaving and doing a little side fade with my clippers.&lt;/p&gt;
+&lt;p&gt;Tuesday and I need to be in the office by afternoon, so there are only a few hours to sort out my hair situation. I grab the clippers and get to work. It’s somewhat straightforward - set the comb, trim the hair in an area to that level, repeat accordingly.&lt;/p&gt;
+&lt;p&gt;Halfway into it I realize that any mistakes will have me looking like a mad man for the rest of the day (at least).
+Moore’s law holds up because as I round up, the comb slips off and the naked blade runs through my hair, leaving a stroke that’s lower than everything else. A close look shows this, and some other weird looking patches. &lt;/p&gt;
+&lt;p&gt;Yesterday I cut my hair for the first time. It wasn’t perfect &amp;amp; the worst almost happened, but I learned how to get better. Sneaky feeling: this might be a great way to figure stuff out. 
+Here’s what &lt;a href="https://www.youtube.com/watch?v=ZXsQAXx_ao0"&gt;Shia LaBeouf says&lt;/a&gt;. I think I agree.&lt;/p&gt;</content><category term="notes"/><category term="notes"/></entry></feed>
