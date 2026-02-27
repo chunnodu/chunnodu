@@ -2,10 +2,11 @@ Title: projects
 Template: projects_layout
 Date: 2020-08-28 21:38
 
+<div class="timeline-intro">
+    <p>Things I've built or contributed to that <em>still</em> have a digital trail.</p>
+</div>
+
 <div class="timeline-main">
-    <div class="timeline-intro" style="margin-bottom: 2rem;">
-        <p>Things I've built or contributed to that <em>still</em> have a digital trail.</p>
-    </div>
     <div class="timeline">
         <h2>Main Projects</h2>
         
