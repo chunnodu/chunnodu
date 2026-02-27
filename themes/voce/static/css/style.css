@@ -390,20 +390,6 @@ a.read-more:hover {
   text-decoration: none;
 }
 
-nav.pagination a {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
-  color: var(--text-color);
-  transition: all 0.2s ease;
-}
-
-nav.pagination a:hover {
-  border-color: var(--primary-color);
-  color: var(--primary-color);
-  text-decoration: none;
-}
 
 /* Link Underline Animations */
 .entry-content p a:not(.read-more), .entry-content li a {
