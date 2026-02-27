@@ -11,7 +11,7 @@ Date: 2020-08-28 21:38
         <h2>Main Projects</h2>
         
         <article class="timeline-item">
-            <h3><a href="https://www.ajared.ca">ajaRED Research Inc — Canada</a><span class="timeline-date">2025</span></h3>
+            <h3><a href="https://www.ajared.ca">ajaRED Research Inc</a><span class="timeline-date">2025</span></h3>
             <p>Currently exploring knowledge graph based approaches to retrieval augmented generation for these enterprise AI use cases, building on my earlier research on <a href="https://github.com/Ajared/pkg/blob/main/personal%20knowledge%20graphs.pdf">personal knowledge graphs</a>.</p>
             <p>Customer Support Knowledge base, Enterprise Knowledge Assistants aka "chat-your-documents", Workflow Automation, Contextual Help via semantic search.</p>
         </article>
