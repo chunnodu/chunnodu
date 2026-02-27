@@ -215,6 +215,14 @@ img {
   font-size: 1.05rem; /* Slightly larger for reading */
 }
 
+.entry-content ol {
+  padding-left: 2.5rem;
+}
+
+.entry-content ul {
+  padding-left: 1.75rem;
+}
+
 .entry-content blockquote {
   border-left: 4px solid var(--primary-color);
   padding-left: 1rem;
