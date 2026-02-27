@@ -189,22 +189,32 @@ img {
 }
 
 .entry-header-index {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto;
   align-items: baseline;
-  justify-content: space-between;
-  text-align: left;
   gap: 1rem;
+  position: relative;
 }
 
 .entry-header-index .entry-title {
   margin: 0;
   font-size: 1.2rem;
   font-weight: 600;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+.entry-header-index .entry-title a {
+  pointer-events: auto;
 }
 
 .entry-header-index .cat-item {
   white-space: nowrap;
-  flex-shrink: 0;
+  grid-column: 2;
+  line-height: 1.5rem;
 }
 
 .entry-header h1 {
