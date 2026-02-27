@@ -3,6 +3,15 @@ Date: 2026-01-01
 Category: Reading
 Status: hidden
 
+### Read
+
+- God is a Matchmaker - Derek and Ruth Prince
+
+### Actively Reading
+
+- Pierce the Design Fog - Dianna Deeney
+- See you at the Top - Zig Ziglar
+
 ### Queued
 
 0. Continuous Discovery Habits - Teresa Torres
@@ -19,12 +28,3 @@ Status: hidden
 11. So Good They Can't Ignore You - Cal Newport
 12. Weinberg on Writing: The Fieldstone Method - Gabriel Weinberg
 13. Things Hidden Since the Foundation of the World(a)
-
-### Actively Reading
-
-- Pierce the Design Fog - Dianna Deeney
-- See you at the Top - Zig Ziglar
-
-### Read
-
-- God is a Matchmaker - Derek and Ruth Prince
