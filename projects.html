@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Chu Nnodu">
-  <meta name="description" content="Ventures and products I&#39;ve built or contributed to that still have a digital trail. ajaRED …">
+  <meta name="description" content="Articles by Chu Nnodu">
 
   <meta property="og:site_name" content="Chu's Digital Log">
   <meta property="og:type" content="website">
@@ -34,16 +34,9 @@
   <link href="https://chunnodu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
     title="Chu's Digital Log Full Atom Feed" />
 
-<meta name="keywords" content="">
+  <meta name="keywords" content="chunitycard, notes, reading, #Ship30for30">
 
-<meta property="og:title" content="projects">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="https://">
-<meta property="og:description" content="Ventures and products I've built or contributed to that still have a digital trail. ajaRED …">
-<meta property="og:url" content="https:///pages/projects.html">
-
-
-  <title>projects</title>
+  <title>Chu's Digital Log</title>
 
 
 </head>
@@ -79,38 +72,214 @@
 
   <main id="content" class="site-content">
     <div class="main-container">
-<article class="page-article">
-  <div class="blog-item-wrap">
-    <div class="post-inner-content">
-      <header class="entry-header page-header">
-<h1 class="entry-title-single-page"><a href="https://chunnodu.com/projects.html">projects</a></h1>
-      </header><!-- .entry-header -->
-      <div class="entry-content">
+<style>
+    .timeline-page {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    .timeline-header {
+        text-align: left;
+        margin-bottom: 3rem;
+    }
+
+    .timeline-header h1 {
+        font-size: 3rem;
+        color: var(--primary-color);
+        margin-bottom: 0.5rem;
+    }
+
+    .timeline-header p {
+        font-size: 1.2rem;
+        color: var(--secondary-color);
+        max-width: 800px;
+    }
+
+    /* CSS Grid Split */
+    .timeline-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 60px;
+    }
+
+    /* Common Timeline Aesthetics */
+    .timeline {
+        border-left: 2px solid var(--border-color);
+        padding-left: 2rem;
+        margin-left: 10px;
+    }
+
+    .timeline h2 {
+        font-family: var(--font-family-heading);
+        color: var(--primary-color);
+        margin-bottom: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    .timeline-item {
+        position: relative;
+        margin-bottom: 3rem;
+    }
+
+    /* The Circular Marker Node */
+    .timeline-item::before {
+        content: '';
+        position: absolute;
+        left: -2.45rem;
+        /* Center on the border */
+        top: 0.4rem;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background-color: var(--bg-color);
+        border: 2px solid var(--primary-color);
+        z-index: 1;
+        transition: background-color 0.3s ease;
+    }
+
+    .timeline-item:hover::before {
+        background-color: var(--primary-color);
+    }
+
+    .timeline-item h3 {
+        font-size: 1.4rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .timeline-item h3 a {
+        color: var(--primary-color);
+        text-decoration: none;
+        transition: color 0.2s ease;
+    }
+
+    .timeline-item h3 a:hover {
+        color: #a1665e;
+    }
+
+    .timeline-date {
+        font-size: 0.9rem;
+        color: var(--secondary-color);
+        font-weight: 600;
+        margin-left: 10px;
+        padding-left: 10px;
+        border-left: 1px solid var(--border-color);
+    }
+
+    .timeline-item p {
+        font-size: 1.1rem;
+        line-height: var(--line-height-base);
+        color: var(--text-color);
+        margin-bottom: 1rem;
+    }
+
+    /* Side Timeline Specifics (25% column) */
+    .timeline-side .timeline {
+        border-left-color: #e0eeee;
+    }
+
+    .timeline-side .timeline h2 {
+        font-size: 1.4rem;
+        color: var(--secondary-color);
+    }
+
+    .timeline-side .timeline-item::before {
+        width: 10px;
+        height: 10px;
+        left: -2.35rem;
+        top: 0.3rem;
+        border-color: var(--secondary-color);
+    }
+
+    .timeline-side .timeline-item h3 {
+        font-size: 1.1rem;
+    }
+
+    .timeline-side .timeline-item p {
+        font-size: 0.95rem;
+        color: var(--secondary-color);
+    }
+
+    /* Responsive Stacking */
+    @media (max-width: 900px) {
+        .timeline-container {
+            grid-template-columns: 1fr;
+            gap: 40px;
+        }
+
+        .timeline-side {
+            border-top: 2px dashed var(--border-color);
+            padding-top: 40px;
+        }
+    }
+</style>
+
+<div class="timeline-page">
+    <div class="timeline-container">
+        <div class="timeline-main">
+    <div class="timeline-intro" style="margin-bottom: 2rem;">
         <p>Ventures and products I've built or contributed to that <em>still</em> have a digital trail.</p>
-<h2><a href="https://www.ajared.ca">ajaRED Research Inc — Canada</a> · 2025</h2>
-<p>Currently exploring knowledge graph based approaches to retrieval augmented generation for these enterprise AI use cases, building on my earlier research on <a href="https://github.com/Ajared/pkg/blob/main/personal%20knowledge%20graphs.pdf">personal knowledge graphs</a>.</p>
-<p>Customer Support Knowledge base, Enterprise Knowledge Assistants aka "chat-your-documents", Workflow Automation, Contextual Help via semantic search.</p>
-<h2><a href="https://retailytics.ajared.ng">Retailytics</a> · 2025</h2>
-<p>I joined the retail intelligence collective — our first project is Retailytics.</p>
-<h2><a href="https://decksense.ai">DeckSense</a> · 2025</h2>
-<p>AI-powered deck analysis platform offering intelligent feedback and insights to help presenters craft clearer, more compelling pitch decks.</p>
-<h2><a href="https://www.dlvr.ng">dLVR Logistics</a> · 2015</h2>
-<p>At the end of 2015 I co-founded a technology company called DLVR Logistics. In 2016, we placed <a href="https://www.worldbank.org/en/news/press-release/2016/07/08/world-bank-group-wharton-global-development-finance-innovation-competition-ideas">1st out of over 200 teams</a> in the World Bank Ideas for Action competition. We were probably too early to the market, but it was an early attempt at solving delivery and logistics with technology at Africa's last-mile.</p>
-<h2><a href="https://www.ajared.ng">ajaRED Ltd</a> · 2014</h2>
-<p>Building data products and information systems, and sharing learnings in the field of product development and management.</p>
-<hr>
-<h2>Side Projects</h2>
-<h3>Sense of Self: An Analysis of Twitter Posts using NLP</h3>
-<h3><a href="https://chunnodu.com/blog/why-i-want-to-ship30for30.html">Ship 30 for 30</a></h3>
-<h3>Mapping Cities of Interest</h3>
-<h3>Building on messaging APIs: Telegram and Whatsapp Business</h3>
-<h3><a href="https://friendsofmaitamahills.org">Friends of Maitama Hills</a></h3>
-<p>Community advocacy and conservation organisation dedicated to protecting and celebrating the natural and cultural heritage of Maitama Hills, Abuja.</p>
-      </div><!-- .entry-content -->
-      <br /><br />
     </div>
-  </div>
-</article><!-- #post-## -->
+    <div class="timeline">
+        <h2>Main Projects</h2>
+
+        <article class="timeline-item">
+            <h3><a href="https://www.ajared.ca">ajaRED Research Inc — Canada</a><span class="timeline-date">2025</span></h3>
+            <p>Currently exploring knowledge graph based approaches to retrieval augmented generation for these enterprise AI use cases, building on my earlier research on <a href="https://github.com/Ajared/pkg/blob/main/personal%20knowledge%20graphs.pdf">personal knowledge graphs</a>.</p>
+            <p>Customer Support Knowledge base, Enterprise Knowledge Assistants aka "chat-your-documents", Workflow Automation, Contextual Help via semantic search.</p>
+        </article>
+
+        <article class="timeline-item">
+            <h3><a href="https://retailytics.ajared.ng">Retailytics</a><span class="timeline-date">2025</span></h3>
+            <p>I joined the retail intelligence collective — our first project is Retailytics.</p>
+        </article>
+
+        <article class="timeline-item">
+            <h3><a href="https://decksense.ai">DeckSense</a><span class="timeline-date">2025</span></h3>
+            <p>AI-powered deck analysis platform offering intelligent feedback and insights to help presenters craft clearer, more compelling pitch decks.</p>
+        </article>
+
+        <article class="timeline-item">
+            <h3><a href="https://www.dlvr.ng">dLVR Logistics</a><span class="timeline-date">2015</span></h3>
+            <p>At the end of 2015 I co-founded a technology company called DLVR Logistics. In 2016, we placed <a href="https://www.worldbank.org/en/news/press-release/2016/07/08/world-bank-group-wharton-global-development-finance-innovation-competition-ideas">1st out of over 200 teams</a> in the World Bank Ideas for Action competition. We were probably too early to the market, but it was an early attempt at solving delivery and logistics with technology at Africa's last-mile.</p>
+        </article>
+
+        <article class="timeline-item">
+            <h3><a href="https://www.ajared.ng">ajaRED Ltd</a><span class="timeline-date">2014</span></h3>
+            <p>Building data products and information systems, and sharing learnings in the field of product development and management.</p>
+        </article>
+    </div>
+</div>
+
+<aside class="timeline-side">
+    <div class="timeline">
+        <h2>Side Projects</h2>
+
+        <article class="timeline-item">
+            <h3>Sense of Self: An Analysis of Twitter Posts using NLP</h3>
+        </article>
+
+        <article class="timeline-item">
+            <h3><a href="https://chunnodu.com/blog/why-i-want-to-ship30for30.html">Ship 30 for 30</a></h3>
+        </article>
+
+        <article class="timeline-item">
+            <h3>Mapping Cities of Interest</h3>
+        </article>
+
+        <article class="timeline-item">
+            <h3>Building on messaging APIs: Telegram and Whatsapp Business</h3>
+        </article>
+
+        <article class="timeline-item">
+            <h3><a href="https://friendsofmaitamahills.org">Friends of Maitama Hills</a></h3>
+            <p>Community advocacy and conservation organisation dedicated to protecting and celebrating the natural and cultural heritage of Maitama Hills, Abuja.</p>
+        </article>
+    </div>
+</aside>
+    </div>
+</div>
     </div>
   </main>
 
