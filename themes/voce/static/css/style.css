@@ -198,6 +198,8 @@ img {
 
 .entry-header-index .entry-title {
   margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .entry-header-index .cat-item {
