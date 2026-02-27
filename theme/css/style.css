@@ -51,14 +51,14 @@ body {
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:hover {
   text-decoration: underline;
-  color: var(--secondary-color);
+  color: #047070;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -377,7 +377,7 @@ nav.pagination a:hover {
 }
 
 .entry-content p a:not(.read-more):hover, .entry-content li a:hover {
-  color: var(--primary-color);
+  color: #047070;
   text-decoration: none;
 }
 
