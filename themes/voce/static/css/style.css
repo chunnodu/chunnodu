@@ -75,7 +75,7 @@ h2 { font-size: 2rem; }
 h3 { font-size: 1.5rem; }
 
 p, ul, ol, blockquote {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
 }
 
 img {
@@ -305,7 +305,7 @@ body {
   background: var(--bg-color);
   border: 1px solid var(--border-color);
   border-radius: 8px;
-  padding: 1.25rem;
+  padding: 2.5rem;
   box-shadow: 0 4px 6px rgba(0,0,0,0.05);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   margin-bottom: 0; /* Resetting just in case */
