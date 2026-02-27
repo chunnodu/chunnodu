@@ -447,3 +447,57 @@ nav.pagination a:hover {
   display: block;
   margin: 0 auto 1.5rem auto;
 }
+
+/* ==========================================================================
+   Pagination
+   ========================================================================== */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.pagination-arrow {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.pagination-arrow:hover {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.pagination-arrow--disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+.nav-pages {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1.5px solid var(--text-muted);
+  background: transparent;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+a.pagination-dot:hover {
+  border-color: var(--text-color);
+  background: var(--text-color);
+  text-decoration: none;
+}
+
+.pagination-dot--current {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+}
