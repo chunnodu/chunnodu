@@ -2,26 +2,7 @@
 
 {% block content %}
 <style>
-    @font-face {
-        font-family: 'iA Writer Quattro S';
-        src: url('{{ SITEURL }}/theme/fonts/iAWriterQuattroS-Regular.woff2') format('woff2'),
-        url('{{ SITEURL }}/theme/fonts/iAWriterQuattroS-Regular.woff') format('woff');
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'iA Writer Quattro S';
-        src: url('{{ SITEURL }}/theme/fonts/iAWriterQuattroS-Bold.woff2') format('woff2'),
-        url('{{ SITEURL }}/theme/fonts/iAWriterQuattroS-Bold.woff') format('woff');
-        font-weight: 700;
-        font-style: normal;
-        font-display: swap;
-    }
-
     .plum-page {
-        font-family: 'iA Writer Quattro S', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         color: #058c8c;
         /* ink */
         max-width: 800px;
@@ -99,13 +80,9 @@
     }
 </style>
 
-<article>
-    <div class="blog-item-wrap">
-        <div class="post-inner-content">
-            <div class="entry-content plum-page">
-                {{ page.content }}
-            </div>
-        </div>
+<article class="post">
+    <div class="entry-content plum-page">
+        {{ page.content }}
     </div>
 </article>
 {% endblock %}
