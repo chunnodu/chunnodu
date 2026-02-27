@@ -1,4 +1,6 @@
-# Hidden Gems
+Title: Hidden Gems
+Date: 2026-02-27
+Status: draft
 
 
 In the last year of my 20’s I lived down the street from a fruit market. It was off the main street with lots of shops, restaurants and bars. Great options for hanging out with friends when you wanted to keep it local, or even a casual date. There was also constant foot traffic of people, so you hardly felt "alone".
