@@ -24,6 +24,7 @@
 {% block content %}
 <article class="post">
   <header class="entry-header">
+    <h1 class="entry-title">{{ article.title }}</h1>
     <span class="cat-item">
       <time datetime="{{ article.date }}">{{ article.locale_date }}</time>
       {% if article.modified and article.modified > article.date %}
@@ -31,7 +32,6 @@
           article.locale_modified }}</time>)</span>
       {% endif %}
     </span>
-    <h1 class="entry-title">{{ article.title }}</h1>
   </header>
 
   <div class="entry-content">
