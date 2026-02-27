@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chu Nnodu">
+    <meta name="description" content="">
+
+    <meta property="og:site_name" content="Chu's Digital Log">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Top Skills">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="./top-skills.html">
+    <meta property="og:image" content="https://chunnodu.com/images/chunnodu.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Top Skills">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://chunnodu.com/images/chunnodu.png">
+
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+
+    <title>Top Skills - Chu's Digital Log</title>
+
+    <style>
+        /* iA Writer Quattro S Font */
+        @font-face {
+            font-family: 'iA Writer Quattro S';
+            src: url('./theme/fonts/iAWriterQuattroS-Regular.woff2') format('woff2'),
+            url('./theme/fonts/iAWriterQuattroS-Regular.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'iA Writer Quattro S';
+            src: url('./theme/fonts/iAWriterQuattroS-Bold.woff2') format('woff2'),
+            url('./theme/fonts/iAWriterQuattroS-Bold.woff') format('woff');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'iA Writer Quattro S';
+            src: url('./theme/fonts/iAWriterQuattroS-Italic.woff2') format('woff2'),
+            url('./theme/fonts/iAWriterQuattroS-Italic.woff') format('woff');
+            font-weight: 400;
+            font-style: italic;
+            font-display: swap;
+        }
+
+        :root {
+            --color-bg: #ffffff;
+            --color-ink: #058c8c;
+            --color-ink-dark: #046363;
+            --color-ink-darkest: #023b3b;
+            --color-ink-light: #8ccaca;
+            --color-ink-lighter: #b2dbdb;
+            --color-neutral-dark: #323232;
+            --color-terra: #a1665e;
+            --grid-line: 1px solid var(--color-ink);
+            --font-primary: 'iA Writer Quattro S', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            --font-mono: 'iA Writer Quattro S', 'Courier New', monospace;
+            --spacing-unit: 8px;
+            --radius-sm: 2px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            cursor: crosshair;
+        }
+
+        body {
+            background-color: var(--color-bg);
+            color: var(--color-ink);
+            font-family: var(--font-primary);
+            overflow-x: hidden;
+            width: 100vw;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-weight: 700;
+            letter-spacing: -0.04em;
+            line-height: 0.9;
+            color: var(--color-ink-darkest);
+        }
+
+        h1 {
+            font-size: clamp(4rem, 10vw, 9rem);
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.4;
+            max-width: 36ch;
+            font-weight: 400;
+            color: var(--color-ink-dark);
+        }
+
+        .label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 0.5rem;
+            display: block;
+            color: var(--color-ink);
+            font-family: var(--font-mono);
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        /* Grid System */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 80px 1fr 1fr 1fr;
+            min-height: 100vh;
+            border-left: var(--grid-line);
+            border-right: var(--grid-line);
+            max-width: 1600px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .ruler-y {
+            width: 80px;
+            border-right: var(--grid-line);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px 0;
+            font-family: var(--font-mono);
+            font-size: 10px;
+            text-align: right;
+            padding-right: 8px;
+            position: relative;
+            background-image: linear-gradient(to bottom, var(--color-ink-light) 1px, transparent 1px);
+            background-size: 100% 20px;
+            color: var(--color-ink-light);
+        }
+
+        .ruler-y span:nth-child(5n+1) {
+            color: var(--color-terra);
+        }
+
+        .ruler-x {
+            height: 40px;
+            width: 100%;
+            border-bottom: var(--grid-line);
+            display: flex;
+            align-items: flex-end;
+            background-image: linear-gradient(to right, var(--color-ink-light) 1px, transparent 1px);
+            background-size: 20px 100%;
+            font-family: var(--font-mono);
+            font-size: 10px;
+            padding-bottom: 4px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: var(--color-bg);
+        }
+
+        .main-content {
+            grid-column: 2 / -1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        header {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border-bottom: var(--grid-line);
+        }
+
+        .header-cell {
+            padding: 2rem;
+            border-right: var(--grid-line);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 160px;
+        }
+
+        .header-cell:last-child {
+            border-right: none;
+        }
+
+        .logo-text {
+            font-size: 1.6rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--color-ink-darkest);
+        }
+
+        nav p {
+            margin-bottom: 0.3rem;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            color: var(--color-terra);
+        }
+
+        /* Hero */
+        .hero-section {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            min-height: 70vh;
+            border-bottom: var(--grid-line);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-text {
+            padding: 3rem 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            border-right: var(--grid-line);
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-text p {
+            transition: color 0.3s ease;
+        }
+
+        .hero-text p:hover {
+            color: #a1665e;
+        }
+
+        .moire-container {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+        }
+
+        .ripple-center {
+            position: absolute;
+            border-radius: 50%;
+            border: 0.5px solid var(--color-ink);
+            top: 50%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+            opacity: 0.35;
+            pointer-events: none;
+        }
+
+        .ripple-secondary {
+            position: absolute;
+            border-radius: 50%;
+            border: 0.5px solid var(--color-terra);
+            top: 20%;
+            left: 80%;
+            transform: translate(-50%, -50%);
+            opacity: 0.32;
+            pointer-events: none;
+        }
+
+        /* Services Grid (Mapped to Skills) */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .service-card {
+            padding: 2rem;
+            border-right: var(--grid-line);
+            border-bottom: var(--grid-line);
+            min-height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .service-card:nth-child(2n) {
+            border-right: none;
+        }
+
+        /* Remove bottom borders from last row items implicitly */
+        .service-card:nth-last-child(1),
+        .service-card:nth-last-child(2) {
+            border-bottom: none;
+        }
+
+        .service-card:hover {
+            background: var(--color-ink);
+            color: var(--color-bg);
+        }
+
+        .service-card:hover h3,
+        .service-card:hover p,
+        .service-card:hover .label {
+            color: var(--color-bg);
+        }
+
+        .service-card h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 4rem 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border-top: 2px solid #a1665e;
+        }
+
+        .footer h2 {
+            color: var(--color-ink);
+        }
+
+        .footer h2 a {
+            transition: color 0.3s ease;
+        }
+
+        .footer h2 a:hover {
+            color: #a1665e;
+        }
+
+        @media (max-width: 900px) {
+            .grid-container {
+                grid-template-columns: 40px 1fr;
+            }
+
+            .ruler-y {
+                width: 40px;
+            }
+
+            header {
+                grid-template-columns: 1fr;
+            }
+
+            .header-cell {
+                padding: 1.5rem 1rem;
+                border-right: none;
+                border-bottom: var(--grid-line);
+            }
+
+            .hero-section {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-text {
+                padding: 2rem 1rem;
+                border-right: none;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .service-card {
+                padding: 1.5rem 1rem;
+                border-right: none;
+                border-bottom: var(--grid-line);
+            }
+
+            .service-card:last-child {
+                border-bottom: none;
+            }
+
+            .footer {
+                padding: 3rem 1rem;
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .footer>div:last-child {
+                text-align: left;
+            }
+
+            p {
+                max-width: 100%;
+            }
+
+            h1 {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="ruler-y">
+            <span>0</span><span>100</span><span>200</span><span>300</span><span>400</span>
+            <span>500</span><span>600</span><span>700</span><span>800</span><span>900</span>
+            <span>1000</span><span>1100</span><span>1200</span><span>1300</span><span>1400</span>
+        </div>
+
+        <div class="main-content">
+            <div class="ruler-x"></div>
+
+            <header>
+                <div class="header-cell" style="justify-content: flex-start; gap: 0;">
+                    <span class="label" style="color: var(--color-ink);">Knowledge Architecture</span>
+                    <a href="./" style="text-decoration: none;">
+                        <img src="https://chunnodu.com/images/chunnodu.png" alt="Logo"
+                            style="height: 60px; width: auto; display: block; margin-bottom: 0.4rem; padding-left: 20px;">
+                        <div class="logo-text" style="line-height: 1.1;">Digital Log .</div>
+                    </a>
+                </div>
+                <div class="header-cell">
+                    <span class="label">Metrics</span>
+                    <p>Product Management<br>Data Science<br>AI Engineering</p>
+                    <div style="margin-top:auto">
+                        <span class="label">Status</span>
+                        <p><span
+                                style="display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--color-terra); margin-right:7px; vertical-align:middle; position:relative; top:-1px;"></span>Currently
+                            Building</p>
+                    </div>
+                </div>
+                <div class="header-cell">
+                    <span class="label">Navigation</span>
+                    <nav>
+                        <p><a href="./">Home</a></p>
+                        <p><a href="./tag/reading.html">Blog</a></p>
+                        <p><a href="./projects.html">Projects</a></p>
+                        <p><a href="./about.html">About/Contact</a></p>
+                    </nav>
+                    <div style="margin-top: auto; font-size: 2rem; line-height: 1; color: var(--color-terra);">↗</div>
+                </div>
+            </header>
+
+            <section class="hero-section">
+                <div class="hero-text">
+                    <span class="label" style="margin-bottom: 2rem; color: #a1665e;">Top Skills & Proficiencies</span>
+                    <h1>Building<span style="color:#a1665e;">.</span><br>Thinking</h1>
+                    <p style="margin-top: 2rem;">
+                        My core competencies span across Product Management, Data Strategy, and AI Engineering.
+                        I blend technical expertise with user advocacy to ship digital products that work seamlessly at
+                        scale.
+                    </p>
+                    <!-- Plum Assessment URL Native Implementation -->
+                    <a href="https://secure.plum.io/p/o93Pr7IyMGN98jHG9suN5A" target="_blank"
+                        style="display: inline-block; margin-top: 2rem; padding: 1rem 2rem; border: 2px solid var(--color-terra); text-decoration: none; color: var(--color-terra); font-weight: 700; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 0.05em; transition: all 0.3s; border-radius: var(--radius-sm); max-width: 300px; text-align: center;"
+                        onmouseover="this.style.background='var(--color-terra)'; this.style.color='var(--color-bg)';"
+                        onmouseout="this.style.background='transparent'; this.style.color='var(--color-terra)';">View
+                        Plum Psychometric Profile</a>
+                </div>
+
+                <div class="moire-container" id="moire"></div>
+            </section>
+
+            <div class="ruler-x" style="position: relative; z-index: 1;"></div>
+
+            <div class="services-grid">
+                <!-- Item 1 -->
+                <div class="service-card">
+                    <div>
+                        <span class="label"><span style="color: #a1665e;">001</span> — Systems</span>
+                        <h3>Product Management</h3>
+                        <div
+                            style="font-size: 1.1rem; line-height: 1.4; color: var(--color-ink-dark); font-weight: 400;">
+                            Roadmapping &amp; Strategy<br>
+                            Agile &amp; Scrum Methodologies<br>
+                            User Requirements &amp; PRDs<br>
+                            A/B Testing &amp; Experiments
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="service-card">
+                    <div>
+                        <span class="label"><span style="color: #a1665e;">002</span> — Analytics</span>
+                        <h3>Data Science</h3>
+                        <div
+                            style="font-size: 1.1rem; line-height: 1.4; color: var(--color-ink-dark); font-weight: 400;">
+                            Geospatial Data Modeling<br>
+                            SQL, BigQuery &amp; Snowflake<br>
+                            Python Data Stack (Pandas)<br>
+                            Visualization Strategies
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="service-card">
+                    <div>
+                        <span class="label"><span style="color: #a1665e;">003</span> — Intelligence</span>
+                        <h3>AI Engineering</h3>
+                        <div
+                            style="font-size: 1.1rem; line-height: 1.4; color: var(--color-ink-dark); font-weight: 400;">
+                            Retrieval-Augmented Generation (RAG)<br>
+                            Knowledge Graphs (Neo4j)<br>
+                            LLM Integrations &amp; Workflows<br>
+                            Agentic Pipeline Development
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="service-card">
+                    <div>
+                        <span class="label"><span style="color: #a1665e;">004</span> — Execution</span>
+                        <h3>Development Tools</h3>
+                        <div
+                            style="font-size: 1.1rem; line-height: 1.4; color: var(--color-ink-dark); font-weight: 400;">
+                            Git, GitHub Actions (CI/CD)<br>
+                            Docker &amp; Containerization<br>
+                            Linux environments &amp; Bash<br>
+                            Model Context Protocol (MCP)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Please specify how you would like me to build this page below! You can write out the specific skills, layout instructions, or simply type out your ideas so I can format them. -->
+
+            <div class="footer">
+                <div>
+                    <span class="label" style="color: var(--color-terra);">Email Contact</span>
+                    <h2><a href="mailto:chuknnodu@gmail.com">chuknnodu@gmail.com</a></h2>
+                </div>
+                <div
+                    style="text-align:right; display:flex; flex-direction:column; justify-content:flex-end; align-items:flex-end; gap:0.5rem;">
+                    <p>&copy; <span id="copyright-year"></span> Chukwuemeka Nnodu</p>
+                    <script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script>
+                    <span class="label">R<span style="color:#a1665e">e</span>s<span style="color:#a1665e">ea</span>rch,
+                        <span style="color:#a1665e">e</span>d<span style="color:#a1665e">u</span>c<span
+                            style="color:#a1665e">a</span>t<span style="color:#a1665e">e</span>, d<span
+                            style="color:#a1665e">e</span>s<span style="color:#a1665e">i</span>gn.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const container = document.getElementById('moire');
+
+        function createRipple(cx, cy, maxRadius, step, className) {
+            for (let r = 0; r < maxRadius; r += step) {
+                const circle = document.createElement('div');
+                circle.classList.add(className);
+                circle.style.width = (r * 2) + 'px';
+                circle.style.height = (r * 2) + 'px';
+                container.appendChild(circle);
+            }
+        }
+
+        createRipple(30, 50, 1500, 25, 'ripple-center');
+        createRipple(80, 20, 1500, 25, 'ripple-secondary');
+
+        document.addEventListener('mousemove', (e) => {
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+
+            document.querySelectorAll('.ripple-center').forEach(c => {
+                c.style.transform = `translate(-50%, -50%) translate(${x * 20}px, ${y * 20}px)`;
+            });
+
+            document.querySelectorAll('.ripple-secondary').forEach(c => {
+                c.style.transform = `translate(-50%, -50%) translate(${-x * 20}px, ${-y * 20}px)`;
+            });
+        });
+    </script>
+</body>
+
+</html>
