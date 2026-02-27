@@ -38,8 +38,11 @@ DEFAULT_PAGINATION = 5
 
 RELATIVE_URLS = True
 
-STATIC_PATHS = ['images', 'extra/CNAME', 'prototypes']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['images', 'extra/CNAME', 'extra/.nojekyll', 'prototypes']
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/.nojekyll': {'path': '.nojekyll'},
+}
 
 ARTICLE_EXCLUDES = ['prototypes']
 PAGE_EXCLUDES = ['prototypes']
