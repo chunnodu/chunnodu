@@ -3,27 +3,21 @@
   <div class="nav-previous">
     {% if articles_page.has_previous() %}
     {% set num = articles_page.previous_page_number() %}
-    <a href="{{ SITEURL }}/{{ page_name }}{{ num if num > 1 else '' }}.html" class="pagination-arrow">&larr;</a>
+    <a href="{{ SITEURL }}/{{ page_name }}{{ num if num > 1 else '' }}.html" class="pagination-prev">&larr; Newer posts</a>
     {% else %}
-    <span class="pagination-arrow pagination-arrow--disabled">&larr;</span>
+    <span class="pagination-prev pagination-link--disabled">&larr; Newer posts</span>
     {% endif %}
   </div>
 
-  <div class="nav-pages">
-    {% for num in range(1, 1 + articles_paginator.num_pages) %}
-    {% if num == articles_page.number %}
-    <span class="pagination-dot pagination-dot--current"></span>
-    {% else %}
-    <a href="{{ SITEURL }}/{{ page_name }}{{ num if num > 1 else '' }}.html" class="pagination-dot"></a>
-    {% endif %}
-    {% endfor %}
+  <div class="pagination-count">
+    {{ articles_page.number }} / {{ articles_paginator.num_pages }}
   </div>
 
   <div class="nav-next">
     {% if articles_page.has_next() %}
-    <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html" class="pagination-arrow">&rarr;</a>
+    <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html" class="pagination-next">Older posts &rarr;</a>
     {% else %}
-    <span class="pagination-arrow pagination-arrow--disabled">&rarr;</span>
+    <span class="pagination-next pagination-link--disabled">Older posts &rarr;</span>
     {% endif %}
   </div>
 </nav>
