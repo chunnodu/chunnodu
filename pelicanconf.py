@@ -98,7 +98,11 @@ SITEMAP = {
     'changefreqs': {
         'articles': 'monthly',
         'indexes': 'daily',
-        'pages': 'monthly',
     }
 }
+
+# Ensure Modified dates rely strictly on metadata or git (not file generation)
+GIT_HISTORY_FOLLOWS_RENAME = True
+GIT_FILE_HISTORY = True
+GIT_SHA_METADATA = True
 
