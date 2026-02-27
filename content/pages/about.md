@@ -4,7 +4,7 @@ URL: ../
 Save_as: index.html
 
 
-<img src="../images/headshot2026.jpg" alt="Chu Nnodu" style="max-width:49%">
+<img src="../images/headshot2026.jpg" alt="Chu Nnodu" style="max-width:49%; display:block; margin:0 auto;">
 
 I'm a product development leader and enterprise product manager with experience delivering valuable products to thousands of users and millions of customers across retail, logistics, payments and ecommerce industries from startups to the fortune 500. 
 
