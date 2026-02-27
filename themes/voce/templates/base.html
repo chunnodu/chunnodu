@@ -23,15 +23,9 @@
   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
 
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css"
-    type="text/css" media="all">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css" media="all">
   <link rel="stylesheet" href="../theme/css/pygments.css" type="text/css" media="all">
-
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script type="text/javascript"
-    src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
 
@@ -117,99 +111,51 @@
 {%- endmacro -%}
 
 <body class="home blog">
-  <div>
-    <header class="site-header">
-      <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-          <div class="row">
-            <div class="site-navigation-inner col-sm-12">
-              <div class="navbar-header">
-                <button type="button" class="btn navbar-toggle" data-toggle="collapse"
-                  data-target=".navbar-ex1-collapse">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-              </div>
-              <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul id="menu-all-pages" class="nav navbar-nav">
-                  {% for name, link in LINKS %}
-                  <li class="menu-item">{{ display_link(name, link, name) }}</li>
-                  {% endfor %}
-                </ul>
-              </div>
-              <div class="social">
-                {% for name, link in SOCIAL %}
-                {{ display_link(name, link, "") }}
-                {% endfor %}
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav><!-- .site-navigation -->
-
-      <div class="container">
-        <div id="logo">
-          <span class="site-name"><a class="navbar-brand" href="{{ SITEURL }}"><img width="310"
-                src="{{ USER_LOGO_URL }}" class="attachment-full size-full" alt="logo"> </a>
-          </span><!-- end of .site-name -->
-        </div><!-- end of #logo -->
-        <div class="tagline">
-          {% if TAGS_URL %}
-          {% for tag, articles in tags|sort %}
-          <a href="{{ SITEURL }}/{{ tag.url }}" {{ 'class="active"' if output_file==tag.url }}>{{ tag }} ({{
-            articles|count }})</a> &#124;
-          {% endfor %}
-          {% endif %}
-          {% if ARCHIVES_URL %}
-          <a href="{{ SITEURL }}/{{ ARCHIVES_URL }}" {{ 'class="active"' if output_file==ARCHIVES_URL }}>{{ 'Archives
-            ('+ articles|count|string + ')' if articles|count > all_articles|count else 'Archives (' +
-            all_articles|count|string + ')'}}</a>
-          {% endif %}
-        </div>
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="{{ SITEURL }}">
+          <img width="310" src="{{ USER_LOGO_URL }}" alt="logo">
+        </a>
       </div>
+      <nav class="site-nav">
+        <ul>
+          {% for name, link in LINKS %}
+          <li>{{ display_link(name, link, name) }}</li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <div class="social-nav">
+        {% for name, link in SOCIAL %}
+        {{ display_link(name, link, "") }}
+        {% endfor %}
+      </div>
+    </div>
+  </header>
 
-    </header><!-- #masthead -->
-  </div>
-  <div id="content" class="site-content">
-    <div class="container main-content-area">
-      <div class="row">
-        <div class="main-content-inner col-sm-12 col-md-12">
-          <div id="primary" class="content-area">
-            <div id="main" class="site-main" role="main">
-              <div class="article-container">
-                {% block content %}
-                {% endblock %}
-              </div>
-              {% block footer %}
-              {% endblock %}
-            </div><!-- #main -->
-          </div><!-- #primary -->
-        </div>
-      </div><!-- close .row -->
-    </div><!-- close .container -->
-  </div><!-- close .site-content -->
+  <main id="content" class="site-content">
+    <div class="main-container">
+      {% block content %}
+      {% endblock %}
+      {% block footer %}
+      {% endblock %}
+    </div>
+  </main>
 
 
 
 
-  <div id="footer-area">
-    <footer id="colophon" class="site-footer" role="contentinfo">
-      <div class="site-info container">
-        <div class="row">
-          <div class="copyright col-md-12">
-            <a href="https://www.ajared.ca/"><span style="color:#A1665E;">aja</span>RED Research Inc</a>
-            <br />
-
-            &copy; <span id="copyright-year"></span> Chukwuemeka Nnodu
-            <script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script>
-          </div>
-        </div>
-      </div><!-- .site-info -->
-      <div class="scroll-to-top" style="display: none;"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
-    </footer><!-- #colophon -->
-  </div>
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="copyright">
+        <a href="https://www.ajared.ca/"><span style="color:#A1665E;">aja</span>RED Research Inc</a>
+        <br />
+        &copy; <span id="copyright-year"></span> Chukwuemeka Nnodu
+        <script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script>
+      </div>
+    </div>
+    <button class="scroll-to-top" aria-label="Scroll to top"><i class="fa fa-angle-up"></i></button>
+  </footer>
 
   {% block scripts %}
   <script type="text/javascript">
