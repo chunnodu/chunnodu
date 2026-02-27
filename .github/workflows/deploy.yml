@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
-        with:
-          submodules: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -22,16 +20,15 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          pip install pelican-sitemap ghp-import
+          pip install pelican-sitemap
 
       - name: Build site
         run: pelican content -s publishconf.py
 
       - name: Deploy to gh-pages
-        run: |
-          git config user.email "chuknnodu@gmail.com"
-          git config user.name "Chu Nnodu"
-          ghp-import -m "Deploy site [skip ci]" -b gh-pages output
-          git push origin gh-pages --force
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          publish_branch: gh-pages
+          commit_message: "Deploy site [skip ci]"
