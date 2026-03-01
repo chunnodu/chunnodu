@@ -69,10 +69,10 @@ Geospatial market research and location intelligence — forked and extended for
 **Data & Engineering**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Knowledge Graphs](https://img.shields.io/badge/Knowledge%20Graphs-798C06?style=flat-square&logoColor=white)
 ![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat-square&logo=qgis&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-FFA18A?style=flat-square&logoColor=white)
+![Model Context Protocol](https://img.shields.io/badge/Model%20Context%20Protocol-058c8c?style=flat-square&logoColor=white)
 
 **Domains**
 
