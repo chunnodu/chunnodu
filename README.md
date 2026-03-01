@@ -1,27 +1,17 @@
-<!-- Top teal wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=058c8c&height=30&section=header" width="100%" />
+<!-- Header: avatar floats upper-left, photo floats upper-right, banner fills behind -->
+<img src="https://github.com/chunnodu.png?size=60" width="55" align="left" alt="GitHub avatar" />
+<img src="https://chunnodu.com/images/headshot2026.jpg" width="170" align="right" alt="Chu Nnodu" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=058c8c&height=140&section=header&text=Chu%20Nnodu&fontSize=42&fontColor=ffffff&fontAlignY=45&desc=Exploring%20Information%20Systems&descAlignY=70&descSize=16&descColor=8AFFFF" width="100%" />
 
-<!-- Header layout: avatar left | name centre | photo right -->
-<table width="100%" border="0" cellspacing="0" cellpadding="12">
-<tr>
-<td width="70" valign="top" align="left">
-  <img src="https://github.com/chunnodu.png?size=60" width="55" alt="GitHub avatar" />
-</td>
-<td align="center" valign="middle">
-  <h1>Chu Nnodu</h1>
-  <em>Exploring Information Systems</em>
-  <br/><br/>
-  <!-- Social badges -->
-  <a href="https://twitter.com/ajaredia"><img src="https://img.shields.io/badge/@ajaredia-000000?style=flat-square&logo=x&logoColor=white" /></a>
-  <a href="https://chunnodu.com"><img src="https://img.shields.io/badge/chunnodu.com-058c8c?style=flat-square&logo=safari&logoColor=white" /></a>
-  <a href="https://ajared.ng"><img src="https://img.shields.io/badge/ajared.ng-058c8c?style=flat-square&logo=rss&logoColor=white" /></a>
-  <a href="https://github.com/chunnodu"><img src="https://img.shields.io/badge/chunnodu-181717?style=flat-square&logo=github&logoColor=white" /></a>
-</td>
-<td width="180" valign="top" align="right">
-  <img src="https://chunnodu.com/images/headshot2026.jpg" width="160" alt="Chu Nnodu" />
-</td>
-</tr>
-</table>
+<div align="center">
+
+<!-- Social badges -->
+[![X (Twitter)](https://img.shields.io/badge/@ajaredia-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/ajaredia)
+[![Website](https://img.shields.io/badge/chunnodu.com-058c8c?style=flat-square&logo=safari&logoColor=white)](https://chunnodu.com)
+[![Blog](https://img.shields.io/badge/ajared.ng-058c8c?style=flat-square&logo=rss&logoColor=white)](https://ajared.ng)
+[![GitHub](https://img.shields.io/badge/chunnodu-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/chunnodu)
+
+</div>
 
 ---
 
