@@ -43,7 +43,7 @@ Retail intelligence platform — joined as founding contributor, focusing on loc
 <td width="50%">
 
 ### 🎯 DeckSense
-AI-powered thought partner helping presenters craft sharper, more compelling slide decks.
+AI-powered thought partner helping presenters craft sharper, more compelling brand-compliant slide decks.
 
 </td>
 <td width="50%">
