@@ -1,6 +1,3 @@
-<!-- Header: avatar floats upper-left, photo floats upper-right, banner fills behind -->
-<img src="https://github.com/chunnodu.png?size=60" width="55" align="left" alt="GitHub avatar" />
-<img src="https://chunnodu.com/images/headshot2026.jpg" width="170" align="right" alt="Chu Nnodu" />
 <img src="https://capsule-render.vercel.app/api?type=waving&color=058c8c&height=140&section=header&text=Chu%20Nnodu&fontSize=42&fontColor=ffffff&fontAlignY=45&desc=Exploring%20Information%20Systems&descAlignY=70&descSize=16&descColor=8AFFFF" width="100%" />
 
 <div align="center">
