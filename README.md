@@ -43,7 +43,7 @@ Retail intelligence platform — joined as founding contributor, focusing on loc
 <td width="50%">
 
 ### 🎯 DeckSense
-AI-powered pitch deck analysis platform helping presenters craft sharper, more compelling investor narratives.
+AI-powered thought partner helping presenters craft sharper, more compelling slide decks.
 
 </td>
 <td width="50%">
@@ -85,11 +85,10 @@ Geospatial market research and location intelligence — forked and extended for
 
 ## 🏆 Highlights
 
-- 🥇 **1st Place** — World Bank *Ideas for Action* Competition (200+ teams) with **dLVR Logistics**, a last-mile delivery platform (2015–16)
 - 🔗 **Linked Data** — Built Python-based Linked Data Fragment servers for structured knowledge management
 - 🐦 **Twitter NLP** — *Sense of Self*: NLP analysis of Twitter language and identity signals
 - 🌍 **Community** — Monthly Mind Mapping class on Telegram; conservation advocacy for Maitama Hills, Abuja
-
+- 🥇 **1st Place** — World Bank *Ideas for Action* Competition (200+ teams) with **dLVR Logistics**, a last-mile delivery platform (2015–16)
 ---
 
 ## 📈 GitHub Activity
