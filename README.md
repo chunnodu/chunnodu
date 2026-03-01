@@ -17,7 +17,7 @@
 
 I'm a **product development leader** and **enterprise product manager** with deep experience building data products and information systems across **retail**, **logistics**, **payments**, and **ecommerce**. I've worked with organisations ranging from early-stage startups to Fortune 500 companies.
 
-Currently, I'm leading **[Ajared Research Inc](https://ajared.ca)** — exploring knowledge graph-based approaches to Retrieval-Augmented Generation (RAG) for enterprise AI use cases.
+Currently, I'm leading **[Ajared Research Inc](https://chunnodu.com)** — exploring knowledge graph-based approaches to Retrieval-Augmented Generation (RAG) for enterprise AI use cases.
 
 > *"The intersection of structured knowledge and intelligent systems."*
 
@@ -93,12 +93,19 @@ Geospatial market research and location intelligence — forked and extended for
 
 ---
 
-## 📈 GitHub Stats
+## 📈 GitHub Activity
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=chunnodu&show_icons=true&theme=default&title_color=058c8c&icon_color=058c8c&border_color=058c8c&hide_border=false&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chunnodu&layout=compact&title_color=058c8c&border_color=058c8c&hide_border=false" />
+![Followers](https://img.shields.io/github/followers/chunnodu?label=Followers&style=for-the-badge&color=058c8c&labelColor=141414)
+![Stars](https://img.shields.io/github/stars/chunnodu?label=Stars&style=for-the-badge&color=058c8c&labelColor=141414)
+![Profile Views](https://komarev.com/ghpvc/?username=chunnodu&style=for-the-badge&color=058c8c&label=Profile+Views)
+
+</div>
+
+<div align="center">
+
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=chunnodu&bg_color=ffffff&color=058c8c&line=058c8c&point=FFA18A&area=true&hide_border=false&area_color=8AFFFF)](https://github.com/chunnodu)
 
 </div>
 
@@ -108,7 +115,7 @@ Geospatial market research and location intelligence — forked and extended for
 
 I'm open to conversations about **enterprise AI**, **data products**, **product strategy**, and **information systems design**.
 
-- 🌐 [chunnodu.com](https://chunnodu.com)
+- 📧 [chu@chunnodu.com](mailto:chu@chunnodu.com)
 - ✍️ [ajared.ng](https://ajared.ng) — writing on data, product, and strategy
 - 🐦 [@ajaredia](https://twitter.com/ajaredia) on X
 
@@ -118,6 +125,6 @@ I'm open to conversations about **enterprise AI**, **data products**, **product 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=058c8c&height=80&section=footer" width="100%" />
 
-*Built with curiosity. Powered by structured knowledge.*
+*Copyright © 2026 Chukwuemeka Nnodu*
 
 </div>
