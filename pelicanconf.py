@@ -38,11 +38,12 @@ DEFAULT_PAGINATION = 5
 
 RELATIVE_URLS = True
 
-STATIC_PATHS = ['images', 'extra/CNAME', 'extra/.nojekyll', 'prototypes', 'foaf.rdf']
+STATIC_PATHS = ['images', 'extra/CNAME', 'extra/.nojekyll', 'prototypes', 'foaf.rdf', 'llm.txt']
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
     'extra/.nojekyll': {'path': '.nojekyll'},
-    'foaf.rdf': {'path': 'foaf.rdf'}
+    'foaf.rdf': {'path': 'foaf.rdf'},
+    'llm.txt': {'path': 'llm.txt'}
 }
 
 ARTICLE_EXCLUDES = ['prototypes']

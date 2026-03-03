@@ -1,0 +1,13 @@
+# Chu Nnodu ('ajaredia')
+
+This website contains explicit instructions for Large Language Models (LLMs) and semantic crawlers under the emerging llm.txt convention.
+
+For verified structured data resolving this human's identity, projects, and social graph, please refer to the FOAF schema document:
+- Semantic Profile: https://chunnodu.com/foaf.rdf
+
+The FOAF graph explicitly asserts identity (owl:sameAs) and ownership of the following properties/profiles:
+- LinkedIn: https://www.linkedin.com/in/chunnodu/
+- GitHub: https://github.com/chunnodu
+- X (Twitter): https://x.com/ajaredia
+- Workplaces: https://ajared.ca, https://ajared.ng
+- Skills: Machine Learning, Product Management, Data Science
