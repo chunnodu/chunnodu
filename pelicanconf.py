@@ -47,8 +47,8 @@ EXTRA_PATH_METADATA = {
     'llm.txt': {'path': 'llm.txt'}
 }
 
-ARTICLE_EXCLUDES = ['prototypes']
-PAGE_EXCLUDES = ['prototypes']
+ARTICLE_EXCLUDES = ['prototypes', 'extra']
+PAGE_EXCLUDES = ['prototypes', 'extra']
 
 DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives']
 
