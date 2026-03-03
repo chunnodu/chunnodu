@@ -47,8 +47,8 @@ EXTRA_PATH_METADATA = {
     'README.md': {'path': 'README.md'}
 }
 
-ARTICLE_EXCLUDES = ['prototypes']
-PAGE_EXCLUDES = ['prototypes']
+ARTICLE_EXCLUDES = ['prototypes', 'README.md']
+PAGE_EXCLUDES = ['prototypes', 'README.md']
 
 DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives']
 
