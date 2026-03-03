@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Nav Options</title>
+<style>
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --text-muted: #666666;
+    --primary-color: #A1665E;
+    --secondary-color: #058C8C;
+    --border-color: #eaeaea;
+    --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --max-width: 900px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--font-family-base);
+    background: #f5f5f5;
+    color: var(--text-color);
+    padding: 2rem 1rem;
+  }
+
+  h2 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 0.4rem;
+  }
+
+  .option-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-bottom: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .option-label strong {
+    color: var(--primary-color);
+  }
+
+  .section {
+    margin-bottom: 3rem;
+  }
+
+  /* ── Shared site chrome ── */
+  .site-mock {
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+
+  .site-header {
+    border-bottom: 1px solid var(--border-color);
+    background: #fff;
+  }
+
+  .header-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    min-height: 70px;
+  }
+
+  .logo { justify-self: start; }
+  .logo a {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text-color);
+    text-decoration: none;
+  }
+
+  .site-nav { justify-self: center; }
+  .site-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  .site-nav a {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-decoration: none;
+  }
+  .site-nav a:hover { color: var(--primary-color); }
+  .site-nav a.active { color: var(--primary-color); }
+
+  .social-nav { justify-self: end; display: flex; gap: 1rem; }
+  .social-nav a { color: var(--text-color); font-size: 1.1rem; text-decoration: none; }
+
+  .site-content {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1.5rem 20px;
+  }
+
+  /* tag page header */
+  .tag-page-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .tag-page-header h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 0.2rem;
+  }
+
+  /* article list */
+  .post-list { }
+  .post-item {
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+  }
+  .post-item:last-child { border-bottom: none; }
+  .post-item a {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+  }
+  .post-item a:hover { color: var(--secondary-color); }
+  .post-item .date {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+
+  /* ── Option-specific highlights ── */
+
+  /* Option 1: footer link */
+  .footer-link-row {
+    padding: 1.2rem 0 0.4rem;
+    text-align: right;
+  }
+  .footer-link-row a {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--text-muted);
+  }
+  .footer-link-row a:hover { color: var(--secondary-color); border-bottom-color: var(--secondary-color); }
+
+  /* Option 2: split nav highlight */
+  .highlight-new {
+    position: relative;
+  }
+  .highlight-new::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--primary-color);
+    border-radius: 2px;
+    opacity: 0.5;
+  }
+
+  /* Option 3: blurb */
+  .page-blurb {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  .page-blurb a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(5,140,140,0.3);
+  }
+  .page-blurb a:hover { border-bottom-color: var(--secondary-color); }
+
+  /* change indicator badge */
+  .change-badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffc107;
+    border-radius: 3px;
+    padding: 1px 5px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+</style>
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════
+     OPTION 1: Footer "see all posts" link
+     ════════════════════════════════════════════ -->
+<div class="section">
+  <h2>Option 1 — Footer link on the reading page</h2>
+  <p class="option-label">Nav stays identical. A quiet <strong>"← all writing"</strong> link appears below the reading list. Only curious scrollers find it.</p>
+
+  <div class="site-mock">
+    <header class="site-header">
+      <div class="header-container">
+        <div class="logo"><a href="#">chu nnodu</a></div>
+        <nav class="site-nav">
+          <ul>
+            <li><a href="#" class="active">Blog</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </nav>
+        <div class="social-nav">
+          <a href="#">𝕏</a>
+          <a href="#">in</a>
+          <a href="#">⌥</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="site-content">
+      <div class="tag-page-header">
+        <h1>Reading</h1>
+      </div>
+      <div class="post-list">
+        <div class="post-item"><a href="#">2026 Reading List</a><span class="date">Jan 2026</span></div>
+        <div class="post-item"><a href="#">2025 Reading List</a><span class="date">Jan 2025</span></div>
+        <div class="post-item"><a href="#">2024 Reading List</a><span class="date">Jan 2024</span></div>
+        <div class="post-item"><a href="#">Mid-year Check-in Reading List</a><span class="date">Jun 2023</span></div>
+        <div class="post-item"><a href="#">2023 Reading List</a><span class="date">Jan 2023</span></div>
+      </div>
+      <!-- THE CHANGE -->
+      <div class="footer-link-row">
+        <a href="/blog/index.html">← all writing</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ════════════════════════════════════════════
+     OPTION 2: Split nav — "Reading" + "Writing"
+     ════════════════════════════════════════════ -->
+<div class="section">
+  <h2>Option 2 — Split nav into "Reading" and "Writing"</h2>
+  <p class="option-label">Rename <strong>Blog → Reading</strong>, add <strong>Writing → /blog/index.html</strong>. Two clear lanes. No explanation needed.</p>
+
+  <div class="site-mock">
+    <header class="site-header">
+      <div class="header-container">
+        <div class="logo"><a href="#">chu nnodu</a></div>
+        <nav class="site-nav">
+          <ul>
+            <!-- THE CHANGE -->
+            <li><a href="#" class="active">Reading</a></li>
+            <li style="position:relative"><a href="#" class="highlight-new">Writing</a> <span class="change-badge">new</span></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </nav>
+        <div class="social-nav">
+          <a href="#">𝕏</a>
+          <a href="#">in</a>
+          <a href="#">⌥</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="site-content">
+      <div class="tag-page-header">
+        <h1>Reading</h1>
+      </div>
+      <div class="post-list">
+        <div class="post-item"><a href="#">2026 Reading List</a><span class="date">Jan 2026</span></div>
+        <div class="post-item"><a href="#">2025 Reading List</a><span class="date">Jan 2025</span></div>
+        <div class="post-item"><a href="#">2024 Reading List</a><span class="date">Jan 2024</span></div>
+        <div class="post-item"><a href="#">Mid-year Check-in Reading List</a><span class="date">Jun 2023</span></div>
+        <div class="post-item"><a href="#">2023 Reading List</a><span class="date">Jan 2023</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ════════════════════════════════════════════
+     OPTION 3: One-line blurb on the reading page
+     ════════════════════════════════════════════ -->
+<div class="section">
+  <h2>Option 3 — Contextual blurb at the top of the reading page</h2>
+  <p class="option-label">A single line below the heading frames the page as intentionally scoped — and offers a link out for the curious, without pushing.</p>
+
+  <div class="site-mock">
+    <header class="site-header">
+      <div class="header-container">
+        <div class="logo"><a href="#">chu nnodu</a></div>
+        <nav class="site-nav">
+          <ul>
+            <li><a href="#" class="active">Blog</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </nav>
+        <div class="social-nav">
+          <a href="#">𝕏</a>
+          <a href="#">in</a>
+          <a href="#">⌥</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="site-content">
+      <div class="tag-page-header">
+        <h1>Reading</h1>
+        <!-- THE CHANGE -->
+        <p class="page-blurb">Books and links I've found worthwhile. For everything else, <a href="/blog/index.html">see all writing →</a></p>
+      </div>
+      <div class="post-list">
+        <div class="post-item"><a href="#">2026 Reading List</a><span class="date">Jan 2026</span></div>
+        <div class="post-item"><a href="#">2025 Reading List</a><span class="date">Jan 2025</span></div>
+        <div class="post-item"><a href="#">2024 Reading List</a><span class="date">Jan 2024</span></div>
+        <div class="post-item"><a href="#">Mid-year Check-in Reading List</a><span class="date">Jun 2023</span></div>
+        <div class="post-item"><a href="#">2023 Reading List</a><span class="date">Jan 2023</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
