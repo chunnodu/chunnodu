@@ -16,7 +16,7 @@
 
 I'm a **product development leader** and **enterprise product manager** with deep experience building data products and information systems across **retail**, **logistics**, **payments**, and **ecommerce**. I've worked with organisations ranging from early-stage startups to Fortune 500 companies.
 
-Currently, I'm leading **[Ajared Research Inc](https://chunnodu.com)** — exploring knowledge graph-based approaches to Retrieval-Augmented Generation (RAG) for enterprise AI use cases.
+Currently, I'm leading **[Ajared Research Inc](https://ajared.ca)** — exploring knowledge graph-based approaches to Retrieval-Augmented Generation (RAG) for enterprise AI use cases.
 
 > *"The intersection of structured knowledge and intelligent systems."*
 
@@ -28,13 +28,13 @@ Currently, I'm leading **[Ajared Research Inc](https://chunnodu.com)** — explo
 <tr>
 <td width="50%">
 
-### 🧠 Ajared Research Inc
+### 🧠 [Ajared Research Inc](https://ajared.ca)
 Knowledge graph-driven RAG for enterprise AI — customer support knowledge bases, document assistants, workflow automation, and semantic search.
 
 </td>
 <td width="50%">
 
-### 📊 Retailytics
+### 📊 [Retailytics](https://retailytics.ajared.ng)
 Retail intelligence platform — joined as founding contributor, focusing on location analytics and store technology insights.
 
 </td>

@@ -20,6 +20,8 @@
   
   <foaf:homepage rdf:resource="https://chunnodu.com"/>
   <foaf:weblog rdf:resource="https://chunnodu.com/blog/index.html"/>
+  <foaf:weblog rdf:resource="https://ajared.ng"/>
+  <foaf:title>exploring information systems</foaf:title>
   <foaf:phone rdf:resource="tel:+16136613550"/>
   
   <foaf:workplaceHomepage rdf:resource="https://ajared.ng"/>
@@ -31,11 +33,27 @@
   <owl:sameAs rdf:resource="https://github.com/chunnodu"/>
   <owl:sameAs rdf:resource="https://x.com/ajaredia"/>
   
-  <foaf:interest rdf:resource="http://dbpedia.org/resource/Machine_learning"/>
+  <!-- Domains & Strategy -->
   <foaf:interest rdf:resource="http://dbpedia.org/resource/Product_management"/>
   <foaf:interest rdf:resource="http://dbpedia.org/resource/Data_science"/>
-  
-  <foaf:currentProject rdf:resource="https://github.com/chunnodu/chunnodu"/>
+  <foaf:interest rdf:resource="http://dbpedia.org/resource/Knowledge_graph"/>
+  <foaf:interest rdf:resource="http://dbpedia.org/resource/Geospatial_analysis"/>
+  <foaf:interest rdf:resource="http://dbpedia.org/resource/Retrieval-augmented_generation"/>
+  <foaf:interest rdf:resource="http://dbpedia.org/resource/Retail_intelligence"/>
+  <foaf:interest rdf:resource="http://dbpedia.org/resource/Market_research"/>
+  <foaf:interest rdf:resource="http://dbpedia.org/resource/Business_model"/>
+  <foaf:interest rdf:resource="http://dbpedia.org/resource/Logistics"/>
+  <foaf:interest rdf:resource="http://dbpedia.org/resource/Data_integration"/>
+  <!-- Tools & Technologies -->
+  <foaf:interest rdf:resource="http://dbpedia.org/resource/Python_(programming_language)"/>
+  <foaf:interest rdf:resource="http://dbpedia.org/resource/QGIS"/>
+  <foaf:interest rdf:resource="http://dbpedia.org/resource/Artificial_intelligence"/>
+  <foaf:interest rdf:resource="https://modelcontextprotocol.io/"/>
+
+  <foaf:currentProject rdf:resource="https://ajared.ca"/>
+  <foaf:currentProject rdf:resource="https://retailytics.ajared.ng"/>
+  <foaf:currentProject rdf:resource="https://github.com/chunnodu/qgis_location_analytics"/>
+  <foaf:currentProject rdf:resource="https://decksense.ai"/>
   
   <foaf:account>
     <foaf:OnlineAccount>
