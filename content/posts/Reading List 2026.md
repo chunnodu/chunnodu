@@ -6,6 +6,7 @@ Tags: reading
 ### Read
 
 - God is a Matchmaker - Derek and Ruth Prince
+- Born in Blackness (a) - Howard W. French
 
 ### Actively Reading
 
