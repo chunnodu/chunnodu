@@ -7,16 +7,17 @@ Tags: reading
 
 - God is a Matchmaker - Derek and Ruth Prince
 - Born in Blackness (a) - Howard W. French
+- The Design of Business - Roger Martin
 
 ### Actively Reading
 
 - Pierce the Design Fog - Dianna Deeney
-- See you at the Top - Zig Ziglar
+- 100M OFFERS - Alex Hormozi
+
 
 ### Queued
 
-0. Continuous Discovery Habits - Teresa Torres
-1. 100M OFFERS - Alex Hormozi
+1. Continuous Discovery Habits - Teresa Torres
 2. Realtime: Making Digital China
 3. Demand Side Sales - Bob Moesta
 4. Just Evil Enough (the Subversive Marketing handbook) - Alistair Croll & Emily Ross
@@ -29,3 +30,5 @@ Tags: reading
 11. So Good They Can't Ignore You - Cal Newport
 12. Weinberg on Writing: The Fieldstone Method - Gabriel Weinberg
 13. Things Hidden Since the Foundation of the World(a)
+14. See you at the Top - Zig Ziglar
+15. What I Talk About When I Talk About Running - Haruki Murakami
