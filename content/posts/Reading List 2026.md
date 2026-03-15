@@ -8,7 +8,7 @@ Tags: reading
 - God is a Matchmaker - Derek and Ruth Prince
 - Born in Blackness (a) - Howard W. French
 - The Design of Business - Roger Martin
-- What I Talk About When I Talk About Running - Haruki Murakami
+- What I Talk About When I Talk About Running(a) - Haruki Murakami
 
 ### Actively Reading
 
