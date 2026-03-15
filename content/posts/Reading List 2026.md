@@ -8,6 +8,7 @@ Tags: reading
 - God is a Matchmaker - Derek and Ruth Prince
 - Born in Blackness (a) - Howard W. French
 - The Design of Business - Roger Martin
+- What I Talk About When I Talk About Running - Haruki Murakami
 
 ### Actively Reading
 
@@ -31,4 +32,4 @@ Tags: reading
 12. Weinberg on Writing: The Fieldstone Method - Gabriel Weinberg
 13. Things Hidden Since the Foundation of the World(a)
 14. See you at the Top - Zig Ziglar
-15. What I Talk About When I Talk About Running - Haruki Murakami
+
