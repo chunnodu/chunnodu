@@ -9,6 +9,7 @@ Tags: reading
 - Born in Blackness (a) - Howard W. French
 - The Design of Business - Roger Martin
 - What I Talk About When I Talk About Running(a) - Haruki Murakami
+- The Tanning of America (a) - Steve Stoute
 
 ### Actively Reading
 
