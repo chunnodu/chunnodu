@@ -10,10 +10,10 @@ Tags: reading
 - The Design of Business - Roger Martin
 - What I Talk About When I Talk About Running(a) - Haruki Murakami
 - The Tanning of America (a) - Steve Stoute
+- Pierce the Design Fog - Dianna Deeney
 
 ### Actively Reading
 
-- Pierce the Design Fog - Dianna Deeney
 - 100M OFFERS - Alex Hormozi
 
 
