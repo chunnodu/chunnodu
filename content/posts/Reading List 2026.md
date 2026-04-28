@@ -11,6 +11,7 @@ Tags: reading
 - What I Talk About When I Talk About Running(a) - Haruki Murakami
 - The Tanning of America (a) - Steve Stoute
 - Pierce the Design Fog - Dianna Deeney
+- Earn What You're Really Worth - Brian Tracy
 
 ### Actively Reading
 
@@ -19,9 +20,9 @@ Tags: reading
 
 ### Queued
 
-1. Earn What You're Really Worth - Brian Tracy
+1. Demand Side Sales - Bob Moesta
 2. Realtime: Making Digital China
-3. Demand Side Sales - Bob Moesta
+3. Ruthless - Jerry Heller
 4. Traction - Gino Wickman
 5. See you at the Top - Zig Ziglar
 6. How to Measure Anything(a) - Douglas Hubbard
