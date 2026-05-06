@@ -13,13 +13,11 @@ Tags: reading
 - Pierce the Design Fog - Dianna Deeney
 - Earn What You're Really Worth - Brian Tracy
 - Things Hidden Since the Foundation of the World(a)
-
-
+- Nigerian Soldiers of Fortune - Max Siollun
 
 ### Actively Reading
 
 - 100M OFFERS - Alex Hormozi
-- Nigerian Soldiers of Fortune - Max Siollun
 
 ### Queued
 
@@ -38,6 +36,7 @@ Tags: reading
 13. Just Evil Enough (the Subversive Marketing handbook) - Alistair Croll & Emily Ross
 14. Tragedy of Victory - Godwin Alabi-Isama
 15. You have the power to change stuff - Daniel Flynn
+16. Essential Graph RAG
 
 ### References
 
