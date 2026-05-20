@@ -14,14 +14,16 @@ Tags: reading
 - Earn What You're Really Worth - Brian Tracy
 - Things Hidden Since the Foundation of the World(a)
 - Nigerian Soldiers of Fortune - Max Siollun
+- What Britain Did to Nigeria - Max Siollun
 
 ### Actively Reading
 
 - 100M OFFERS - Alex Hormozi
+- Demand Side Sales - Bob Moesta
 
 ### Queued
 
-1. Demand Side Sales - Bob Moesta
+1. Essential Graph RAG
 2. Realtime: Making Digital China
 3. Ruthless - Jerry Heller
 4. Traction - Gino Wickman
@@ -36,7 +38,6 @@ Tags: reading
 13. Just Evil Enough (the Subversive Marketing handbook) - Alistair Croll & Emily Ross
 14. Tragedy of Victory - Godwin Alabi-Isama
 15. You have the power to change stuff - Daniel Flynn
-16. Essential Graph RAG
 
 ### References
 
