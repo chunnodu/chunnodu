@@ -15,17 +15,18 @@ Tags: reading
 - Things Hidden Since the Foundation of the World(a)
 - Nigerian Soldiers of Fortune - Max Siollun
 - What Britain Did to Nigeria - Max Siollun
+- Ruthless - Jerry Heller
 
 ### Actively Reading
 
-- 100M OFFERS - Alex Hormozi
 - Demand Side Sales - Bob Moesta
+- 100M OFFERS - Alex Hormozi
 
 ### Queued
 
 1. Essential Graph RAG
 2. Realtime: Making Digital China
-3. Ruthless - Jerry Heller
+3. Tragedy of Victory - Godwin Alabi-Isama
 4. Traction - Gino Wickman
 5. See you at the Top - Zig Ziglar
 6. How to Measure Anything(a) - Douglas Hubbard
@@ -36,8 +37,7 @@ Tags: reading
 11. So Good They Can't Ignore You - Cal Newport
 12. Weinberg on Writing: The Fieldstone Method - Gabriel Weinberg
 13. Just Evil Enough (the Subversive Marketing handbook) - Alistair Croll & Emily Ross
-14. Tragedy of Victory - Godwin Alabi-Isama
-15. You have the power to change stuff - Daniel Flynn
+14. You have the power to change stuff - Daniel Flynn
 
 ### References
 
