@@ -16,10 +16,11 @@ Tags: reading
 - Nigerian Soldiers of Fortune - Max Siollun
 - What Britain Did to Nigeria - Max Siollun
 - Ruthless - Jerry Heller
+- Demand Side Sales - Bob Moesta
 
 ### Actively Reading
 
-- Demand Side Sales - Bob Moesta
+
 - 100M OFFERS - Alex Hormozi
 
 ### Queued
