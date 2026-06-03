@@ -17,9 +17,9 @@ Tags: reading
 - What Britain Did to Nigeria - Max Siollun
 - Ruthless - Jerry Heller
 - Demand Side Sales - Bob Moesta
+- Oil Politics and Violence - Max Siollun
 
 ### Actively Reading
-
 
 - 100M OFFERS - Alex Hormozi
 
@@ -34,11 +34,10 @@ Tags: reading
 7. The Heart of Our Cities, Victor Gruen
 8. A Random Walk Down Wall Street - Burton G Malkiel
 9. Continuous Discovery Habits - Teresa Torres
-10. Oil Politics and Violence - Max Siollun
-11. So Good They Can't Ignore You - Cal Newport
+10. So Good They Can't Ignore You - Cal Newport
+11. You have the power to change stuff - Daniel Flynn
 12. Weinberg on Writing: The Fieldstone Method - Gabriel Weinberg
 13. Just Evil Enough (the Subversive Marketing handbook) - Alistair Croll & Emily Ross
-14. You have the power to change stuff - Daniel Flynn
 
 ### References
 
