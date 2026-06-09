@@ -5,27 +5,29 @@ Tags: reading
 
 ### Read
 
-- God is a Matchmaker - Derek and Ruth Prince
-- Born in Blackness (a) - Howard W. French
-- The Design of Business - Roger Martin
-- What I Talk About When I Talk About Running(a) - Haruki Murakami
-- The Tanning of America (a) - Steve Stoute
-- Pierce the Design Fog - Dianna Deeney
-- Earn What You're Really Worth - Brian Tracy
-- Things Hidden Since the Foundation of the World(a)
-- Nigerian Soldiers of Fortune - Max Siollun
-- What Britain Did to Nigeria - Max Siollun
-- Ruthless - Jerry Heller
-- Demand Side Sales - Bob Moesta
-- Oil Politics and Violence - Max Siollun
+1. God is a Matchmaker - Derek and Ruth Prince
+2. Born in Blackness (a) - Howard W. French
+3. The Design of Business - Roger Martin
+4. What I Talk About When I Talk About Running(a) - Haruki Murakami
+5. The Tanning of America (a) - Steve Stoute
+6. Pierce the Design Fog - Dianna Deeney
+7. Earn What You're Really Worth - Brian Tracy
+8. Things Hidden Since the Foundation of the World(a)
+9. Nigerian Soldiers of Fortune - Max Siollun
+10. What Britain Did to Nigeria - Max Siollun
+11. Ruthless - Jerry Heller
+12. Demand Side Sales - Bob Moesta
+13. Oil Politics and Violence - Max Siollun
+14. Invention (a) - James Dyson
 
 ### Actively Reading
 
 - 100M OFFERS - Alex Hormozi
+- Essential Graph RAG
 
 ### Queued
 
-1. Essential Graph RAG
+1. 
 2. Realtime: Making Digital China
 3. Tragedy of Victory - Godwin Alabi-Isama
 4. Traction - Gino Wickman
@@ -41,6 +43,6 @@ Tags: reading
 
 ### References
 
-Geographic Data Science with Python
-Testing Business Ideas
-Data Model Storytelling
+1. Geographic Data Science with Python
+2. Testing Business Ideas
+3. Data Model Storytelling
