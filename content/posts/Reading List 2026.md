@@ -19,6 +19,7 @@ Tags: reading
 12. Demand Side Sales - Bob Moesta
 13. Oil Politics and Violence - Max Siollun
 14. Invention (a) - James Dyson
+15. The Psychology of Persuasion - Blake Code
 
 ### Actively Reading
 
@@ -27,7 +28,7 @@ Tags: reading
 
 ### Queued
 
-1. 
+1. The Nigerian Revolution and the Biafra War - Alexander Madiebo
 2. Realtime: Making Digital China
 3. Tragedy of Victory - Godwin Alabi-Isama
 4. Traction - Gino Wickman
