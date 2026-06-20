@@ -16,7 +16,7 @@
 
 I'm a **product development leader** and **enterprise product manager** with deep experience building data products and information systems across **retail**, **logistics**, **payments**, and **ecommerce**. I've worked with organisations ranging from early-stage startups to Fortune 500 companies.
 
-Currently, I'm leading **[Ajared Research Inc](https://chunnodu.com)** — exploring knowledge graph-based approaches to Retrieval-Augmented Generation (RAG) for enterprise AI use cases.
+Currently, I'm leading **[Ajared Research Inc](https://chunnodu.com)** — an AI Research and Product studio exploring enterprise AI use cases including knowledge graph-based approaches to Retrieval-Augmented Generation (RAG). 
 
 > *"The intersection of structured knowledge and intelligent systems."*
 
