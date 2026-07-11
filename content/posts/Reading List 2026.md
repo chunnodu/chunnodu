@@ -19,28 +19,31 @@ Tags: reading
 12. Demand Side Sales - Bob Moesta
 13. Oil Politics and Violence - Max Siollun
 14. Invention (a) - James Dyson
-15. The Psychology of Persuasion - Blake Code
+15. The Psychology of Persuasion (a) - Blake Code
+16. Tragedy of Victory - Godwin Alabi-Isama
+17. The Nigerian Revolution and the Biafra War - Alexander Madiebo
 
 ### Actively Reading
 
+- Bad Samaritans - Ha-Joon Chang
 - 100M OFFERS - Alex Hormozi
 - Essential Graph RAG
 
 ### Queued
 
-1. The Nigerian Revolution and the Biafra War - Alexander Madiebo
-2. Realtime: Making Digital China
-3. Tragedy of Victory - Godwin Alabi-Isama
-4. Traction - Gino Wickman
-5. See you at the Top - Zig Ziglar
+1. Realtime: Making Digital China
+2. Traction - Gino Wickman
+3. Continuous Discovery Habits - Teresa Torres
+4. See you at the Top - Zig Ziglar
+5. Against the Odds - James Dyson
 6. How to Measure Anything(a) - Douglas Hubbard
 7. The Heart of Our Cities, Victor Gruen
 8. A Random Walk Down Wall Street - Burton G Malkiel
-9. Continuous Discovery Habits - Teresa Torres
+9. Just Evil Enough (the Subversive Marketing handbook) - Alistair Croll & Emily Ross
 10. So Good They Can't Ignore You - Cal Newport
 11. You have the power to change stuff - Daniel Flynn
 12. Weinberg on Writing: The Fieldstone Method - Gabriel Weinberg
-13. Just Evil Enough (the Subversive Marketing handbook) - Alistair Croll & Emily Ross
+
 
 ### References
 
