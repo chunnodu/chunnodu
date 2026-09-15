@@ -1,4 +1,4 @@
-Title: About Me
+Title: about me
 Date: 2025-01-28 21:38
 URL: ../
 Save_as: index.html
@@ -30,7 +30,7 @@ I love learning, simple design, maps, data and open-source systems. This is a di
 - shooting pool
 - plans (15 now)
 
-## Contact
+## contact
 
 [Shoot an email](mailto:chu@chunnodu.com) or [reach out on Telegram](https://t.me/chunnodu). If you need help thinking through a new product, business model or information systems design: <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet"><script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script><script>(function() { var target = document.currentScript; window.addEventListener('load', function() { calendar.schedulingButton.load({ url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1slLydzu8Y-xhoCnGyGqBwZXWeAYZoWsNmTenW84fwg_D4agu0f5koxlhakcc-QWMXTxvp13wn?gv=true', color: '#058c8c', label: 'Book an appointment', target, }); }); })();</script>
 
