@@ -21,9 +21,9 @@ SUMMARY_MAX_LENGTH = 15
 
 
 # Blogroll
-LINKS = (('Blog', '/tag/reading.html'),
-         ('Skills', '/projects.html#talents'),
-         ('Projects', '/projects.html')
+LINKS = (('blog', '/tag/reading.html'),
+         ('skills', '/projects.html#talents'),
+         ('projects', '/projects.html')
          )
 
 # Social widget

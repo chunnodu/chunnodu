@@ -14,7 +14,7 @@ Forever curious, I write about my research and interests in <span style="color:#
 
 I love learning, simple design, maps, data and open-source systems. This is a digital log.
 
-## Stuff I Like Doing
+## stuff I Like Doing
 
 - Reading
 - Writing
