@@ -1,7 +1,7 @@
 Title: reading list 2019
 Date: 2019-12-31
-Category: Reading
-Tags: Reading
+Category: reading
+Tags: reading
 
 1. Making Ideas Happen - Scott Belsky
 2. Africa Rise and Shine - Jim Ovia

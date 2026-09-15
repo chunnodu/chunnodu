@@ -1,6 +1,6 @@
 Title: reading list 2026
 Date: 2026-01-01
-Category: Reading
+Category: reading
 Tags: reading
 
 ### Read

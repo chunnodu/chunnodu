@@ -1,8 +1,8 @@
 Title: reading list 2020
 Date: 2020-09-10
 Modified: 2020-11-21
-Category: Reading
-Tags: Reading
+Category: reading
+Tags: reading
 
 Thanks to the pandemic and a personal desire to write more this year, I started by doing a lot of reading. 
 Here is the run down of my booklist this year. Making it to the end will leave me very satisfied. 
