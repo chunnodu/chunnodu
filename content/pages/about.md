@@ -14,21 +14,14 @@ Forever curious, I write about my research and interests in <span style="color:#
 
 I love learning, simple design, maps, data and open-source systems. This is a digital log.
 
-## stuff I Like doing
+## stuff I like
 
-- reading
-- writing
+- reading, writing
 - creating
 - mindmapping
-- biking
-- the outdoors
-- hiking
-- photo walks
-- flaneuring
-- muay Thai
-- scrabble
-- shooting pool
-- plans (15 now)
+- the outdoors, hiking, biking, photo walks, flaneuring
+- muay thai, scrabble, shooting pool
+- plants (15 now)
 
 ## contact
 
