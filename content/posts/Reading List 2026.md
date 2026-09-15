@@ -22,12 +22,16 @@ Tags: reading
 15. The Psychology of Persuasion (a) - Blake Code
 16. Tragedy of Victory - Godwin Alabi-Isama
 17. The Nigerian Revolution and the Biafra War - Alexander Madiebo
+18. Thinking to Create Value - Edward de Bono
 
 ### Actively Reading
 
-- Bad Samaritans - Ha-Joon Chang
+- General Semantics of Wall Street - John Magee
+- Teaching Thinking - Edward De Bono
 - 100M OFFERS - Alex Hormozi
-- Essential Graph RAG
+- Among the Ibos - George T. Basden
+- Born of this Land - Chung Ju-yung
+
 
 ### Queued
 
@@ -43,6 +47,8 @@ Tags: reading
 10. So Good They Can't Ignore You - Cal Newport
 11. You have the power to change stuff - Daniel Flynn
 12. Weinberg on Writing: The Fieldstone Method - Gabriel Weinberg
+13. Essential Graph RAG
+14. Bad Samaritans - Ha-Joon Chang
 
 
 ### References
