@@ -29,7 +29,7 @@ On Temperament 1:06
 
 On what is achievable in society - 1:26
 
-- every society that wants to grow show have the basics: fundamental things that you can do easily, instead of white elephants that don’t get completed.
+- every society that wants to grow should have the basics: fundamental things that you can do easily, instead of white elephants that don’t get completed.
 
 	- small roads you can reconstruct, water, repair the schools, make them function, make them work.
 
