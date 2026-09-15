@@ -1,7 +1,7 @@
-Title: Reading List 2025
+Title: reading list 2025
 Date: 2025-04-01
 Modified: 2026-01-01
-Category: Reading
+Category: reading
 Tags: reading
 
 Here's this year's haul

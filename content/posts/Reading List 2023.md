@@ -1,6 +1,6 @@
-Title: My 2023 Reading List
+Title: reading list 2023 
 Date: 2023-01-06
-Category: Reading
+Category: reading
 Tags: reading
 
 Here's what I plan to read this year.

@@ -1,7 +1,7 @@
-Title: My 2022 Reading List
+Title: reading list 2022 
 Date: 2021-12-03
 Modified: 2022-02-24
-Category: Reading
+Category: reading
 Tags: reading
 
 I start my *reading lists by carrying over the books I couldn't get to or finish previously. Here's this year's haul. 

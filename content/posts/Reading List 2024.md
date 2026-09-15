@@ -1,6 +1,6 @@
-Title: Reading List 2024
+Title: reading list 2024
 Date: 2024-01-10
-Category: Reading
+Category: reading
 Tags: reading, #Ship30for30
 
 This is the latest I’ve published my reading list for the last 6 years. I typically start my reading list for the year by carrying over unread stuff from the last year, but this time I’m going to start off with the books I think I should really be reading at this point, and continue with things I have in progress that I should complete at some point.
