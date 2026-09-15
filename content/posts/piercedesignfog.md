@@ -1,7 +1,7 @@
 Title: Pierce the Design Fog (Book Review)
 Date: 2026-04-30
 Category: notes
-Tags: reading
+Tags: notes
 
 ***Develop High-Quality Products Faster Through Team Innovation***
 

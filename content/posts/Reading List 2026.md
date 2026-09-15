@@ -26,12 +26,10 @@ Tags: reading
 
 ### Actively Reading
 
+- Among the Ibos - George T. Basden
 - General Semantics of Wall Street - John Magee
 - Teaching Thinking - Edward De Bono
 - 100M OFFERS - Alex Hormozi
-- Among the Ibos - George T. Basden
-- Born of this Land - Chung Ju-yung
-
 
 ### Queued
 
@@ -49,6 +47,7 @@ Tags: reading
 12. Weinberg on Writing: The Fieldstone Method - Gabriel Weinberg
 13. Essential Graph RAG
 14. Bad Samaritans - Ha-Joon Chang
+15. Born of this Land - Chung Ju-yung
 
 
 ### References
