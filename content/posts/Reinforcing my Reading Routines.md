@@ -1,7 +1,7 @@
 Title: Reinforcing My Routines: Reading
 Date: 2024-01-07
-Category: Reading
-Tags: reading, #Ship30for30
+Category: notes
+Tags: #Ship30for30
 
 Reading. Writing. Learning. Taking long walks. Cardio or body weight exercises. Cooking. Working on creative projects. Looking back at the last decade, these are some of the routines that have kept me feeling alive. Last year, my reading really fell off. It’s one of the routines I want to recover and reinforce this year, so I’ve been thinking through practical steps to rebuild my reading habit.
 
