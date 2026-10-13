@@ -30,5 +30,5 @@ One of these accepted conventions driven by right handers is the handshake. All 
 
 What hand do you use to wipe in the bathroom? 
 
-I find it a hilarious twist of fate, that southpaws go around touching people and things with *that hand*, while keeping our aka nni relatively pristine and germ free for eating :) 
+I find it a hilarious twist of fate, that southpaws go around touching people and things with *that hand*, while keeping our aka nni relatively pristine and germ free for eating 🙂 
 
