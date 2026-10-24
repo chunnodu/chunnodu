@@ -1,5 +1,8 @@
 name: Update activity graph
 
+# Renders the README activity graph and force-pushes it as the only file on
+# the `graph` branch, so `source` never gets bot commits.
+
 on:
   schedule:
     - cron: '0 */6 * * *'
@@ -21,11 +24,18 @@ jobs:
           python-version: '3.11'
 
       - name: Render graph
-        run: python scripts/activity_graph.py chunnodu assets/activity-graph.svg 31
-
-      - name: Commit if changed
         run: |
+          mkdir -p "$RUNNER_TEMP/graph"
+          python scripts/activity_graph.py chunnodu "$RUNNER_TEMP/graph/activity-graph.svg" 31
+
+      - name: Publish to graph branch
+        working-directory: ${{ runner.temp }}/graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git init -q -b graph
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/activity-graph.svg
-          git diff --cached --quiet || (git commit -m "Update activity graph [skip ci]" && git push)
+          git add activity-graph.svg
+          git commit -q -m "Update activity graph"
+          git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" graph

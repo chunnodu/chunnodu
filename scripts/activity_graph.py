@@ -12,7 +12,7 @@ import urllib.request
 from datetime import date
 
 USERNAME = sys.argv[1] if len(sys.argv) > 1 else "chunnodu"
-OUTPUT = sys.argv[2] if len(sys.argv) > 2 else "assets/activity-graph.svg"
+OUTPUT = sys.argv[2] if len(sys.argv) > 2 else "activity-graph.svg"
 DAYS = int(sys.argv[3]) if len(sys.argv) > 3 else 31
 
 BG = "#ffffff"

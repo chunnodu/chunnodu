@@ -103,7 +103,7 @@ Geospatial market research and location intelligence — forked and extended for
 
 <div align="center">
 
-[![GitHub Activity Graph](https://raw.githubusercontent.com/chunnodu/chunnodu/source/assets/activity-graph.svg)](https://github.com/chunnodu)
+[![GitHub Activity Graph](https://raw.githubusercontent.com/chunnodu/chunnodu/graph/activity-graph.svg)](https://github.com/chunnodu)
 
 </div>
 
