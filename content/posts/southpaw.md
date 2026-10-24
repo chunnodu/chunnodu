@@ -26,7 +26,7 @@ Consequently, a lot of people had never paired up with someone who didn’t figh
 
 And if that ain’t the story of a south paw in an orthodox world. Things aren’t really designed for you, so you just get on with it. Imagine how people with real disabilities are faring.
 
-One of these accepted conventions driven by right handers is the handshake. All around the world people have accepted it as common to greet by shaking each other with their hand, but I think that’s a bit gross because it’s the hand you use to touch everything else, including what goes in your mouth.
+One of these accepted conventions driven by right handers is the handshake. All around the world people have accepted shaking each other with their right hand as a common way to greet, but thinking about it a little, isn't that a bit gross if it’s the hand you use to touch everything else, including what goes in your mouth?
 
 What hand do you use to wipe in the bathroom? 
 
