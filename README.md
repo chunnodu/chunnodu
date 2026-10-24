@@ -103,7 +103,7 @@ Geospatial market research and location intelligence — forked and extended for
 
 <div align="center">
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=chunnodu&bg_color=ffffff&color=058c8c&line=058c8c&point=FFA18A&area=true&hide_border=false&area_color=8AFFFF)](https://github.com/chunnodu)
+[![GitHub Activity Graph](https://raw.githubusercontent.com/chunnodu/chunnodu/source/assets/activity-graph.svg)](https://github.com/chunnodu)
 
 </div>
 
